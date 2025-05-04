@@ -1,3 +1,3 @@
 # Official Wiki for Star Technology
 
-https://trulyno.github.io/StarT-docs/
+https://start-dev-team.github.io/StarT-Wiki/
