@@ -12,7 +12,7 @@
 
 **Step 2 Option 2: Chemically react Iron(III)Chloride and Chlorobenzene to obtain Dichlorobenzene(LCR)**
 
-**Obtain Iron(III)Chloride by chemically reacting Iron Dusts and [Hydrochloric Acid](/StarT-docs/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Hydrochloric Acid)**
+**Obtain Iron(III)Chloride by chemically reacting Iron Dusts and [Hydrochloric Acid](/StarT-Wiki/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Hydrochloric Acid)**
 
 ![i3c](PPS_img/large_chemical_reactor_iron_3_chloride.png)
 

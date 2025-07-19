@@ -16,9 +16,9 @@ Polybenzimidazole = Diaminobenzidine + Diphenyl Isophthalate **(<iv>IV</iv> LCR)
 
 ### How to make Diaminobenzidine
 
-Step **1**: Mix [Nitric Acid](/StarT-docs/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Nitric Acid) **(<hv>HV</hv> LCR)**  and [Sulfuric Acid](/StarT-docs/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Sulfuric Acid) to make Nitration Mixture.
+Step **1**: Mix [Nitric Acid](/StarT-Wiki/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Nitric Acid) **(<hv>HV</hv> LCR)**  and [Sulfuric Acid](/StarT-Wiki/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Sulfuric Acid) to make Nitration Mixture.
 
-Nitration Mixture = [Nitric Acid](/StarT-docs/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Nitric Acid) + [Sulfuric Acid](/StarT-docs/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Sulfuric Acid) **(Mixer)**
+Nitration Mixture = [Nitric Acid](/StarT-Wiki/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Nitric Acid) + [Sulfuric Acid](/StarT-Wiki/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Sulfuric Acid) **(Mixer)**
 
 ![nitration mixture](PBI_img/mixer_nitration_mixture.png)
 
@@ -74,7 +74,7 @@ Step **2**: Obtain Phenol
 
 There are 2 ways of obtaining phenol through the **LCR**:
 
-1.Benzene + Chlorine + Water = Phenol +  [Hydrochloric Acid](/StarT-docs/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Hydrochloric Acid)+ Diluted HCl (**LCR Cir 24**)
+1.Benzene + Chlorine + Water = Phenol +  [Hydrochloric Acid](/StarT-Wiki/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Hydrochloric Acid)+ Diluted HCl (**LCR Cir 24**)
 
 ![phenol](PBI_img/large_chemical_reactor_phenol_hcl_shortcut.png)
 

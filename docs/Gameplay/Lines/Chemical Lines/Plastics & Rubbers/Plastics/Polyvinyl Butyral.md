@@ -6,29 +6,29 @@
 
 ![b](PVB_img/large_chemical_reactor_butraldehyde.png)
 
-**Step 2: Make Vinyl Acetate with Oxygen, [Acetic Acid](/StarT-docs/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Acetic Acid) and Ethylene (LCR Cir 3)**
+**Step 2: Make Vinyl Acetate with Oxygen, [Acetic Acid](/StarT-Wiki/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Acetic Acid) and Ethylene (LCR Cir 3)**
 
 ![b](PVB_img/large_chemical_reactor_vinyl_acetate.png)
 
-**Step 3: Make Polyvinyl Acetate with Air/Oxygen, with/without [Titanium Tetrachloride](/StarT-docs/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Titanium Tetrachloride)**
+**Step 3: Make Polyvinyl Acetate with Air/Oxygen, with/without [Titanium Tetrachloride](/StarT-Wiki/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Titanium Tetrachloride)**
 
 **With Air**
 
-**Without [Titanium Tetrachloride](/StarT-docs/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Titanium Tetrachloride) (Cir 1)* 
+**Without [Titanium Tetrachloride](/StarT-Wiki/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Titanium Tetrachloride) (Cir 1)* 
 
 ![b](PVB_img/large_chemical_reactor_pva_from_air.png)
 
-**With [Titanium Tetrachloride](/StarT-docs/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Titanium Tetrachloride) (Cir 2)*
+**With [Titanium Tetrachloride](/StarT-Wiki/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Titanium Tetrachloride) (Cir 2)*
 
 ![b](PVB_img/large_chemical_reactor_pva_from_tetrachloride_air.png) 
 
 **With Oxygen**
 
-**Without [Titanium Tetrachloride](/StarT-docs/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Titanium Tetrachloride) (Cir 1)*
+**Without [Titanium Tetrachloride](/StarT-Wiki/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Titanium Tetrachloride) (Cir 1)*
 
 ![b](PVB_img/large_chemical_reactor_pva_from_oxygen.png)
 
-**With [Titanium Tetrachloride](/StarT-docs/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Titanium Tetrachloride) (Cir 2)*
+**With [Titanium Tetrachloride](/StarT-Wiki/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Titanium Tetrachloride) (Cir 2)*
 
 ![b](PVB_img/large_chemical_reactor_pva_from_tetrachloride_oxygen.png) 
 

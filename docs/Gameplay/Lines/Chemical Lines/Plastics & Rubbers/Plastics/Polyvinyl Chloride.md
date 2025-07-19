@@ -6,7 +6,7 @@ Step **1a**: Chemically React *Chlorine* and *Ethylene* to make Vinyl Chloride. 
 
 ![clee](PVC_img/large_chemical_reactor_vinyl_chloride_from_chlorine.png)
 
-Step **1b**: Chemically React *Oxygen*, [Hydrochloric Acid](/StarT-docs/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Hydrochloric Acid) and *Ethylene* to make Vinyl Chloride. **(LCR Cir 3)**
+Step **1b**: Chemically React *Oxygen*, [Hydrochloric Acid](/StarT-Wiki/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Hydrochloric Acid) and *Ethylene* to make Vinyl Chloride. **(LCR Cir 3)**
 
 ![ohcle](PVC_img/large_chemical_reactor_vinyl_chloride_from_hydrochloric.png)
 
@@ -20,7 +20,7 @@ Step **2a**: Chemically React *Vinyl Chloride* and *Air/Oxygen* to make Vinyl Ch
 
 ![vco](PVC_img/large_chemical_reactor_polyvinyl_chloride_from_oxygen.png)
 
-Step **2b**: Chemically React *Vinyl Chloride* , [Titanium Tetrachloride](/StarT-docs/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Titanium Tetrachloride) and *Air/Oxygen* to make Vinyl Chloride. **(LCR Cir 2)**
+Step **2b**: Chemically React *Vinyl Chloride* , [Titanium Tetrachloride](/StarT-Wiki/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Titanium Tetrachloride) and *Air/Oxygen* to make Vinyl Chloride. **(LCR Cir 2)**
 
 ***With Air***
 
