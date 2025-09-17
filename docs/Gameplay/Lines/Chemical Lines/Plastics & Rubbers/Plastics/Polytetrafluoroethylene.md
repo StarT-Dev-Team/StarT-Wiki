@@ -4,7 +4,7 @@ c
 
 ### Option 1
 
-**Step 1: Chemically react [Hydrofluoric Acid](/StarT-docs/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Hydrofluoric Acid), Methane and Chlorine to make Tetrafluoroethylene. <IV>(*Cir 24* IV LCR)</IV>**
+**Step 1: Chemically react [Hydrofluoric Acid](/StarT-Wiki/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Hydrofluoric Acid), Methane and Chlorine to make Tetrafluoroethylene. <IV>(*Cir 24* IV LCR)</IV>**
 
 ![lcrptfe](PTFE_img/large_chemical_reactor_tetrafluoroethylene_from_methane.png) 
 
@@ -14,9 +14,9 @@ Step 2a: Chemically react **Tetrafluoroethylene** and **Air/Oxygen** to get **Li
 
 ![lptfe2](PTFE_img/large_chemical_reactor_ptfe_from_oxygen.png)
 
-Step 2b: You can also chemically react **Tetrafluoroethylene**, [Titanium Tetrachloride](/StarT-docs/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Titanium Tetrachloride) and **Air/Oxygen** to get *more* **Liquid PTFE**. **(Cir 1)**
+Step 2b: You can also chemically react **Tetrafluoroethylene**, [Titanium Tetrachloride](/StarT-Wiki/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Titanium Tetrachloride) and **Air/Oxygen** to get *more* **Liquid PTFE**. **(Cir 1)**
 
-***Rutile Dust + Carbon Dust + Chlorine = Carbon Monoxide + [Titanium Tetrachloride](/StarT-docs/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Titanium Tetrachloride)***
+***Rutile Dust + Carbon Dust + Chlorine = Carbon Monoxide + [Titanium Tetrachloride](/StarT-Wiki/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Titanium Tetrachloride)***
 
 ![ttc](PTFE_img/large_chemical_reactor_titanium_tetrachloride.png)
 
@@ -38,7 +38,7 @@ Step 2b: You can also chemically react **Tetrafluoroethylene**, [Titanium Tetrac
 
 ![cltfe](PTFE_img/large_chemical_reactor_chloroform.png)
 
-**Recipe for Tetrafluoroethylene from Chloroform and [Hydrofluoric Acid](/StarT-docs/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Hydrofluoric Acid)**
+**Recipe for Tetrafluoroethylene from Chloroform and [Hydrofluoric Acid](/StarT-Wiki/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Hydrofluoric Acid)**
 
 ![cltfe2](PTFE_img/large_chemical_reactor_tetrafluoroethylene_from_chloroform.png)
 

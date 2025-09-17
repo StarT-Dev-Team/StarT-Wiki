@@ -16,11 +16,11 @@
 
 ![nsc](PCL_img/large_chemical_reactor_nitrosyl_chloride.png)
 
-**Step 4: Combine Nitrosyl Chloride and Cyclohexane to obtain Cyclohexanone Oxime Dust and [Hydrochloric Acid](/StarT-docs/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Hydrochloric Acid)**
+**Step 4: Combine Nitrosyl Chloride and Cyclohexane to obtain Cyclohexanone Oxime Dust and [Hydrochloric Acid](/StarT-Wiki/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Hydrochloric Acid)**
 
 ![cho](PCL_img/large_chemical_reactor_cyclohexanone_oxime.png)
 
-**Step 5: Obtain Polycaprolactam Dust by combining Cyclohexanone Oxime Dust and [Sulfuric Acid](/StarT-docs/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Sulfuric Acid)**
+**Step 5: Obtain Polycaprolactam Dust by combining Cyclohexanone Oxime Dust and [Sulfuric Acid](/StarT-Wiki/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Sulfuric Acid)**
 
 ![pcld](PCL_img/large_chemical_reactor_caprolactam.png)
 
