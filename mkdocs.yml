@@ -1,7 +1,7 @@
 site_name: Star Technology Wiki
-site_url: https://github.com/StarT-Dev-Team/StarT-Wiki.git
+site_url: https://github.com/StarT-Dev-Team/StarT-Wiki
 repo_name: Star Technology
-repo_url: https://github.com/StarT-Dev-Team/Star-Technology.git
+repo_url: https://github.com/StarT-Dev-Team/Star-Technology
 theme:
   name: material
   font:
