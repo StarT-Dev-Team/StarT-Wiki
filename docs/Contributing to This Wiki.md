@@ -20,9 +20,9 @@ This is the official and open-source wiki for the modpack Star Technology. Anyon
 !!! Note
     This wiki uses [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) to generate documentation from markdown pages.
 
-1. Fork the [repository](https://github.com/trulyno/StarT-docs).
+1. Fork the [repository](https://github.com/StarT-Dev-Team/StarT-Wiki).
 2. Open Visual Studio Code.
-3. From the *Welcome* page, click on **Clone Git repository**, select **Clone from GitHub**, and select `YOUR-NAME/StarT-docs`.
+3. From the *Welcome* page, click on **Clone Git repository**, select **Clone from GitHub**, and select `YOUR-NAME/StarT-Wiki`.
 4. Open a new terminal from the toolbar.
 5. Run the following commands:
 
