@@ -1,0 +1,21 @@
+ULV { color: #555; }
+LV { color: #AAA; }
+MV { color: #5FF; }
+HV { color: #FFAA00; }
+EV { color: #A0A; }
+IV { color: #55F; }
+LuV { color: #F5F; }
+ZPM { color: #F55; }
+UV { color: #56785f; }
+UHV { color: #A00; }
+UEV { color: #5F5; }
+UIV { color: #0A0; }
+.md-content a[href$="Sulfuric Acid"] { color: #d5600a; text-decoration-line: underline} 
+.md-content a[href$="Nitric Acid"] { color: #a9a90f; text-decoration-line: underline} 
+.md-content a[href$="Titanium Tetrachloride"] { color: #9db3b3; text-decoration-line: underline} 
+.md-content a[href$="Acetic Acid"] { color: #ae9d8d; text-decoration-line: underline} 
+.md-content a[href$="Hydrochloric Acid"] { color: #ba9292; text-decoration-line: underline} 
+.md-content a[href$="Hydrofluoric Acid"] { color: #1c8ca8; text-decoration-line: underline} 
+.md-content a[href$="Hydrogen"] { color: #292cd5; text-decoration-line: underline} 
+.md-content a[href$="Oxygen"] { color: #4d9ac1; text-decoration-line: underline} 
+.md-content a[href$="Nitrogen"] { color:rgb(10, 211, 177); text-decoration-line: underline} 
