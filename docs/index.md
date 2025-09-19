@@ -1,7 +1,7 @@
 # Welcome to Star Technology
 
 ## What is Star Technology?
-Star Technology is one of the first **GregTech CEu Modern** modpacks for **Minecraft 1.19.2**, now fully updated to **1.20.1**! While still under development, the pack is fully playable **up to Ancient Stargate** ***(end of UHV, start of UEV)***, with **Post-UHV content actively being worked on!**
+Star Technology is one of the first **GregTech CEu Modern** modpacks for **Minecraft 1.19.2**, now fully updated to **1.20.1**! While still under development, the pack is fully playable **up to Maxwell** ***(mid UIV)***, with **Post-UHV content actively being worked on!**
 
 This is **not** a beginner-friendly modpack, but we are constantly improving accessibility to make it more approachable for new players.
 
