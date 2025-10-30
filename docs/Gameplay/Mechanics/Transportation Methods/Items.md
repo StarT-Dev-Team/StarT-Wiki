@@ -8,7 +8,7 @@
 1. 1320 items/second.
 
 !!! info ""
-    For more details, visit the [Laser IO](/trulyno/StarT-docs/Gameplay/Mechanics/LaserIO/LaserIO) page.
+    For more details, visit the [Laser IO](/StarT-Wiki/Gameplay/Mechanics/LaserIO/LaserIO) page.
 
 ### Create
 
@@ -22,7 +22,7 @@
 Besides just being a crafting material, **GregTech Conveyors** and **Robot Arms** can be installed on the sides of GregTech machines as ***machine covers***, allowing them to push/pull items from nearby inventorires without taking up space. **Robot Arms** operate at the same speed as **Conveyors**, but offer additional configuration options. <lv>**LV Conveyors**</lv> and <lv>**LV Robot Arms**</lv> transfer 8 items/second, with the higher tiers providing increasingly higher transfer rates up to a maximum of 1024 items/second at <luv>LuV</luv>.
 
 !!! info ""
-    For more details, visit the [GregTech Machine Covers](/trulyno/StarT-docs/Gameplay/Mechanics/GregTech/Machine%20Covers) page.
+    For more details, visit the [GregTech Machine Covers](/StarT-Wiki/Gameplay/Mechanics/GregTech/Machine%20Covers) page.
 
 ### Pipez
 

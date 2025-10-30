@@ -10,7 +10,7 @@
 
 **2. Sodium Hydroxide Loop**
 
-***You can obtain Hydrogen and [Oxygen](/StarT-docs/Gameplay/Lines/Chemical Lines/Gases/Oxygen) from the Sodium Hydroxide loop.***
+***You can obtain Hydrogen and [Oxygen](/StarT-Wiki/Gameplay/Lines/Chemical Lines/Gases/Oxygen) from the Sodium Hydroxide loop.***
 
 ![H](H_img/chem_reactor_sodium_hydroxide_and_hydrogen.png)
 

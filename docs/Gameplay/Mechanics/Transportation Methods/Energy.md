@@ -2,7 +2,7 @@
 
 !!! warning "Note"
 
-    This page covers FE energy transfer options. For EU energy, check the [GregTech Energy](/trulyno/StarT-docs/Gameplay/Mechanics/GregTech/Energy) page.
+    This page covers FE energy transfer options. For EU energy, check the [GregTech Energy](/StarT-Wiki/Gameplay/Mechanics/GregTech/Energy) page.
 
 ### Laser IO
 
@@ -10,7 +10,7 @@
 
 !!! info ""
 
-    For more details, visit the [Laser IO](/trulyno/StarT-docs/Gameplay/Mechanics/LaserIO/LaserIO) page.
+    For more details, visit the [Laser IO](/StarT-Wiki/Gameplay/Mechanics/LaserIO/LaserIO) page.
 
 ### Create Wires
 
