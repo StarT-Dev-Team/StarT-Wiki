@@ -10,7 +10,7 @@ Thermal's **Fluid Cells** are one of the earliest options available for automati
 
 !!! info ""
 
-    For more details, visit the [Laser IO](/trulyno/StarT-docs/Gameplay/Mechanics/LaserIO/LaserIO) page.
+    For more details, visit the [Laser IO](/StarT-Wiki/Gameplay/Mechanics/LaserIO/LaserIO) page.
 
 ### Create Pipes
 
@@ -34,7 +34,7 @@ Besides just being a crafting material, GregTech's **Electric Pumps** (as well a
 1. 1.28 buckets / second.
 
 !!! info ""
-    For more details, visit the [GregTech Machine Covers](/trulyno/StarT-docs/Gameplay/Mechanics/GregTech/Machine%20Covers) page.
+    For more details, visit the [GregTech Machine Covers](/StarT-Wiki/Gameplay/Mechanics/GregTech/Machine%20Covers) page.
 
 ### Applied Energistics 2
 
