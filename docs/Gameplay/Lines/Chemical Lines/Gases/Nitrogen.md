@@ -22,7 +22,7 @@
 
 **4. Liquid Air Distillation**
 
-***From HV onwards with the introduction of the Distillation Tower u can get Nitrogen aswell as some other useful Gasses such as [Oxygen](/StarT-Wiki/Gameplay/Lines/Chemical Lines/Gases/Oxygen), Carbon Dioxide, Helium and Argon.***
+***From HV onwards with the introduction of the Distillation Tower u can get Nitrogen aswell as some other useful Gases such as [Oxygen](/StarT-Wiki/Gameplay/Lines/Chemical Lines/Gases/Oxygen), Carbon Dioxide, Helium and Argon.***
 
 ![N](N_img/distillation_tower_distill_liquid_air.png)
 
