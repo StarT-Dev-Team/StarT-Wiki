@@ -10,15 +10,18 @@ theme:
   logo: assets/logo.png
   favicon: assets/favicon.ico
   features:
+    - navigation.expand
     - navigation.footer
-    - navigation.tabs
     - navigation.sections
     - navigation.top
+    - navigation.path
     - toc.integrate
+    - toc.follow
     - search.suggest
     - search.highlight
     - content.tabs.link
     - content.code.copy 
+
   palette:
     # Dark Mode
     - scheme: slate
@@ -59,3 +62,23 @@ markdown_extensions:
 
 extra_css:
   - assets/styles/styles.css
+
+nav:
+- Welcome to Star Technology:
+  - Home: index.md
+  - Patch Notes: Patch Notes.md
+  - Meet the Team:
+      - Developer Team: docs\Meet the Team\developer team.md
+      - Credits: Credits.md
+
+- Gameplay:
+  - Resources:
+      - Resource Production:
+          - Hydrogen: Hydrogen.md
+          - Nitrogen: Nitrogen.md
+          - Oxygen: Oxygen.md
+      - Resource Production Machine Lines:
+          - Drilling Rigs: Drilling Rigs.md
+  - Chemical Lines:
+      - Plastics:
+          - Peek: docs\Chemical Lines\Plastics\PEEK.md
