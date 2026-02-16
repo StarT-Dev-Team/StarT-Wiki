@@ -1,4 +1,4 @@
-# PEEK (Polyether Ether Ketone)
+# Polyether Ether Ketone (PEEK)
 
 PEEK is a type of plastic that is widely used late-game. In reality, it is a colourless organic thermoplastic polymer in the polyaryletherketone (PAEK) family, used in engineering applications. 
 

@@ -1,4 +1,4 @@
-# Polyphenylene Sulfide
+# Polyphenylene Sulfide (PPS)
 
 ## How to make Polyphenylene Sulfide
 
