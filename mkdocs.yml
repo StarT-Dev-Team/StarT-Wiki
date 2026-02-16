@@ -70,55 +70,55 @@ nav:
   - Home: index.md
   - Patch Notes: Patch-Notes.md
   - Meet the Team:
-      - Developer Team: 'Meet-the-Team\Developer-Team.md'
-      - Credits: 'Meet-the-Team\Credits.md'
+      - Developer Team: 'Meet-the-Team/Developer-Team.md'
+      - Credits: 'Meet-the-Team/Credits.md'
   - Contributing to this Wiki: 'Contributing-to-This-Wiki.md'
 
 - Resource Gen:
     - Resource Production:
-        - Hydrogen: 'Resources\Resource-Production\Hydrogen.md'
-        - Nitrogen: 'Resources\Resource-Production\Nitrogen.md'
-        - Oxygen: 'Resources\Resource-Production\Oxygen.md'
+        - Hydrogen: 'Resources/Resource-Production/Hydrogen.md'
+        - Nitrogen: 'Resources/Resource-Production/Nitrogen.md'
+        - Oxygen: 'Resources/Resource-Production/Oxygen.md'
     - Resource Production Machine Lines:
-        - Drilling Rigs: 'Resources\Resource-Production-Machines-Lines\Drilling Rigs.md'
+        - Drilling Rigs: 'Resources/Resource-Production-Machines-Lines/Drilling Rigs.md'
 
 - Power Gen:
-    - Create Power: 'Mechanics\Energy-Generation\Carbon-Brushes-and-Magnets.md'
+    - Create Power: 'Mechanics/Energy-Generation/Carbon-Brushes-and-Magnets.md'
 
 - Chemical/Processing Lines:
     - Plastics:
-        - Polether Ether Ketone: Chemical-Lines\Plastics\PEEK.md
-        - Polybenzimidazole: Chemical-Lines\Plastics\Polybenzimidazole.md
-        - Polycaprolactam: Chemical-Lines\Plastics\Polycaprolactam.md
-        - Polyethylene: Chemical-Lines\Plastics\Polyethylene.md
-        - Polyphenylene Sulfide: Chemical-Lines\Plastics\Polyphenylene-Sulfide.md
-        - Polytetrafluoroethylene: Chemical-Lines\Plastics\Polytetrafluoroethylene.md
-        - Polyvinyl Butyral: Chemical-Lines\Plastics\Polyvinyl-Butyral.md
-        - Polyvinyl Chloride: Chemical-Lines\Plastics\Polyvinyl-Chloride.md
+        - Polether Ether Ketone: Chemical-Lines/Plastics/PEEK.md
+        - Polybenzimidazole: Chemical-Lines/Plastics/Polybenzimidazole.md
+        - Polycaprolactam: Chemical-Lines/Plastics/Polycaprolactam.md
+        - Polyethylene: Chemical-Lines/Plastics/Polyethylene.md
+        - Polyphenylene Sulfide: Chemical-Lines/Plastics/Polyphenylene-Sulfide.md
+        - Polytetrafluoroethylene: Chemical-Lines/Plastics/Polytetrafluoroethylene.md
+        - Polyvinyl Butyral: Chemical-Lines/Plastics/Polyvinyl-Butyral.md
+        - Polyvinyl Chloride: Chemical-Lines/Plastics/Polyvinyl-Chloride.md
     - Rubbers:
-        - Latex Rubber: Chemical-Lines\Rubbers\Rubber.md
-        - Silicone Rubber: Chemical-Lines\Rubbers\Silicone-Rubber.md
-        - Styrene Butadiene: Chemical-Lines\Rubbers\Styrene-Butadiene.md
+        - Latex Rubber: Chemical-Lines/Rubbers/Rubber.md
+        - Silicone Rubber: Chemical-Lines/Rubbers/Silicone-Rubber.md
+        - Styrene Butadiene: Chemical-Lines/Rubbers/Styrene-Butadiene.md
     - Acids: 
-        - Acetic Acid: Chemical-Lines\Acids\Acetic-Acid.md
-        - Formic Acid: Chemical-Lines\Acids\Formic-Acid.md
-        - Hydrocloric Acid: Chemical-Lines\Acids\Hydrochloric-Acid.md
-        - Hydrofluoric Acid: Chemical-Lines\Acids\Hydrofluoric-Acid.md
-        - Nitric Acid: Chemical-Lines\Acids\Nitric-Acid.md
-        - Sulfuric Acid: Chemical-Lines\Acids\Sulfuric-Acid.md   
+        - Acetic Acid: Chemical-Lines/Acids/Acetic-Acid.md
+        - Formic Acid: Chemical-Lines/Acids/Formic-Acid.md
+        - Hydrocloric Acid: Chemical-Lines/Acids\Hydrochloric-Acid.md
+        - Hydrofluoric Acid: Chemical-Lines/Acids\Hydrofluoric-Acid.md
+        - Nitric Acid: Chemical-Lines/Acids/Nitric-Acid.md
+        - Sulfuric Acid: Chemical-Lines/Acids/Sulfuric-Acid.md   
 
 - Multiblocks:
-    - LV Multiblocks: Mechanics\GregTech\Multiblocks\LV\LV-Multis.md
+    - LV Multiblocks: Mechanics/GregTech/Multiblocks/LV/LV-Multis.md
 
 - Logisitics:
     - LaserIO:
-        - Introduction: Mechanics\LaserIO\LaserIO.md
+        - Introduction: Mechanics/LaserIO/LaserIO.md
 
     - AE2:
-        - Introduction: Mechanics\Applied-Energistics-2\AE2-Introduction.md
+        - Introduction: Mechanics/Applied-Energistics-2/AE2-Introduction.md
 
 - Gregtech Mechanics:
-    - Electricity: Mechanics\GregTech\Energy.md
+    - Electricity: Mechanics/GregTech/Energy.md
 
 - FAQ/Troubleshooting:
     - Contribute: FAQ.md
