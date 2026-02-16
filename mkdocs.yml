@@ -10,15 +10,18 @@ theme:
   logo: assets/logo.png
   favicon: assets/favicon.ico
   features:
-    - navigation.footer
+    - navigation.expand
     - navigation.tabs
+    - navigation.footer
     - navigation.sections
     - navigation.top
-    - toc.integrate
+    - navigation.path
+    - toc.follow
     - search.suggest
     - search.highlight
     - content.tabs.link
     - content.code.copy 
+
   palette:
     # Dark Mode
     - scheme: slate
@@ -56,6 +59,47 @@ markdown_extensions:
       alternate_style: true
   - admonition
   - pymdownx.details
+  - toc:
 
 extra_css:
   - assets/styles/styles.css
+
+nav:
+- Welcome to Star Technology:
+  - Home: index.md
+  - Patch Notes: Patch-Notes.md
+  - Meet the Team:
+      - Developer Team: 'Meet-the-Team\Developer-Team.md'
+      - Credits: 'Meet-the-Team\Credits.md'
+  - Contributing to this Wiki: 'Contributing-to-This-Wiki.md'
+
+- Resource Gen:
+    - Resource Production:
+        - Hydrogen: 'Resources\Resource-Production\Hydrogen.md'
+        - Nitrogen: 'Resources\Resource-Production\Nitrogen.md'
+        - Oxygen: 'Resources\Resource-Production\Oxygen.md'
+    - Resource Production Machine Lines:
+        - Drilling Rigs: 'Resources\Resource-Production-Machines-Lines\Drilling Rigs.md'
+
+- Power Gen:
+    - Create Power: 'Mechanics\Energy-Generation\Carbon-Brushes-and-Magnets.md'
+
+- Chemical/Processing Lines:
+    - Plastics:
+        - PEEK: 'Chemical-Lines\Plastics\PEEK.md'
+
+- Multiblocks:
+    - LV Multiblocks: 'Mechanics\GregTech\Multiblocks\LV\LV-Multis.md'
+
+- Logisitics:
+    - LaserIO:
+        - Introduction: 'Mechanics\LaserIO\LaserIO.md'
+
+    - AE2:
+        - Introduction: 'Mechanics\Applied-Energistics-2\AE2-Introduction.md'
+
+- Gregtech Mechanics:
+    - Electricity: 'Mechanics\GregTech\Energy.md'
+
+- FAQ/Troubleshooting:
+    - Contribute: 'FAQ.md'
