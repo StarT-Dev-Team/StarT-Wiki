@@ -91,11 +91,12 @@ nav:
 - Multiblocks:
     - LV Multiblocks: 'Mechanics\GregTech\Multiblocks\LV\LV-Multis.md'
 
-- LaserIO:
-    - Introduction: 'Mechanics\LaserIO\LaserIO.md'
+- Logisitics:
+    - LaserIO:
+        - Introduction: 'Mechanics\LaserIO\LaserIO.md'
 
-- AE2:
-    - Introduction: 'Mechanics\Applied-Energistics-2\AE2-Introduction.md'
+    - AE2:
+        - Introduction: 'Mechanics\Applied-Energistics-2\AE2-Introduction.md'
 
 - Gregtech Mechanics:
     - Electricity: 'Mechanics\GregTech\Energy.md'
