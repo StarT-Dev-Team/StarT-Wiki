@@ -21,5 +21,5 @@ Inspired by legendary **GregTech** modpacks like *Nomifactory*, *Gregtech: New H
 
 ## Links
 💬 [**\[Discord Server\]**](https://discord.gg/startechnology) – Share your progress, get support, and chat with fellow players and devs!  
-🐞 [**\[Issue Tracker\]**](https://github.com/trulyno/star-technology/issues) – Report bugs & help us improve the modpack!  
+🐞 [**\[Issue Tracker\]**](https://github.com/StarT-Dev-Team/Star-Technology/issues) – Report bugs & help us improve the modpack!  
 🔥 [**\[Curseforge Page\]**](https://www.curseforge.com/minecraft/modpacks/star-technology) - Download the official releases from there!
