@@ -61,7 +61,6 @@ markdown_extensions:
   - pymdownx.details
   - toc:
 
-
 extra_css:
   - assets/styles/styles.css
 
@@ -76,11 +75,11 @@ nav:
 
 - Resource Gen:
     - Resource Production:
-        - Hydrogen: 'Resources\Resource Production\Hydrogen.md'
-        - Nitrogen: 'Resources\Resource Production\Nitrogen.md'
-        - Oxygen: 'Resources\Resource Production\Oxygen.md'
+        - Hydrogen: 'Resources\Resource-Production\Hydrogen.md'
+        - Nitrogen: 'Resources\Resource-Production\Nitrogen.md'
+        - Oxygen: 'Resources\Resource-Production\Oxygen.md'
     - Resource Production Machine Lines:
-        - Drilling Rigs: 'Resources\Resource Production Machines Lines\Drilling Rigs.md'
+        - Drilling Rigs: 'Resources\Resource-Production-Machines-Lines\Drilling Rigs.md'
 
 - Power Gen:
     - Contribute: 'docs\Contributing-to-This-Wiki.md'
