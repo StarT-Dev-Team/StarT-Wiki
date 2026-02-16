@@ -4,7 +4,7 @@
 
 **1. Air centrifuging**
 
-***You can obtain [Oxygen](/StarT-Wiki/Gameplay/Lines/Chemical Lines/Gases/Oxygen) and Nitrogen from centrifuging air.***
+***You can obtain [Oxygen](/StarT-Wiki/Resources/Resource-Production/Oxygen/) and Nitrogen from centrifuging air.***
 
 ![N](N_img/centrifuge_air_separation.png)
 
@@ -16,13 +16,13 @@
 
 **3. Saltpeter Dust electrolysis**
 
-***You can obtain [Oxygen](/StarT-Wiki/Gameplay/Lines/Chemical Lines/Gases/Oxygen) and Nitrogen aswell as Potassium Dust as a byproduct from electrolyzing Saltpeter Dust.***
+***You can obtain [Oxygen](/StarT-Wiki/Resources/Resource-Production/Oxygen/) and Nitrogen aswell as Potassium Dust as a byproduct from electrolyzing Saltpeter Dust.***
 
 ![N](N_img/electrolyzer_decomposition_electrolyzing_saltpeter.png)
 
 **4. Liquid Air Distillation**
 
-***From HV onwards with the introduction of the Distillation Tower u can get Nitrogen aswell as some other useful gases such as [Oxygen](/StarT-Wiki/Gameplay/Lines/Chemical Lines/Gases/Oxygen), Carbon Dioxide, Helium and Argon.***
+***From HV onwards with the introduction of the Distillation Tower u can get Nitrogen aswell as some other useful gases such as [Oxygen](/StarT-Wiki/Resources/Resource-Production/Oxygen/), Carbon Dioxide, Helium and Argon.***
 
 ![N](N_img/distillation_tower_distill_liquid_air.png)
 

@@ -6,7 +6,7 @@
 
 ![b](PVB_img/large_chemical_reactor_butraldehyde.png)
 
-**Step 2: Make Vinyl Acetate with Oxygen, [Acetic Acid](/StarT-Wiki/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Acetic Acid) and Ethylene (LCR Cir 3)**
+**Step 2: Make Vinyl Acetate with Oxygen, [Acetic Acid](/StarT-Wiki/Chemical-Lines/Acids/Acetic-Acid/) and Ethylene (LCR Cir 3)**
 
 ![b](PVB_img/large_chemical_reactor_vinyl_acetate.png)
 
