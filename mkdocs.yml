@@ -66,7 +66,7 @@ extra_css:
   - assets/styles/styles.css
 
 nav:
-- 'Welcome to Star Technology':
+- Welcome to Star Technology:
   - Home: index.md
   - Patch Notes: Patch-Notes.md
   - Meet the Team:
@@ -74,7 +74,7 @@ nav:
       - Credits: 'Meet-the-Team\Credits.md'
   - Contributing to this Wiki: 'Contributing-to-This-Wiki.md'
 
-- 'Resources':
+- Resource Gen:
     - Resource Production:
         - Hydrogen: 'Resources\Resource Production\Hydrogen.md'
         - Nitrogen: 'Resources\Resource Production\Nitrogen.md'
@@ -82,7 +82,7 @@ nav:
     - Resource Production Machine Lines:
         - Drilling Rigs: 'Resources\Resource Production Machines Lines\Drilling Rigs.md'
 
-- Power Generation:
+- Power Gen:
     - Contribute: 'docs\Contributing-to-This-Wiki.md'
 
 - Chemical/Processing Lines:
