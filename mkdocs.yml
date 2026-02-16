@@ -16,7 +16,6 @@ theme:
     - navigation.sections
     - navigation.top
     - navigation.path
-    - toc.integrate
     - toc.follow
     - search.suggest
     - search.highlight
@@ -61,7 +60,7 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - toc:
-      permalink: true
+
 
 extra_css:
   - assets/styles/styles.css
@@ -69,12 +68,13 @@ extra_css:
 nav:
 - 'Welcome to Star Technology':
   - Home: index.md
-  - 'Patch Notes': Patch-Notes.md
+  - Patch Notes: Patch-Notes.md
   - Meet the Team:
-      - Developer Team: 'Meet the Team\developer team.md'
-      - Credits: 'Meet the Team\Credits.md'
+      - Developer Team: 'Meet-the-Team\Developer-Team.md'
+      - Credits: 'Meet-the-Team\Credits.md'
+  - Contributing to this Wiki: 'Contributing-to-This-Wiki.md'
 
-- Resources:
+- 'Resources':
     - Resource Production:
         - Hydrogen: 'Resources\Resource Production\Hydrogen.md'
         - Nitrogen: 'Resources\Resource Production\Nitrogen.md'
@@ -83,11 +83,16 @@ nav:
         - Drilling Rigs: 'Resources\Resource Production Machines Lines\Drilling Rigs.md'
 
 - Power Generation:
+    - Contribute: 'docs\Contributing-to-This-Wiki.md'
 
 - Chemical/Processing Lines:
     - Plastics:
-        - PEEK: 'Chemical Lines\Plastics\PEEK.md'
+        - PEEK: 'Chemical-Lines\Plastics\PEEK.md'
 - Multiblocks:
+    - Contribute: 'docs/Contributing-to-This-Wiki.md'
 - AE2:
+    - Contribute: 'docs/Contributing-to-This-Wiki.md'
 - Gregtech Mechanics:
+    - Contribute: 'docs/Contributing-to-This-Wiki.md'
 - FAQ/Troubleshooting:
+    - Contribute: 'docs/Contributing-to-This-Wiki.md'
