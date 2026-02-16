@@ -82,16 +82,23 @@ nav:
         - Drilling Rigs: 'Resources\Resource-Production-Machines-Lines\Drilling Rigs.md'
 
 - Power Gen:
-    - Contribute: 'docs\Contributing-to-This-Wiki.md'
+    - Create Power: 'Mechanics\Energy-Generation\Carbon-Brushes-and-Magnets.md'
 
 - Chemical/Processing Lines:
     - Plastics:
         - PEEK: 'Chemical-Lines\Plastics\PEEK.md'
+
 - Multiblocks:
-    - Contribute: 'docs/Contributing-to-This-Wiki.md'
+    - LV Multiblocks: 'Mechanics\GregTech\Multiblocks\LV\LV-Multis.md'
+
+- LaserIO:
+    - Introduction: 'Mechanics\LaserIO\LaserIO.md'
+
 - AE2:
-    - Contribute: 'docs/Contributing-to-This-Wiki.md'
+    - Introduction: 'Mechanics\Applied-Energistics-2\AE2-Introduction.md'
+
 - Gregtech Mechanics:
-    - Contribute: 'docs/Contributing-to-This-Wiki.md'
+    - Electricity: 'Mechanics\GregTech\Energy.md'
+
 - FAQ/Troubleshooting:
-    - Contribute: 'docs/Contributing-to-This-Wiki.md'
+    - Contribute: 'FAQ.md'
