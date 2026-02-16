@@ -2,6 +2,7 @@ site_name: Star Technology Wiki
 site_url: https://github.com/StarT-Dev-Team/StarT-Wiki
 repo_name: Star Technology
 repo_url: https://github.com/StarT-Dev-Team/Star-Technology
+use_directory_urls: true
 theme:
   name: material
   font:
@@ -10,11 +11,11 @@ theme:
   logo: assets/logo.png
   favicon: assets/favicon.ico
   features:
-    - navigation.expand
     - navigation.tabs
+    - navigation.expand
     - navigation.footer
-    - navigation.sections
     - navigation.top
+    - navigation.indexes
     - navigation.path
     - toc.follow
     - search.suggest
@@ -40,6 +41,7 @@ theme:
       accent: light blue
 
 markdown_extensions:
+  - toc:
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
@@ -59,7 +61,6 @@ markdown_extensions:
       alternate_style: true
   - admonition
   - pymdownx.details
-  - toc:
 
 extra_css:
   - assets/styles/styles.css
@@ -86,7 +87,25 @@ nav:
 
 - Chemical/Processing Lines:
     - Plastics:
-        - PEEK: Chemical-Lines\Plastics\PEEK.md
+        - Polether Ether Ketone: Chemical-Lines\Plastics\PEEK.md
+        - Polybenzimidazole: Chemical-Lines\Plastics\Polybenzimidazole.md
+        - Polycaprolactam: Chemical-Lines\Plastics\Polycaprolactam.md
+        - Polyethylene: Chemical-Lines\Plastics\Polyethylene.md
+        - Polyphenylene Sulfide: Chemical-Lines\Plastics\Polyphenylene-Sulfide.md
+        - Polytetrafluoroethylene: Chemical-Lines\Plastics\Polytetrafluoroethylene.md
+        - Polyvinyl Butyral: Chemical-Lines\Plastics\Polyvinyl-Butyral.md
+        - Polyvinyl Chloride: Chemical-Lines\Plastics\Polyvinyl-Chloride.md
+    - Rubbers:
+        - Latex Rubber: Chemical-Lines\Rubbers\Rubber.md
+        - Silicone Rubber: Chemical-Lines\Rubbers\Silicone-Rubber.md
+        - Styrene Butadiene: Chemical-Lines\Rubbers\Styrene-Butadiene.md
+    - Acids: 
+        - Acetic Acid: Chemical-Lines\Acids\Acetic-Acid.md
+        - Formic Acid: Chemical-Lines\Acids\Formic-Acid.md
+        - Hydrocloric Acid: Chemical-Lines\Acids\Hydrochloric-Acid.md
+        - Hydrofluoric Acid: Chemical-Lines\Acids\Hydrofluoric-Acid.md
+        - Nitric Acid: Chemical-Lines\Acids\Nitric-Acid.md
+        - Sulfuric Acid: Chemical-Lines\Acids\Sulfuric-Acid.md   
 
 - Multiblocks:
     - LV Multiblocks: Mechanics\GregTech\Multiblocks\LV\LV-Multis.md

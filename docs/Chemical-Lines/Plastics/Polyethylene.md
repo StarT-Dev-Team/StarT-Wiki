@@ -1,4 +1,4 @@
-# Polyethylene
+# Polyethylene (PE)
 
 Polyethylene is a kind of plastic that is widely used in assembling recipes.
 

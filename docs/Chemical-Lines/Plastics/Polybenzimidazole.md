@@ -1,4 +1,4 @@
-# Polybenzimidazole
+# Polybenzimidazole (PBI)
 
 Polybenzimidazole is a kind of rubber that are mainly used in assembling recipes, such as different input and output busses/hatches.
 It is also used in making Plastic Circuit Boards.
