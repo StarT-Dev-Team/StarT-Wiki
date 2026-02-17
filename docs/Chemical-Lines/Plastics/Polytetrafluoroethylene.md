@@ -4,7 +4,7 @@
 
 ### Option 1
 
-**Step 1: Chemically react [Hydrofluoric Acid](/StarT-Wiki/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Hydrofluoric Acid), Methane and Chlorine to make Tetrafluoroethylene. <IV>(*Cir 24* IV LCR)</IV>**
+**Step 1: Chemically react [Hydrofluoric Acid](/StarT-Wiki/Chemical-Lines/Acids/Hydrofluoric-Acid/), Methane and Chlorine to make Tetrafluoroethylene. <IV>(*Cir 24* IV LCR)</IV>**
 
 ![lcrptfe](PTFE_img/large_chemical_reactor_tetrafluoroethylene_from_methane.png) 
 
@@ -38,7 +38,7 @@ Step 2b: You can also chemically react **Tetrafluoroethylene**, [Titanium Tetrac
 
 ![cltfe](PTFE_img/large_chemical_reactor_chloroform.png)
 
-**Recipe for Tetrafluoroethylene from Chloroform and [Hydrofluoric Acid](/StarT-Wiki/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Hydrofluoric Acid)**
+**Recipe for Tetrafluoroethylene from Chloroform and [Hydrofluoric Acid](/StarT-Wiki/Chemical-Lines/Acids/Hydrofluoric-Acid/)**
 
 ![cltfe2](PTFE_img/large_chemical_reactor_tetrafluoroethylene_from_chloroform.png)
 

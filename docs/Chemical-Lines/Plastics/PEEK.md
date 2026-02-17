@@ -8,7 +8,7 @@ PEEK is a type of plastic that is widely used late-game. In reality, it is a col
 
 ### How to make 4,4-Difluorobenzophenone Dust
 
-Step **1**: Obtain Fluorobenzene and [Hydrofluoric Acid](/StarT-Wiki/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Hydrofluoric Acid) by chemically reacting Fluorine Gas with Benzene. **(<luv>LuV</luv> LCR)**
+Step **1**: Obtain Fluorobenzene and [Hydrofluoric Acid](/StarT-Wiki/Chemical-Lines/Acids/Hydrofluoric-Acid/) by chemically reacting Fluorine Gas with Benzene. **(<luv>LuV</luv> LCR)**
 
 ![fb](PEEK_img/large_chemical_reactor_fluorobenzene_process.png)
 
