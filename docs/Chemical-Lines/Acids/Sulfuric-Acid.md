@@ -12,9 +12,9 @@ flowchart LR
     C@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Acids/H2SO4_img/large_chemical_reactor_sulfuric_acid_from_trioxide.png", label: "Step 3", pos: "t", w: 120, h: 120, constraint: "on" }
 
     classDef transparent fill:none,stroke:none;
-    class A,B,C transparent;
 
-    A:::transparent -- React oxygen and sulfur --> B:::transparent --> C:::transparent
+    A:::transparent --|React oxygen and sulfur|--> B:::transparent --> C:::transparent
+
 ```
 
 #### Option 1: Combine Hydrogen Sulfide and Oxygen (LCR Cir 2)
