@@ -1,1 +1,1 @@
-# Reading is not fun and you shouldnt try it.
+# Reading is not fun and you shouldn't try it.

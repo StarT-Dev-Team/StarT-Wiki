@@ -1,17 +1,17 @@
-# Sillicone Rubber
+# Silicone Rubber
 
-Sillicone Rubber is a kind of plastic that is used in coating wires mid-game.
+Silicone Rubber is a kind of plastic that is used in coating wires mid-game.
 
-## How to make Sillicone Rubber
+## How to make Silicone Rubber
 
 Step **1**: Obtain Polydimethylsiloxane Dust
 
 
-Step **1a**: Chemically React Hydrochloric Acid, Methanol and Sillicon Dust inside a <MV> **MV Chemical Reactor** </MV>.
+Step **1a**: Chemically React Hydrochloric Acid, Methanol and Silicon Dust inside a <MV> **MV Chemical Reactor** </MV>.
 
 ![how to make polydimethylsiloxane dust](SR_img/chemical_reactor_polydimethylsiloxane_from_silicon.png)
 
-Step **1b**: Chemically React Sillicon Dust, Methane, Chlorine and Water on **Circuit 2** inside a <MV> **MV Chemical Reactor**</MV>.
+Step **1b**: Chemically React Silicon Dust, Methane, Chlorine and Water on **Circuit 2** inside a <MV> **MV Chemical Reactor**</MV>.
 
 ![how to make polydimethylsiloxane dust(2)](SR_img/chemical_reactor_polydimetnylsiloxane_from_elements.png)
 
