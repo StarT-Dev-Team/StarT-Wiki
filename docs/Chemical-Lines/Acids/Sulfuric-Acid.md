@@ -15,7 +15,6 @@ flowchart LR
     class A,B,C transparent;
 
     A:::transparent -- React oxygen and sulfur --> B:::transparent --> C:::transparent
-
 ```
 
 #### Option 1: Combine Hydrogen Sulfide and Oxygen (LCR Cir 2)

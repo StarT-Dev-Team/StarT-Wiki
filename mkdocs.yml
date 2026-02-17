@@ -9,7 +9,7 @@ theme:
     text: Merriweather Sans
     code: Red Hat Mono
   logo: assets/logo.png
-  favicon: assets/favicon.ico
+  favicon: assets/flavicon.ico
   features:
     - navigation.tabs
     - navigation.expand
@@ -29,7 +29,7 @@ theme:
     - mermaid2:
         arguments:
           theme: |
-            ^(JSON.parse(window.localStorage.getItem(__prefix('__palette'))).index == 1) ? 'dark' : 'light'
+            ^(JSON.parse(__md_get("__palette").index == 1)) ? 'dark' : 'light'
 
 
   palette:
