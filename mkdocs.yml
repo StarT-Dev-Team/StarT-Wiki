@@ -82,8 +82,7 @@ plugins:
   - search
   - panzoom:
       full_screen: True
-  - mermaid2:
-      version: '10.1.0'
+  - mermaid2
 
 
 extra_css:
