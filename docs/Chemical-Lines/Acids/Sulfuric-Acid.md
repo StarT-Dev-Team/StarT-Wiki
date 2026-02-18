@@ -1,25 +1,69 @@
 # Sulfuric Acid
 
+Once of the first acids you'll ever make, and the first of many. Sulfuric acid is mandatory in <mv>MV</mv> , as it is needed to create [Polyethelyne](/StarT-Wiki/Chemical-Lines/Plastics/Polyethylene/), a basic plastic. However you can optionally make use of the acid in <lv>LV</lv> to make etching fluids.
+
 ## How to make Sulfuric Acid
 
-#### Option 1: Combine Hydrogen Sulfide and Oxygen (LCR Cir 2)
+This is the first way that you will make sulfuric acid
 
-![hso](H2SO4_img/large_chemical_reactor_sulfuric_acid_from_sulfide.png)
+```mermaid
+flowchart LR;
+    %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent' }}}%%
 
-#### Option 2: Combine Water and Sulfur Dust <hv>(HV LCR Cir 24)</hv>
+    A@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Acids/H2SO4_img/large_chemical_reactor_sulfur_dioxide_from_sulfur.png", label: "Chemical Reactor", pos: "t", w: 200, h: 200, constraint: "on" }
+
+    B@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Acids/H2SO4_img/large_chemical_reactor_sulfur_trioxide.png", label: "Chemical Reactor", pos: "t", w: 200, h: 200, constraint: "on" }
+
+    C@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Acids/H2SO4_img/large_chemical_reactor_sulfuric_acid_from_trioxide.png", label: "Chemical Reactor", pos: "t", w: 200, h: 200, constraint: "on" }
+
+    D@{ shape: lean-r, label: "2b Oxygen" }
+
+    E@{ shape: lean-r, label: "1b Water" }
+
+    F@{ shape: lean-r, label: "1x Sulfur" }
+
+    G@{ shape: lean-l, label: "1b Sulfuric Acid" }
+
+    H@{ shape: lean-r, label: "1b Oxygen" }
+
+    A --1b Sulfur Dioxide--> B --1b Sulfur Trioxide--> C;
+
+    D --> A
+    F --> A
+    E --> C
+    C --> G
+    H --> B
+```
+
+In <hv>HV</hv> , after obtaining the LCR, you can make use of its chemical skips to do it all in 1 recipe, as seen bellow. 
 
 ![sh2o](H2SO4_img/large_chemical_reactor_sulfuric_acid_from_sulfur.png)
 
-#### Option 3: Combine Water, Oxygen and Sulfur in different steps.
+Later on, in <zpm>ZPM</zpm>, you can use the chemical plant instead.
 
-**Step 1: Combine Sulfur and Oxygen (LCR Cir 2)**
+![sh2o](H2SO4_img/chemical_plant_sulfuric_acid.png)
 
-![](H2SO4_img/large_chemical_reactor_sulfur_dioxide_from_sulfur.png)
+You should definitely dedicate an LCR/Chem Plant to just making sulfuric acid. Having a dedicated storage (usually a fluid cell), is also recommended.
 
-**Step 2: Combine Sulfur Dioxide with Oxygen**
+## Alternate sources
+### Option 1: Hydrogen sulfide (LCR Cir 2)
 
-![](H2SO4_img/large_chemical_reactor_sulfur_trioxide.png)
+You can react Hydrogen Sulfide with Oxygen in the LCR to obtain easy Sulfuric Acid. Its a good supplementary source if you happen to have some extra lying around.
 
-**Step 3: Combine Sulfur Trioxide with Water**
+![Hydrogen_Sulfide](H2SO4_img/large_chemical_reactor_sulfuric_acid_from_sulfide.png)
 
-![](H2SO4_img/large_chemical_reactor_sulfuric_acid_from_trioxide.png)
+### Option 2: Smelting ores in the EBF for Sulfur Dioxide
+
+There are a handful of ore dusts (Sphalerite, Pyrite, Galena, Stibnite, Tetrahedrite, Pentlandite, Cobaltite, Chalcopyrite), that when smelted in an EBF with Oxygen, produce a pure dust alongside Sulfur Dioxide. 
+
+![Electric_Blast_Furnace_Ore](H2SO4_img/electric_blast_furnace_sulfuric_acid.png)
+
+### Other options
+
+There are a number of recipes that give sulfuric acid as byproducts. Not all of them are important or viable. A few examples of such recipes are:
+
+- Sulfuric nickel solution electrolysis (See Platline)
+
+- Triglycol Dichloride reaction
+
+Among others. 

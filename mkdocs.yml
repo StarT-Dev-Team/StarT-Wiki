@@ -9,7 +9,7 @@ theme:
     text: Merriweather Sans
     code: Red Hat Mono
   logo: assets/logo.png
-  favicon: assets/favicon.ico
+  favicon: assets/flavicon.ico
   features:
     - navigation.tabs
     - navigation.expand
@@ -22,27 +22,33 @@ theme:
     - search.highlight
     - content.tabs.link
     - content.code.copy 
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
 
   palette:
-    # Dark Mode
-    - scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: Dark mode
-      primary: deep purple
-      accent: amber
-
     # Light Mode
-    - scheme: default
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       toggle:
         icon: material/weather-night
         name: Light mode
       primary: deep purple
       accent: light blue
 
+    # Dark Mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: deep purple
+      accent: amber
+
 markdown_extensions:
   - toc:
   - attr_list
+  - def_list
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -57,24 +63,48 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+          config:
+            theme: 'base'
+            themeVariables:
+              primaryColor: '#fff'
+              primaryTextColor: '#fff'
+              primaryBorderColor: '#7e56c2'
+              lineColor: '#F8B195'
+              fontSize: '16px'
   - pymdownx.tabbed:
       alternate_style: true
   - admonition
   - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - search
+  - mermaid2:
+        version: '10.1.0'
+  - panzoom:
+       full_screen: True
+
 
 extra_css:
-  - assets/styles/styles.css
+    - assets/styles/styles.css
+
+extra_javascript:
+    - https://unpkg.com/mermaid/dist/mermaid.min.js
+
 
 nav:
 - Welcome to Star Technology:
   - Home: index.md
-  - Patch Notes: Patch-Notes.md
   - Meet the Team:
       - Developer Team: 'Meet-the-Team/Developer-Team.md'
       - Credits: 'Meet-the-Team/Credits.md'
   - Contributing to this Wiki: 'Contributing-to-This-Wiki.md'
+  - Patch Notes: Patch-Notes.md
+  - Challenges: Challenges.md
 
 - Resource Gen:
+    - 'Resources/index.md'
     - Resource Production:
         - Hydrogen: 'Resources/Resource-Production/Hydrogen.md'
         - Nitrogen: 'Resources/Resource-Production/Nitrogen.md'
@@ -87,10 +117,10 @@ nav:
 
 - Chemical/Processing Lines:
     - Plastics:
-        - Polether Ether Ketone: Chemical-Lines/Plastics/PEEK.md
+        - Polyethylene: Chemical-Lines/Plastics/Polyethylene.md
+        - Polyether Ether Ketone: Chemical-Lines/Plastics/PEEK.md
         - Polybenzimidazole: Chemical-Lines/Plastics/Polybenzimidazole.md
         - Polycaprolactam: Chemical-Lines/Plastics/Polycaprolactam.md
-        - Polyethylene: Chemical-Lines/Plastics/Polyethylene.md
         - Polyphenylene Sulfide: Chemical-Lines/Plastics/Polyphenylene-Sulfide.md
         - Polytetrafluoroethylene: Chemical-Lines/Plastics/Polytetrafluoroethylene.md
         - Polyvinyl Butyral: Chemical-Lines/Plastics/Polyvinyl-Butyral.md
@@ -100,12 +130,12 @@ nav:
         - Silicone Rubber: Chemical-Lines/Rubbers/Silicone-Rubber.md
         - Styrene Butadiene: Chemical-Lines/Rubbers/Styrene-Butadiene.md
     - Acids: 
+        - Sulfuric Acid: Chemical-Lines/Acids/Sulfuric-Acid.md 
         - Acetic Acid: Chemical-Lines/Acids/Acetic-Acid.md
         - Formic Acid: Chemical-Lines/Acids/Formic-Acid.md
-        - Hydrocloric Acid: Chemical-Lines/Acids/Hydrochloric-Acid.md
+        - Hydrochloric Acid: Chemical-Lines/Acids/Hydrochloric-Acid.md
         - Hydrofluoric Acid: Chemical-Lines/Acids/Hydrofluoric-Acid.md
-        - Nitric Acid: Chemical-Lines/Acids/Nitric-Acid.md
-        - Sulfuric Acid: Chemical-Lines/Acids/Sulfuric-Acid.md   
+        - Nitric Acid: Chemical-Lines/Acids/Nitric-Acid.md 
 
 - Multiblocks:
     - LV Multiblocks: Mechanics/GregTech/Multiblocks/LV/LV-Multis.md

@@ -1,5 +1,5 @@
 # Polytetrafluoroethylene (PTFE)
-c
+
 ## How to make PTFE
 
 ### Option 1

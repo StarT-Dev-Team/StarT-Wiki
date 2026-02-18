@@ -48,7 +48,7 @@ Step **2b**: Chemically React *Vinyl Chloride* , [Titanium Tetrachloride](/StarT
 
 ![pvcw](PVC_img/assembler_cover_naquadah_alloy_wire_gt_double_silicone.png)
 
-### USes of PVC Plate
+### Uses of PVC Plate
 
 ![pvcp](PVC_img/fluid_solidifier_solidify_polyvinyl_chloride_to_plate.png)
 
