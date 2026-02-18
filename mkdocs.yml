@@ -82,7 +82,7 @@ plugins:
   - search
   - mermaid2
   - panzoom:
-    full_screen: True
+      full_screen: True
 
 
 extra_css:
