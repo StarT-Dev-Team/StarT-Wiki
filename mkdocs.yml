@@ -87,6 +87,7 @@ plugins:
 
 extra_css:
     - assets/styles/styles.css
+    - assets/styles/extra.css
 
 extra_javascript:
     - https://unpkg.com/mermaid/dist/mermaid.min.js

@@ -1,6 +1,6 @@
 # Sulfuric Acid
 
-Once of the first acids you'll ever make, and the first of many. Sulfuric acid is mandatory in <mv>MV</mv> , as it is needed to create [Polyethelyne](/StarT-Wiki/Chemical-Lines/Plastics/Polyethylene/), a basic plastic. However you can optionally make use of the acid in <lv>LV</lv> to make etching fluids.
+Once of the first acids you'll ever make, and the first of many. Sulfuric acid is mandatory in <mv>MV</mv> , as it is needed to create [Polyethylene](/StarT-Wiki/Chemical-Lines/Plastics/Polyethylene/), a basic plastic. However you can optionally make use of the acid in <lv>LV</lv> to make etching fluids.
 
 ## How to make Sulfuric Acid
 
@@ -8,7 +8,7 @@ This is the first way that you will make sulfuric acid
 
 ```mermaid
 flowchart LR;
-    %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent' }}}%%
+    %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent', 'labelBkgBackground' : 'transparent' }}}%%
 
     A@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Acids/H2SO4_img/large_chemical_reactor_sulfur_dioxide_from_sulfur.png", label: "Chemical Reactor", pos: "t", w: 200, h: 200, constraint: "on" }
 
@@ -46,9 +46,9 @@ Later on, in <zpm>ZPM</zpm>, you can use the chemical plant instead.
 You should definitely dedicate an LCR/Chem Plant to just making sulfuric acid. Having a dedicated storage (usually a fluid cell), is also recommended.
 
 ## Alternate sources
-### Option 1: Hydrogen sulfide (LCR Cir 2)
+### Option 1: Hydrogen sulfide
 
-You can react Hydrogen Sulfide with Oxygen in the LCR to obtain easy Sulfuric Acid. Its a good supplementary source if you happen to have some extra lying around.
+You can react Hydrogen Sulfide with Oxygen in the LCR easily get some Sulfuric Acid. Its a good supplementary source if you happen to have some extra lying around.
 
 ![Hydrogen_Sulfide](H2SO4_img/large_chemical_reactor_sulfuric_acid_from_sulfide.png)
 

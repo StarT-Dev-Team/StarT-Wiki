@@ -1,6 +1,5 @@
-# Polycaprolactam (PCL)
+# Polycaprolactam ((Nylon 6))
 
-**(Polycaprolactone) (PCL)**
 
 ## How to make Polycaprolactam
 
