@@ -1,7 +1,10 @@
 # Sulfuric Acid
 
+Once of the first acids you'll ever make, and the first of many. Sulfuric acid is mandatory in <mv>MV</mv> , as it is needed to create Polyethelyne, a basic plastic. However you can optionally make use of the acid in <lv>LV</lv> to make etching fluids.
+
 ## How to make Sulfuric Acid
 
+This is the first way that you will make sulfuric acid
 
 ```mermaid
 flowchart LR;
@@ -13,13 +16,13 @@ flowchart LR;
 
     C@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Acids/H2SO4_img/large_chemical_reactor_sulfuric_acid_from_trioxide.png", label: "Wet sulfur trioxide", pos: "t", w: 120, h: 120, constraint: "on" }
 
-    D[Oxygen]
+    D@{ shape: lean-r, label: "Oxygen" }
 
-    E[Water]
+    E@{ shape: lean-r, label: "Water" }
 
-    F[Sulfur]
+    F@{ shape: lean-r, label: "Sulfur" }
 
-    G[Sulfuric Acid]
+    G@{ shape: lean-l, label: "Sulfuric Acid" }
 
     A --Sulfur Dioxide--> B --Sulfur Trioxide--> C;
 
@@ -30,10 +33,36 @@ flowchart LR;
     C --> G
 ```
 
-#### Option 2: Combine Hydrogen Sulfide and Oxygen (LCR Cir 2)
-
-![hso](H2SO4_img/large_chemical_reactor_sulfuric_acid_from_sulfide.png)
-
-#### Option 3: Combine Water and Sulfur Dust <hv>(HV LCR Cir 24)</hv>
+In <hv>HV</hv> , after obtaining the LCR, you can make use of its chemical skips to do it all in 1 recipe, as seen bellow. 
 
 ![sh2o](H2SO4_img/large_chemical_reactor_sulfuric_acid_from_sulfur.png)
+
+Later on, in <zpm>ZPM</zpm>, you can use the chemical plant instead.
+
+![sh2o](H2SO4_img/chemical_plant_sulfuric_acid.png)
+
+You should definitely dedicate an LCR/Chem Plant to just making sulfuric acid. Having a dedicated storage (usually a fluid cell), is also recommended.
+
+## Alternate sources
+### Option 1: Hydrogen sulfide (LCR Cir 2)
+
+You can react Hydrogen Sulfide with Oxygen in the LCR to obtain easy Sulfuric Acid. Its a good supplementary source if you happen to have some extra lying around.
+
+![Hydrogen_Sulfide](H2SO4_img/large_chemical_reactor_sulfuric_acid_from_sulfide.png)
+
+### Option 2: Smelting ores in the EBF for Sulfur Dioxide
+
+There are a handful of ore dusts (Sphalerite, Pyrite, Galena, Stibnite, Tetrahedrite, Pentlandite, Cobaltite, Chalcopyrite), that when smelted in an EBF with Oxygen, produce a pure dust alongside Sulfur Dioxide. 
+
+![Electric_Blast_Furnace_Ore](H2SO4_img/electric_blast_furnace_sulfuric_acid.png)
+
+### Other options
+
+There are a number of recipes that give sulfuric acid as byproducts. Not all of them are important or viable. A few examples of such recipes are:
+
+- Sulfuric nickel solution electrolysis (See Platline)
+
+- Triglycol Dichloride reaction
+
+Among others. 
+

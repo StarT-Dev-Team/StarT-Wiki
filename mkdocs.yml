@@ -23,9 +23,8 @@ theme:
     - content.tabs.link
     - content.code.copy 
     - navigation.indexes
-
-
-
+    - navigation.instant
+    - navigation.instant.prefetch
 
   palette:
     # Light Mode
@@ -49,6 +48,7 @@ theme:
 markdown_extensions:
   - toc:
   - attr_list
+  - def_list
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -75,12 +75,15 @@ markdown_extensions:
       alternate_style: true
   - admonition
   - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 plugins:
   - search
   - mermaid2:
         version: '10.1.0'
-  - panzoom
+  - panzoom:
+       full_screen: True
 
 
 extra_css:
