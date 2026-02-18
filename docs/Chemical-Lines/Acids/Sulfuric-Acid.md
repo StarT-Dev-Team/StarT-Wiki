@@ -46,9 +46,9 @@ Later on, in <zpm>ZPM</zpm>, you can use the chemical plant instead.
 You should definitely dedicate an LCR/Chem Plant to just making sulfuric acid. Having a dedicated storage (usually a fluid cell), is also recommended.
 
 ## Alternate sources
-### Option 1: Hydrogen sulfide (LCR Cir 2)
+### Option 1: Hydrogen sulfide
 
-You can react Hydrogen Sulfide with Oxygen in the LCR to obtain easy Sulfuric Acid. Its a good supplementary source if you happen to have some extra lying around.
+You can react Hydrogen Sulfide with Oxygen in the LCR easily get some Sulfuric Acid. Its a good supplementary source if you happen to have some extra lying around.
 
 ![Hydrogen_Sulfide](H2SO4_img/large_chemical_reactor_sulfuric_acid_from_sulfide.png)
 
