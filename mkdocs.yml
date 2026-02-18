@@ -24,12 +24,7 @@ theme:
     - content.code.copy 
     - navigation.indexes
 
-  plugins:
-    - search
-    - mermaid2:
-        arguments:
-          theme: |
-            ^(JSON.parse(__md_get("__palette").index == 1)) ? 'dark' : 'light'
+
 
 
   palette:
@@ -67,17 +62,32 @@ markdown_extensions:
       custom_fences:
         - name: mermaid
           class: mermaid
-          format: !!python/name:mermaid2.fence_mermaid_custom
+          format: !!python/name:pymdownx.superfences.fence_code_format
+          config:
+            theme: 'base'
+            themeVariables:
+              primaryColor: '#fff'
+              primaryTextColor: '#fff'
+              primaryBorderColor: '#7e56c2'
+              lineColor: '#F8B195'
+              fontSize: '16px'
   - pymdownx.tabbed:
       alternate_style: true
   - admonition
   - pymdownx.details
 
+plugins:
+  - search
+  - mermaid2:
+        version: '10.1.0'
+  - panzoom
+
+
 extra_css:
     - assets/styles/styles.css
 
 extra_javascript:
-    - extra/refresh_on_toggle_dark_light.js
+    - https://unpkg.com/mermaid/dist/mermaid.min.js
 
 
 nav:
@@ -117,12 +127,12 @@ nav:
         - Silicone Rubber: Chemical-Lines/Rubbers/Silicone-Rubber.md
         - Styrene Butadiene: Chemical-Lines/Rubbers/Styrene-Butadiene.md
     - Acids: 
+        - Sulfuric Acid: Chemical-Lines/Acids/Sulfuric-Acid.md 
         - Acetic Acid: Chemical-Lines/Acids/Acetic-Acid.md
         - Formic Acid: Chemical-Lines/Acids/Formic-Acid.md
         - Hydrochloric Acid: Chemical-Lines/Acids/Hydrochloric-Acid.md
         - Hydrofluoric Acid: Chemical-Lines/Acids/Hydrofluoric-Acid.md
-        - Nitric Acid: Chemical-Lines/Acids/Nitric-Acid.md
-        - Sulfuric Acid: Chemical-Lines/Acids/Sulfuric-Acid.md   
+        - Nitric Acid: Chemical-Lines/Acids/Nitric-Acid.md 
 
 - Multiblocks:
     - LV Multiblocks: Mechanics/GregTech/Multiblocks/LV/LV-Multis.md
