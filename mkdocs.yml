@@ -80,10 +80,10 @@ markdown_extensions:
 
 plugins:
   - search
-  - mermaid2:
-        version: '10.1.0'
   - panzoom:
-       full_screen: True
+      full_screen: True
+  - mermaid2:
+      version: '10.1.0'
 
 
 extra_css:
