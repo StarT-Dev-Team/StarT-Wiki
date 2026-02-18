@@ -1,6 +1,6 @@
 # Sulfuric Acid
 
-Once of the first acids you'll ever make, and the first of many. Sulfuric acid is mandatory in <mv>MV</mv> , as it is needed to create Polyethelyne, a basic plastic. However you can optionally make use of the acid in <lv>LV</lv> to make etching fluids.
+Once of the first acids you'll ever make, and the first of many. Sulfuric acid is mandatory in <mv>MV</mv> , as it is needed to create [Polyethelyne](/StarT-Wiki/Chemical-Lines/Plastics/Polyethylene/), a basic plastic. However you can optionally make use of the acid in <lv>LV</lv> to make etching fluids.
 
 ## How to make Sulfuric Acid
 
@@ -10,27 +10,29 @@ This is the first way that you will make sulfuric acid
 flowchart LR;
     %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent' }}}%%
 
-    A@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Acids/H2SO4_img/large_chemical_reactor_sulfur_dioxide_from_sulfur.png", label: "React sulfur and oxygen", pos: "t", w: 120, h: 120, constraint: "on" }
+    A@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Acids/H2SO4_img/large_chemical_reactor_sulfur_dioxide_from_sulfur.png", label: "Chemical Reactor", pos: "t", w: 200, h: 200, constraint: "on" }
 
-    B@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Acids/H2SO4_img/large_chemical_reactor_sulfur_trioxide.png", label: "React sulfur dioxide and oxygen", pos: "t", w: 120, h: 120, constraint: "on" }
+    B@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Acids/H2SO4_img/large_chemical_reactor_sulfur_trioxide.png", label: "Chemical Reactor", pos: "t", w: 200, h: 200, constraint: "on" }
 
-    C@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Acids/H2SO4_img/large_chemical_reactor_sulfuric_acid_from_trioxide.png", label: "Wet sulfur trioxide", pos: "t", w: 120, h: 120, constraint: "on" }
+    C@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Acids/H2SO4_img/large_chemical_reactor_sulfuric_acid_from_trioxide.png", label: "Chemical Reactor", pos: "t", w: 200, h: 200, constraint: "on" }
 
-    D@{ shape: lean-r, label: "Oxygen" }
+    D@{ shape: lean-r, label: "2b Oxygen" }
 
-    E@{ shape: lean-r, label: "Water" }
+    E@{ shape: lean-r, label: "1b Water" }
 
-    F@{ shape: lean-r, label: "Sulfur" }
+    F@{ shape: lean-r, label: "1x Sulfur" }
 
-    G@{ shape: lean-l, label: "Sulfuric Acid" }
+    G@{ shape: lean-l, label: "1b Sulfuric Acid" }
 
-    A --Sulfur Dioxide--> B --Sulfur Trioxide--> C;
+    H@{ shape: lean-r, label: "1b Oxygen" }
+
+    A --1b Sulfur Dioxide--> B --1b Sulfur Trioxide--> C;
 
     D --> A
     F --> A
-    D --> B
     E --> C
     C --> G
+    H --> B
 ```
 
 In <hv>HV</hv> , after obtaining the LCR, you can make use of its chemical skips to do it all in 1 recipe, as seen bellow. 
@@ -65,4 +67,3 @@ There are a number of recipes that give sulfuric acid as byproducts. Not all of 
 - Triglycol Dichloride reaction
 
 Among others. 
-

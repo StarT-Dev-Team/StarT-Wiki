@@ -117,10 +117,10 @@ nav:
 
 - Chemical/Processing Lines:
     - Plastics:
+        - Polyethylene: Chemical-Lines/Plastics/Polyethylene.md
         - Polyether Ether Ketone: Chemical-Lines/Plastics/PEEK.md
         - Polybenzimidazole: Chemical-Lines/Plastics/Polybenzimidazole.md
         - Polycaprolactam: Chemical-Lines/Plastics/Polycaprolactam.md
-        - Polyethylene: Chemical-Lines/Plastics/Polyethylene.md
         - Polyphenylene Sulfide: Chemical-Lines/Plastics/Polyphenylene-Sulfide.md
         - Polytetrafluoroethylene: Chemical-Lines/Plastics/Polytetrafluoroethylene.md
         - Polyvinyl Butyral: Chemical-Lines/Plastics/Polyvinyl-Butyral.md
