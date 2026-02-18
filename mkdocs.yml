@@ -80,9 +80,9 @@ markdown_extensions:
 
 plugins:
   - search
-  - panzoom:
-      full_screen: True
   - mermaid2
+  - panzoom:
+    full_screen: True
 
 
 extra_css:
