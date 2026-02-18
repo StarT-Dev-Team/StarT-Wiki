@@ -80,14 +80,13 @@ markdown_extensions:
 
 plugins:
   - search
-  - mermaid2:
-        version: '10.1.0'
   - panzoom:
        full_screen: True
 
 
 extra_css:
     - assets/styles/styles.css
+    - assets/styles/extra.css
 
 extra_javascript:
     - https://unpkg.com/mermaid/dist/mermaid.min.js
