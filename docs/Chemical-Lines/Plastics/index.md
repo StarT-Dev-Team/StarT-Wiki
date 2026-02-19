@@ -5,4 +5,4 @@ Plastics comprise a wide range of synthetic/semisynthetic materials composed pri
 As you progress up the voltage tiers, you unlock more and more complex and advanced plastics, used for things both new and old. You will often find that user higher tier plastics grant more yield, such as when covering cables.
 
 ![Polybenzimidazole Monomer](polybenzimidazole_monomer.png)
-^An example of a plastic monomer. Image from the [Gregtech Molecule Drawings mod](https://www.curseforge.com/minecraft/mc-mods/gregtech-molecule-drawings)^
+^An example of a plastic monomer. Image from the [Gregtech Molecule Drawings](https://www.curseforge.com/minecraft/mc-mods/gregtech-molecule-drawings) mod^
