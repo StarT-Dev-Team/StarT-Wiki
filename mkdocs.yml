@@ -117,6 +117,7 @@ nav:
 
 - Chemical/Processing Lines:
     - Plastics:
+        - 'Chemical-Lines/Plastics/index.md'
         - Polyethylene: Chemical-Lines/Plastics/Polyethylene.md
         - Polyether Ether Ketone: Chemical-Lines/Plastics/PEEK.md
         - Polybenzimidazole: Chemical-Lines/Plastics/Polybenzimidazole.md
