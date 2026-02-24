@@ -1,69 +1,75 @@
 # Polyethylene (PE)
 
-Polyethylene is a kind of plastic that is widely used in assembling recipes.
+Polyethylene is the first plastic that you will make. Its main component is ethanol.
 
 ## How to make Polyethylene
 
-**Firstly, Ethanol is a key component in making polyethylene and there are two ways to make it.**
-***The first way of making ethanol:***
+### Making Ethanol
 
-Step **1a**: Input biochaff and water inside of a **Pyrolyse Oven** on Circuit **1** to obtain **biomass**. (Minimum Energy Tier required : <LV>**LV**</LV>)
+There are 2 ways to go about it, using either Create ethanol, or Gregtech ethanol. 
 
-![How to make biomass](PE_img/pyrolyse_oven_bio_chaff_to_biomass.png)
+Create is good as an early game source, not requiring electricity, and easily automated with just a few pipes. However it doesn't scale very well (especially in terms of space). Thus if you find yourself running out of ethanol, it may be best to switch to the Gregtech method instead. Both guides will assume you have some source of sugarcane automation setup.
 
-***Step 1.5: You can also use the <LV>LV Brewery</LV> to make Biomass from plants and water.*** 
+#### The Create Method
 
-![How to make biomass](PE_img/brewery_biomass_from_glow_berries.png)
+```mermaid
+flowchart LR
+    %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent', 'labelBkgBackground' : 'transparent' }}}%%
 
+    A@{ img: "http://127.0.0.1:8000/StarT-Wiki/Chemical-Lines/Plastics/PE_img/_createdieselgenerators_basin_fermenting_fermentable.png", label: "Create Basin (Lid on!)", pos: "t", w: 200, h: 200, constraint: "on" }
 
-Step **2a** : Distill biomass inside a <MV>**MV Distillery**</MV> on Circuit **1** to obtain ethanol. (Minimum Energy Tier required : <MV>**MV**</MV>)
+    B@{ img: "http://127.0.0.1:8000/StarT-Wiki/Chemical-Lines/Plastics/PE_img/composting_sugar_cane_2.png", label: "Thermal Composter", pos: "t", w: 200, h: 200, constraint: "on" }
 
-![How to make ethanol](PE_img/distillery_distill_biomass_to_ethanol.png)
+    C@{ shape: lean-r, label: "Sugarcane" }
 
-***The second way of making ethanol:***
+    D@{ shape: lean-l, label: "Ethanol" }
 
-Step **1b**: Input biochaff and water inside of a **Pyrolyse Oven** on Circuit **2** to obtain **fermented biomass**. (Minimum Energy Tier required : <LV>**LV**</LV>)
+    B --Bonemeal--> A --> D
+    C --> A
+```
 
-![How to make fermented biomass](PE_img/pyrolyse_oven_bio_chaff_to_fermented_biomass.png)
+#### Gregtech Ethanol
 
-Step **2b** : Distill **fermented biomass** inside a <MV>**MV Distillery**</MV> on Circuit **3** to obtain ethanol. (Minimum Energy Tier required : <MV>**MV**</MV>)
+=== "Biomass"
 
-![How to make ethanol(2)](PE_img/distillery_distill_fermented_biomass_to_ethanol.png)
+    ![Biomass_Distillation](PE_img\distillery_distill_biomass_to_ethanol.png)
 
-***Note that ethanol is also obtainable through Create Basins.***
-
-**After obtaining ethanol, the way of making polyethylene is basically the same.**
-
-Step 3 : Chemically react **Ethanol** and **Sulfuric Acid** inside a <MV>**MV Chemical Reactor**</MV> to make Ethylene. (Minimum Energy Tier required : <MV>**MV**</MV>)
-
-![How to make ethylene](PE_img/chemical_reactor_ethylene_from_ethanol.png)
-
-**After Step 3, based on your material situation, you can choose either using Oxygen or Air to make Polyethylene.**
-
-Step **4** : Chemically react **Ethylene** and **Oxygen/Air** inside a <LV>**LV Chemical Reactor**</LV> to make Polyethylene. (Minimum Energy Tier required : <LV>**LV**</LV>)
-
-![How to make polyethylene](PE_img/chemical_reactor_polyethylene_from_air.png)
-
-![How to make polyethylene(2)](PE_img/chemical_reactor_polyethylene_from_oxygen.png)
+    The main and most viable source of GT ethanol early game. There is no need to use the distillation tower at <hv>HV</hv>, as the only extra product is water.
 
 
+=== "Wood Vinegar"
+
+![Wood_Vinegar_Distillation](PE_img\distillation_tower_distill_wood_vinegar.png)
+
+    You will most likely have this set up as a part of Charcoal byproduct distillation, around <ev>EV</ev>. While it isn't a direct source of ethanol, your demand would have gone down at this stage, so it is sufficient.
+
+
+=== "Fermented Biomass"
+
+    ![Fermented_Biomass_Distillation](PE_img\distillation_tower_distill_fermented_biomass.png)
+
+    Really not worth setting this up for ethanol, as there are better sources. Even if you do use a distillation tower for the other byproducts, there are better sources of those too.
+
+### Making Polyethylene
+
+After obtaining Ethanol, it isn't much harder to get Polyethylene. 
+
+First, you have to react [Sulfuric Acid](Chemical-Lines/Acids/Sulfuric-Acid/) with Ethanol to get Ethylene.
+
+Then, you simply Polymerise it (Again in a chemical reactor), with either air or oxygen.
 
 ## Uses of Polyethylene
 
-Polyethylene is used in various assembling recipes such as SMD components.
-
-**Inductor**
+Polyethylene is used in various assembling recipes such as SMD components. 
 
 ![Example recipe of Polyethylene](PE_img/assembler_inductor.png)
 
-Polyethylene can also be fluid solidified into Polyethylene sheets for further crafting uses.
+Most commonly however, it is used as a sheet in <hv>HV</hv> and <ev>EV</ev> machine hulls.
 
-![How to make polyethylene sheets](PE_img/fluid_solidifier_solidify_polyethylene_to_plate.png)
-
-**<ev>EV</ev> Machine Hull**
+<ev>EV</ev> Machine Hull
 
 ![Machine hulls](PE_img/shaped_ev_machine_hull.png)
 
-**<hv>HV</hv> Machine Hull**
+<hv>HV</hv> Machine Hull
 
 ![Machine hulls(2)](PE_img/shaped_hv_machine_hull.png)

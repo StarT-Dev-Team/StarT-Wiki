@@ -37,7 +37,7 @@ Step **3**: Centrifuge the **Sticky Resin** into **Raw Rubber Pulp** and other b
 
 ![raw rubber pulp](Rubber_img/centrifuge_sticky_resin_separation.png)
 
-Step **3a**: You can also use an <LV> **LV Extractor** </LV> to extract **Raw Rubber PUupl** from **Leaves**.
+Step **3a**: You can also use an <LV> **LV Extractor** </LV> to extract **Raw Rubber Pulp** from **Leaves**.
 
 ![Leaves to resin](Rubber_img/extractor_raw_rubber_from_leaves.png)
 

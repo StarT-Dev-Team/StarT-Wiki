@@ -77,6 +77,9 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
 
 plugins:
   - search
@@ -122,6 +125,7 @@ nav:
     - Create Power: 'Mechanics/Energy-Generation/Carbon-Brushes-and-Magnets.md'
 
 - Chemical/Processing Lines:
+    - Chemical-Lines/index.md
     - Plastics: 
         - Chemical-Lines/Plastics/index.md
         - Polyethylene: Chemical-Lines/Plastics/Polyethylene.md
