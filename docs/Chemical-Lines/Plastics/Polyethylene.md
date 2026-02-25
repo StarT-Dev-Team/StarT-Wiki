@@ -24,9 +24,9 @@ Thus if you find yourself running out of ethanol, it may be best to switch to th
 flowchart LR
     %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent', 'labelBkgBackground' : 'transparent' }}}%%
 
-    A@{ img: "http://127.0.0.1:8000/StarT-Wiki/Chemical-Lines/Plastics/PE_img/_createdieselgenerators_basin_fermenting_fermentable.png", label: "Create Basin (Lid on!)", pos: "t", w: 200, h: 200, constraint: "on" }
+    A@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PE_img/_createdieselgenerators_basin_fermenting_fermentable.png", label: "Create Basin (Lid on!)", pos: "t", w: 200, h: 200, constraint: "on" }
 
-    B@{ img: "http://127.0.0.1:8000/StarT-Wiki/Chemical-Lines/Plastics/PE_img/composting_sugar_cane_2.png", label: "Thermal Composter", pos: "t", w: 200, h: 200, constraint: "on" }
+    B@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PE_img/composting_sugar_cane_2.png", label: "Thermal Composter", pos: "t", w: 200, h: 200, constraint: "on" }
 
     C@{ shape: lean-r, label: "Sugarcane" }
 
@@ -43,21 +43,21 @@ flowchart LR
 
     === "Biomass"
 
-        ![Biomass_Distillation](PE_img\distillery_distill_biomass_to_ethanol.png)
+        ![Biomass_Distillation](PE_img/distillery_distill_biomass_to_ethanol.png)
 
         The main and most viable source of GT ethanol early game. There is no need to use the distillation tower at <hv>HV</hv>, as the only extra product is water.
 
 
     === "Wood Vinegar"
 
-        ![Wood_Vinegar_Distillation](PE_img\distillation_tower_distill_wood_vinegar.png)
+        ![Wood_Vinegar_Distillation](PE_img/distillation_tower_distill_wood_vinegar.png)
 
         You will most likely have this set up as a part of Charcoal byproduct distillation, around <ev>EV</ev>. While it isn't a direct source of ethanol, your demand would have gone down at this stage, so it is sufficient.
 
 
     === "Fermented Biomass"
 
-        ![Fermented_Biomass_Distillation](PE_img\distillation_tower_distill_fermented_biomass.png)
+        ![Fermented_Biomass_Distillation](PE_img/distillation_tower_distill_fermented_biomass.png)
 
         Really not worth setting this up for ethanol, as there are better sources. Even if you do use a distillation tower for the other byproducts, there are better sources of those too.
 
@@ -81,7 +81,7 @@ Then, you simply Polymerise it (Again in a chemical reactor), with either air or
 
     === "Oxygen"
 
-        ![Polyethylene_from_Oxygen](PE_img\chemical_reactor_polyethylene_from_oxygen.png)
+        ![Polyethylene_from_Oxygen](PE_img/chemical_reactor_polyethylene_from_oxygen.png)
 
         Oxygen gives higher yield, and there's really no reason not to use this recipe.
 

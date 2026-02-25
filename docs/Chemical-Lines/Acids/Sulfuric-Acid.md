@@ -67,7 +67,7 @@ There are a handful of ore dusts (Sphalerite, Pyrite, Galena, Stibnite, Tetrahed
 
 Many recipes that uses sulfuric acid provide a byproduct, Diluted Sulfuric Acid. This liquid can be distilled to provide some of your Sulfuric Acid back, greatly reducing consumption. Don't bother using Distillation Tower. The only other byproduct is water, so be careful not to set your Distillery on the wrong circuit as well.
 
-![Sulfuric_Acid_Recycling](H2SO4_img\distillery_distill_dilute_sulfuric_to_sulfuric_acid_2.png)
+![Sulfuric_Acid_Recycling](H2SO4_img/distillery_distill_dilute_sulfuric_to_sulfuric_acid_2.png)
 
 ### Other options
 
