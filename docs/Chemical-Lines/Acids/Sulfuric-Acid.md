@@ -1,13 +1,18 @@
-# Sulfuric Acid
+---
+title: Sulfuric Acid
+author: ME Item Storage Cell
+---
 
-Once of the first acids you'll ever make, and the first of many. Sulfuric acid is mandatory in <mv>MV</mv> , as it is needed to create [Polyethylene](/StarT-Wiki/Chemical-Lines/Plastics/Polyethylene/), a basic plastic. However you can optionally make use of the acid in <lv>LV</lv> to make etching fluids.
+# Sulfuric Acid (H~2~SO~4~)
+
+One of the first acids you'll ever make, and the first of many. Sulfuric acid  is mandatory in <mv>MV</mv> , as it is needed to create [Polyethylene](/StarT-Wiki/Chemical-Lines/Plastics/Polyethylene/), a basic plastic. However you can optionally make use of the acid in <lv>LV</lv> to make etching fluids.
 
 ## How to make Sulfuric Acid
 
 This is the first way that you will make sulfuric acid
 
 ```mermaid
-flowchart LR;
+flowchart LR
     %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent', 'labelBkgBackground' : 'transparent' }}}%%
 
     A@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Acids/H2SO4_img/large_chemical_reactor_sulfur_dioxide_from_sulfur.png", label: "Chemical Reactor", pos: "t", w: 200, h: 200, constraint: "on" }
@@ -26,7 +31,7 @@ flowchart LR;
 
     H@{ shape: lean-r, label: "1b Oxygen" }
 
-    A --1b Sulfur Dioxide--> B --1b Sulfur Trioxide--> C;
+    A --1b Sulfur Dioxide--> B --1b Sulfur Trioxide--> C
 
     D --> A
     F --> A
@@ -35,18 +40,18 @@ flowchart LR;
     H --> B
 ```
 
-In <hv>HV</hv> , after obtaining the LCR, you can make use of its chemical skips to do it all in 1 recipe, as seen bellow. 
+In <hv>HV</hv> , after obtaining the LCR, you can make use of its chemical skips to do it all in 1 recipe, as seen below. 
 
-![sh2o](H2SO4_img/large_chemical_reactor_sulfuric_acid_from_sulfur.png)
+![LCR_H2SO4](H2SO4_img/large_chemical_reactor_sulfuric_acid_from_sulfur.png)
 
 Later on, in <zpm>ZPM</zpm>, you can use the chemical plant instead.
 
-![sh2o](H2SO4_img/chemical_plant_sulfuric_acid.png)
+![Chem_Plant_H2SO4](H2SO4_img/chemical_plant_sulfuric_acid.png)
 
 You should definitely dedicate an LCR/Chem Plant to just making sulfuric acid. Having a dedicated storage (usually a fluid cell), is also recommended.
 
 ## Alternate sources
-### Option 1: Hydrogen sulfide
+### Option 1: Hydrogen Sulfide
 
 You can react Hydrogen Sulfide with Oxygen in the LCR easily get some Sulfuric Acid. Its a good supplementary source if you happen to have some extra lying around.
 
@@ -58,6 +63,12 @@ There are a handful of ore dusts (Sphalerite, Pyrite, Galena, Stibnite, Tetrahed
 
 ![Electric_Blast_Furnace_Ore](H2SO4_img/electric_blast_furnace_sulfuric_acid.png)
 
+### Option 3: Recycling
+
+Many recipes that uses sulfuric acid provide a byproduct, Diluted Sulfuric Acid. This liquid can be distilled to provide some of your Sulfuric Acid back, greatly reducing consumption. Don't bother using Distillation Tower. The only other byproduct is water, so be careful not to set your Distillery on the wrong circuit as well.
+
+![Sulfuric_Acid_Recycling](H2SO4_img\distillery_distill_dilute_sulfuric_to_sulfuric_acid_2.png)
+
 ### Other options
 
 There are a number of recipes that give sulfuric acid as byproducts. Not all of them are important or viable. A few examples of such recipes are:
@@ -67,3 +78,7 @@ There are a number of recipes that give sulfuric acid as byproducts. Not all of 
 - Triglycol Dichloride reaction
 
 Among others. 
+
+**Author:** ME Item Storage Cell
+
+<small>**Author:** ME Item Storage Cell</small>

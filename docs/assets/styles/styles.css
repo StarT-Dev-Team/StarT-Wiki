@@ -1,21 +1,58 @@
-ULV { color: #555; }
-LV { color: #AAA; }
-MV { color: #5FF; }
-HV { color: #FFAA00; }
-EV { color: #A0A; }
-IV { color: #55F; }
-LuV { color: #F5F; }
-ZPM { color: #F55; }
-UV { color: #56785f; }
-UHV { color: #A00; }
-UEV { color: #5F5; }
-UIV { color: #0A0; }
-.md-content a[href$="Sulfuric Acid"] { color: #d5600a; text-decoration-line: underline} 
-.md-content a[href$="Nitric Acid"] { color: #a9a90f; text-decoration-line: underline} 
-.md-content a[href$="Titanium Tetrachloride"] { color: #9db3b3; text-decoration-line: underline} 
-.md-content a[href$="Acetic Acid"] { color: #ae9d8d; text-decoration-line: underline} 
-.md-content a[href$="Hydrochloric Acid"] { color: #ba9292; text-decoration-line: underline} 
-.md-content a[href$="Hydrofluoric Acid"] { color: #1c8ca8; text-decoration-line: underline} 
-.md-content a[href$="Hydrogen"] { color: #292cd5; text-decoration-line: underline} 
-.md-content a[href$="Oxygen"] { color: #4d9ac1; text-decoration-line: underline} 
-.md-content a[href$="Nitrogen"] { color:rgb(10, 211, 177); text-decoration-line: underline} 
+ULV { 
+    color: #555;
+    font-weight: bold; 
+}
+LV { 
+    color: #AAA; 
+    font-weight: bold;
+}
+MV { 
+    color: #5FF; 
+    font-weight: bold;
+}
+HV { 
+    color: #FFAA00; 
+    font-weight: bold;
+}
+EV { 
+    color: #A0A; 
+    font-weight: bold;
+}
+
+IV { 
+    color: #55F; 
+    font-weight: bold;
+}
+LuV { 
+    color: #F5F; 
+    font-weight: bold;
+}
+ZPM { 
+    color: #F55; 
+    font-weight: bold;
+}
+UV { 
+    color: #56785f; 
+    font-weight: bold;
+}
+UHV { 
+    color: #A00; 
+    font-weight: bold;
+}
+UEV { 
+    color: #5F5; 
+    font-weight: bold;
+}
+UIV { 
+    color: #0A0; 
+    font-weight: bold;
+}
+.md-content a[href$="Sulfuric-Acid" i] { color: #d5600a; text-decoration-line: underline} 
+.md-content a[href$="Nitric-Acid" i] { color: #a9a90f; text-decoration-line: underline} 
+.md-content a[href$="Titanium-Tetrachloride" i] { color: #9db3b3; text-decoration-line: underline} 
+.md-content a[href$="Acetic-Acid" i] { color: #ae9d8d; text-decoration-line: underline} 
+.md-content a[href$="Hydrochloric-Acid" i] { color: #ba9292; text-decoration-line: underline} 
+.md-content a[href$="Hydrofluoric-Acid" i] { color: #1c8ca8; text-decoration-line: underline} 
+.md-content a[href$="Hydrogen" i] { color: #292cd5; text-decoration-line: underline} 
+.md-content a[href$="Oxygen" i] { color: #4d9ac1; text-decoration-line: underline} 
+.md-content a[href$="Nitrogen" i] { color:rgb(10, 211, 177); text-decoration-line: underline} 

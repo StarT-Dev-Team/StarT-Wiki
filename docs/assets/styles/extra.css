@@ -1,3 +1,5 @@
-#__mermaid_0 .labelBkg {
-  background-color:rgba(0, 0, 0, 0);
+.md-author {
+    font-size: 0.8em;
+    color: gray;
+    margin-top: 0.2em;
 }

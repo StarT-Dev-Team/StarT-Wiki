@@ -1,0 +1,11 @@
+{# overrides/partials/title.html #}
+<div class="md-title">
+  <h1>{{ page.title }}</h1>
+
+  {# Optional author info from YAML front matter #}
+  {% if page.meta.author %}
+    <p class="md-author" style="font-size: 0.8em; color: gray; margin-top: 0.2em;">
+      {{ page.meta.author }}
+    </p>
+  {% endif %}
+</div>

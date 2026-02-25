@@ -5,6 +5,7 @@ repo_url: https://github.com/StarT-Dev-Team/Star-Technology
 use_directory_urls: true
 theme:
   name: material
+  custom_dir: overrides
   font:
     text: Merriweather Sans
     code: Red Hat Mono
@@ -77,6 +78,9 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
 
 plugins:
   - search
@@ -110,21 +114,31 @@ nav:
         - Nitrogen: 'Resources/Resource-Production/Nitrogen.md'
         - Oxygen: 'Resources/Resource-Production/Oxygen.md'
     - Resource Production Machine Lines:
+        - Sieving: Resources/Resource-Production-Machines-Lines/Sieving.md
+        - Void Extraction: Resources/Resource-Production-Machines-Lines/Void-Extraction.md
+        - Rock Filtration: Resources/Resource-Production-Machines-Lines/Rock-Filtration.md
+        - Air Distilation: Resources/Resource-Production-Machines-Lines/Air-Distilation.md
         - Drilling Rigs: 'Resources/Resource-Production-Machines-Lines/Drilling Rigs.md'
+        - Wood Distilation: Resources/Resource-Production-Machines-Lines/Wood-Distilation
+        - Barrel: Resources/Resource-Production-Machines-Lines/Industrial-Barrel.md
 
 - Power Gen:
     - Create Power: 'Mechanics/Energy-Generation/Carbon-Brushes-and-Magnets.md'
 
 - Chemical/Processing Lines:
-    - Plastics:
+    - Chemical-Lines/index.md
+
+    - Plastics: 
+        - Chemical-Lines/Plastics/index.md
         - Polyethylene: Chemical-Lines/Plastics/Polyethylene.md
-        - Polyether Ether Ketone: Chemical-Lines/Plastics/PEEK.md
-        - Polybenzimidazole: Chemical-Lines/Plastics/Polybenzimidazole.md
-        - Polycaprolactam: Chemical-Lines/Plastics/Polycaprolactam.md
-        - Polyphenylene Sulfide: Chemical-Lines/Plastics/Polyphenylene-Sulfide.md
-        - Polytetrafluoroethylene: Chemical-Lines/Plastics/Polytetrafluoroethylene.md
-        - Polyvinyl Butyral: Chemical-Lines/Plastics/Polyvinyl-Butyral.md
         - Polyvinyl Chloride: Chemical-Lines/Plastics/Polyvinyl-Chloride.md
+        - Polytetrafluoroethylene: Chemical-Lines/Plastics/Polytetrafluoroethylene.md
+        - Polycaprolactam: Chemical-Lines/Plastics/Polycaprolactam.md
+        - Polyvinyl Butyral: Chemical-Lines/Plastics/Polyvinyl-Butyral.md
+        - Polybenzimidazole: Chemical-Lines/Plastics/Polybenzimidazole.md
+        - Polyether Ether Ketone: Chemical-Lines/Plastics/PEEK.md
+        
+    
     - Rubbers:
         - Latex Rubber: Chemical-Lines/Rubbers/Rubber.md
         - Silicone Rubber: Chemical-Lines/Rubbers/Silicone-Rubber.md

@@ -63,3 +63,39 @@ This is the official and open-source wiki for the modpack Star Technology. Anyon
 
 - [Material for MkDocs reference page](https://squidfunk.github.io/mkdocs-material/reference/)
 - GitHub Docs pages for [working with forks](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) and [creating pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork)
+
+## Style Guide
+When contributing to the wiki, please follow these rules/considerations to maintain consistent formatting throughout the whole wiki
+
+1. Flowcharts
+
+    - Use mermaid flowcharts for machines/processing lines that use more than 1 recipe. do not clutter the page with image after image (Left--> Right flowcharts for short processes. Top --> Down flowcharts for processes that are long/have many branches)
+
+    - Represent processes as the JEI recipe images (Use the EMI screenshot feature).
+
+    - Don't list the whole processing line. For example, you don't need to mention how to get oxygen. Players can use JEI or look at the related page.
+
+    - Represent inputs as lean right text boxes, and outputs as lean left boxes
+
+    - Make sure to mention exact inputs and outputs. (buckets and item amounts)
+
+
+
+2. Resource production
+    - Use flowcharts
+
+    - Don't mention every single way to get something. Think of your own playthrough, or ask #beginners-chat. Only list the most relevant ways to get something 
+    
+    - For example, there is no need to list every recipe that gives hydrogen as a byproduct. Instead just mention it in brief.
+
+    - If there are multiple ways to get a resource (progression based, like radon), then list them in the order you would get them
+
+    - In short, don't mention every single way to get a resource, just the most relevant ones, in the order you unlock them.
+
+3. General notes
+
+    - Include your name on the page you created as the author. If you collaborated with someone, then include both names. If you edited a page that you didn't create, do not include your name. You may include your name in the credits page as a contributor
+
+    - In your screenshots do not use mods that are not available in the pack and you added yourself. Avoid using texture packs.
+    
+    - Don't include things from other packs (such as comparisons). This is purely StarT wiki
