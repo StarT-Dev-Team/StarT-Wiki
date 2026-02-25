@@ -1,5 +1,5 @@
-.page-author {
-  margin-top: 0.25rem;
-  font-size: 0.8rem;
-  color: var(--md-default-fg-color--light);
+.md-author {
+    font-size: 0.8em;
+    color: gray;
+    margin-top: 0.2em;
 }

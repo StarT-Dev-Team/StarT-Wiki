@@ -1,7 +1,8 @@
 ---
-title: Polyethylene (PE)
+title: Polyethylene
 author: ME Item Storage Cell
 ---
+
 # Polyethylene (PE)
 
 Polyethylene is the first plastic that you will make. Its main component is ethanol.
@@ -100,4 +101,4 @@ Most commonly however, it is used as a sheet in <hv>HV</hv> and <ev>EV</ev> mach
 
 ![Machine hulls(2)](PE_img/shaped_hv_machine_hull.png)
 
-**Author:** ME Item Storage Cell
+<small>**Author:** ME Item Storage Cell</small>

@@ -1,5 +1,5 @@
 ---
-title: Polyethylene (PE)
+title: Sulfuric Acid
 author: ME Item Storage Cell
 ---
 
@@ -80,3 +80,5 @@ There are a number of recipes that give sulfuric acid as byproducts. Not all of 
 Among others. 
 
 **Author:** ME Item Storage Cell
+
+<small>**Author:** ME Item Storage Cell</small>

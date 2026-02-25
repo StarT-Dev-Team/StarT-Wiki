@@ -1,9 +1,0 @@
-{% extends "partials/page-title.html" %}
-
-{% block page_title %}
-  {{ super() }}
-
-  {% if page.meta.author %}
-    <p class="page-author">By {{ page.meta.author }}</p>
-  {% endif %}
-{% endblock %}
