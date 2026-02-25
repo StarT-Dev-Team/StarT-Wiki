@@ -4,6 +4,7 @@ author: ME Item Storage Cell
 ---
 
 # Polyethylene (PE)
+<small>**Guide By:** ME Item Storage Cell</small>
 
 Polyethylene is the first plastic that you will make. Its main component is ethanol.
 
@@ -52,14 +53,14 @@ flowchart LR
 
         ![Wood_Vinegar_Distillation](PE_img\distillation_tower_distill_wood_vinegar.png)
 
-        You will most likely have this set up as a part of Charcoal byproduct distillation, around <ev>EV</ev>. While it isn't a direct source of ethanol, your demand would have gone down at this stage, so it is sufficient.
+        You will most likely have this set up as a part of Charcoal byproduct distillation, around <ev>EV</ev>. While it isn't a direct source of ethanol, your demand would have gone down at this stage, so it's a good supplementary source.
 
 
     === "Fermented Biomass"
 
         ![Fermented_Biomass_Distillation](PE_img\distillation_tower_distill_fermented_biomass.png)
 
-        Really not worth setting this up for ethanol, as there are better sources. Even if you do use a distillation tower for the other byproducts, there are better sources of those too.
+        Not worth setting up in <mv>MV</mv>, as it gives less ethanol than normal Biomass. But in <hv>HV</hv>, it does give other useful byproducts like methane in the Distillation Tower, so its really up to you if you set it up.
 
 
 ### Making Polyethylene
@@ -101,4 +102,3 @@ Most commonly however, it is used as a sheet in <hv>HV</hv> and <ev>EV</ev> mach
 
 ![Machine hulls(2)](PE_img/shaped_hv_machine_hull.png)
 
-<small>**Author:** ME Item Storage Cell</small>
