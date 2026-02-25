@@ -33,6 +33,7 @@ flowchart LR
 
     B --Bonemeal--> A --> D
     C --> A
+    C --> B
 ```
 
 #### Gregtech Ethanol
