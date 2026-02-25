@@ -88,14 +88,14 @@ When contributing to the wiki, please follow these rules/considerations to maint
     
     - For example, there is no need to list every recipe that gives hydrogen as a byproduct. Instead just mention it in brief.
 
-    - if there are multiple ways to get a resource (progression based, like radon), then list them in the order you would get them
+    - If there are multiple ways to get a resource (progression based, like radon), then list them in the order you would get them
 
     - In short, don't mention every single way to get a resource, just the most relevant ones, in the order you unlock them.
 
 3. General notes
 
-    - include your name on the page you created as the author. If you collaborated with someone, then include both names. If you edited a page that you didn't create, do not include your name. You may include your name in the credits page as a contributor
+    - Include your name on the page you created as the author. If you collaborated with someone, then include both names. If you edited a page that you didn't create, do not include your name. You may include your name in the credits page as a contributor
 
-    - in your screenshots do not use mods that are not available in the pack and you added yourself. Avoid using texture packs.
+    - In your screenshots do not use mods that are not available in the pack and you added yourself. Avoid using texture packs.
     
-    - don't include things from other packs (such as comparisons). This is purely StarT wiki
+    - Don't include things from other packs (such as comparisons). This is purely StarT wiki

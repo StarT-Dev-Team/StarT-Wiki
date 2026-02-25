@@ -1,3 +1,7 @@
+---
+title: Polyethylene (PE)
+author: ME Item Storage Cell
+---
 # Polyethylene (PE)
 
 Polyethylene is the first plastic that you will make. Its main component is ethanol.
@@ -8,9 +12,12 @@ Polyethylene is the first plastic that you will make. Its main component is etha
 
 There are 2 ways to go about it, using either Create ethanol, or Gregtech ethanol. 
 
-Create is good as an early game source, not requiring electricity, and easily automated with just a few pipes. However it doesn't scale very well (especially in terms of space). Thus if you find yourself running out of ethanol, it may be best to switch to the Gregtech method instead. Both guides will assume you have some source of sugarcane automation setup.
+Create is good as an early game source, not requiring electricity, and easily automated with just a few pipes. However it doesn't scale very well (especially in terms of space). 
 
-#### The Create Method
+Thus if you find yourself running out of ethanol, it may be best to switch to the Gregtech method instead. Both guides will assume you have some source of sugarcane automation setup.
+
+
+#### Create Ethanol
 
 ```mermaid
 flowchart LR
@@ -30,25 +37,28 @@ flowchart LR
 
 #### Gregtech Ethanol
 
-=== "Biomass"
+!!! example ""
 
-    ![Biomass_Distillation](PE_img\distillery_distill_biomass_to_ethanol.png)
+    === "Biomass"
 
-    The main and most viable source of GT ethanol early game. There is no need to use the distillation tower at <hv>HV</hv>, as the only extra product is water.
+        ![Biomass_Distillation](PE_img\distillery_distill_biomass_to_ethanol.png)
 
-
-=== "Wood Vinegar"
-
-![Wood_Vinegar_Distillation](PE_img\distillation_tower_distill_wood_vinegar.png)
-
-    You will most likely have this set up as a part of Charcoal byproduct distillation, around <ev>EV</ev>. While it isn't a direct source of ethanol, your demand would have gone down at this stage, so it is sufficient.
+        The main and most viable source of GT ethanol early game. There is no need to use the distillation tower at <hv>HV</hv>, as the only extra product is water.
 
 
-=== "Fermented Biomass"
+    === "Wood Vinegar"
 
-    ![Fermented_Biomass_Distillation](PE_img\distillation_tower_distill_fermented_biomass.png)
+        ![Wood_Vinegar_Distillation](PE_img\distillation_tower_distill_wood_vinegar.png)
 
-    Really not worth setting this up for ethanol, as there are better sources. Even if you do use a distillation tower for the other byproducts, there are better sources of those too.
+        You will most likely have this set up as a part of Charcoal byproduct distillation, around <ev>EV</ev>. While it isn't a direct source of ethanol, your demand would have gone down at this stage, so it is sufficient.
+
+
+    === "Fermented Biomass"
+
+        ![Fermented_Biomass_Distillation](PE_img\distillation_tower_distill_fermented_biomass.png)
+
+        Really not worth setting this up for ethanol, as there are better sources. Even if you do use a distillation tower for the other byproducts, there are better sources of those too.
+
 
 ### Making Polyethylene
 
@@ -56,7 +66,22 @@ After obtaining Ethanol, it isn't much harder to get Polyethylene.
 
 First, you have to react [Sulfuric Acid](Chemical-Lines/Acids/Sulfuric-Acid/) with Ethanol to get Ethylene.
 
-Then, you simply Polymerise it (Again in a chemical reactor), with either air or oxygen.
+![Ethanol_to_Ethylene](PE_img/chemical_reactor_ethylene_from_ethanol.png)
+
+Then, you simply Polymerise it (Again in a chemical reactor), with either air or oxygen. 
+
+!!! example ""
+
+    === "Air"
+
+        ![Polyethylene_from_Air](PE_img/chemical_reactor_polyethylene_from_air.png)
+
+
+    === "Oxygen"
+
+        ![Polyethylene_from_Oxygen](PE_img\chemical_reactor_polyethylene_from_oxygen.png)
+
+        Oxygen gives higher yield, and there's really no reason not to use this recipe.
 
 ## Uses of Polyethylene
 
@@ -73,3 +98,5 @@ Most commonly however, it is used as a sheet in <hv>HV</hv> and <ev>EV</ev> mach
 <hv>HV</hv> Machine Hull
 
 ![Machine hulls(2)](PE_img/shaped_hv_machine_hull.png)
+
+**Author:** ME Item Storage Cell

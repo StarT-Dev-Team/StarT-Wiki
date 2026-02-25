@@ -1,5 +1,5 @@
-#__mermaid_0 .labelBkg {
-  background-color:rgba(0, 0, 0, 0);
+.page-author {
+  margin-top: 0.25rem;
+  font-size: 0.8rem;
+  color: var(--md-default-fg-color--light);
 }
-
-
