@@ -16,11 +16,11 @@ This is the first way that you will make sulfuric acid
 flowchart LR
     %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent', 'labelBkgBackground' : 'transparent' }}}%%
 
-    A@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Acids/H2SO4_img/large_chemical_reactor_sulfur_dioxide_from_sulfur.png", label: "Chemical Reactor", pos: "t", w: 200, h: 200, constraint: "on" }
+    A@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Acids/H2SO4_img/large_chemical_reactor_sulfur_dioxide_from_sulfur.png", label: "Chemical Reactor (LV)", pos: "t", w: 200, h: 200, constraint: "on" }
 
-    B@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Acids/H2SO4_img/large_chemical_reactor_sulfur_trioxide.png", label: "Chemical Reactor", pos: "t", w: 200, h: 200, constraint: "on" }
+    B@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Acids/H2SO4_img/large_chemical_reactor_sulfur_trioxide.png", label: "Chemical Reactor (LV)", pos: "t", w: 200, h: 200, constraint: "on" }
 
-    C@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Acids/H2SO4_img/large_chemical_reactor_sulfuric_acid_from_trioxide.png", label: "Chemical Reactor", pos: "t", w: 200, h: 200, constraint: "on" }
+    C@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Acids/H2SO4_img/large_chemical_reactor_sulfuric_acid_from_trioxide.png", label: "Chemical Reactor (LV)", pos: "t", w: 200, h: 200, constraint: "on" }
 
     D@{ shape: lean-r, label: "2b Oxygen" }
 
