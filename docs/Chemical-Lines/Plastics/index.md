@@ -13,6 +13,6 @@ For streamlined use, plastics are usually solidified as an ingot, and then extru
 
 ## Titanium Polymerisation
 
-Most plastics need to polymerise (where the poly part of the name comes from). Usually, this step requires either air or oxygen, with oxygen providing higher yield. You can also use Titanium Tetrachloride for extra yield. Using oxygen is often always enough, and you're using Titanium Tetrachloride for Titanium.
+Most plastics need to polymerise (where the poly part of the name comes from). Usually, this step requires either air or oxygen, with oxygen providing higher yield. You can also use Titanium Tetrachloride for extra yield. Using oxygen is often always enough, and you should be using Titanium Tetrachloride for Titanium.
 
 

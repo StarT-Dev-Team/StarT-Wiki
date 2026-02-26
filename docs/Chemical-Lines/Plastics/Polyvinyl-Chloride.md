@@ -1,63 +1,25 @@
 # Polyvinyl Chloride (PVC)
 
+An entirely optional plastic that you can make in <mv>MV</mv>, immediately as you make Polyethylene.
+
 ## How to make PVC
 
-Step **1a**: Chemically React *Chlorine* and *Ethylene* to make Vinyl Chloride. **(LCR Cir 1)**
+### Vinyl Chloride
+```mermaid
+flowchart LR
+    %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent', 'labelBkgBackground' : 'transparent' }}}%%
 
-![clee](PVC_img/large_chemical_reactor_vinyl_chloride_from_chlorine.png)
+    A@{ img: "http://127.0.0.1:8000/StarT-Wiki/Chemical-Lines/Plastics/PE_img/_createdieselgenerators_basin_fermenting_fermentable.png", label: "Create Basin (Lid on!)", pos: "t", w: 200, h: 200, constraint: "on" }
 
-Step **1b**: Chemically React *Oxygen*, [Hydrochloric Acid](/StarT-Wiki/Chemical-Lines/Acids/Hydrochloric-Acid/) and *Ethylene* to make Vinyl Chloride. **(LCR Cir 3)**
+    B@{ img: "http://127.0.0.1:8000/StarT-Wiki/Chemical-Lines/Plastics/PE_img/composting_sugar_cane_2.png", label: "Thermal Composter", pos: "t", w: 200, h: 200, constraint: "on" }
 
-![ohcle](PVC_img/large_chemical_reactor_vinyl_chloride_from_hydrochloric.png)
+    C@{ shape: lean-r, label: "Chlorine" }
 
-Step **2a**: Chemically React *Vinyl Chloride* and *Air/Oxygen* to make Vinyl Chloride. **(LCR Cir 1)**
+    D@{ shape: lean-l, label: "Hydrochloric Acid" }
+```
 
-***With Air***
+### Polymerisation
 
-![vca](PVC_img/large_chemical_reactor_polyvinyl_chloride_from_air.png)
+=== "Air"
 
-***With Oxygen***
-
-![vco](PVC_img/large_chemical_reactor_polyvinyl_chloride_from_oxygen.png)
-
-Step **2b**: Chemically React *Vinyl Chloride* , [Titanium Tetrachloride](/StarT-Wiki/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Titanium Tetrachloride) and *Air/Oxygen* to make Vinyl Chloride. **(LCR Cir 2)**
-
-***With Air***
-
-![vctc](PVC_img/large_chemical_reactor_polyvinyl_chloride_from_tetrachloride_air.png)
-
-***With Oxygen***
-
-![vco](PVC_img/large_chemical_reactor_polyvinyl_chloride_from_tetrachloride_oxygen.png)
-
-## Uses of PVC
-
-### Uses of PVC Foil
-
-**Fluid solidify PVC into ingots and bend them to get PVC foil (Cir 10)**
-
-![pvcf](PVC_img/fluid_solidifier_solidify_polyvinyl_chloride_to_ingot.png)
-
-![pvcif](PVC_img/bender_bend_polyvinyl_chloride_ingot_to_foil.png)
-
-**Used by itself to coat wires**
-
-![pvcfcw](PVC_img/assembler_cover_steel_wire_gt_octal_rubber.png)
-
-**Used with other plastic foil to coat wire**
-
-![pvcw](PVC_img/assembler_cover_naquadah_alloy_wire_gt_double_silicone.png)
-
-### Uses of PVC Plate
-
-![pvcp](PVC_img/fluid_solidifier_solidify_polyvinyl_chloride_to_plate.png)
-
-**Used to make Plastic Circuit Boards**
-
-![pcbv](PVC_img/chemical_reactor_plastic_board_pvc.png)
-
-**Used to make Hazmat Suits**
-
-![hzs](PVC_img/assembler_hazmat_leggings.png)
-
-
+=== "Oxygen"
