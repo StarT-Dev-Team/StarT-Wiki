@@ -10,7 +10,7 @@ Polyethylene is the first plastic that you will make. Its main component is etha
 
 ## How to make Polyethylene
 
-### Making Ethanol
+### Ethanol
 
 There are 2 ways to go about it, using either Create ethanol, or Gregtech ethanol. 
 
@@ -63,7 +63,7 @@ flowchart LR
         Not worth setting up in <mv>MV</mv>, as it gives less ethanol than normal Biomass. But in <hv>HV</hv>, it does give other useful byproducts like methane in the Distillation Tower, so its really up to you if you set it up.
 
 
-### Making Polyethylene
+### Polyethylene
 
 After obtaining Ethanol, it isn't much harder to get Polyethylene. 
 
