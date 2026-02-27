@@ -21,7 +21,7 @@ flowchart LR
 
     A@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PTFE_img/chemical_reactor_tetrafluoroethylene_from_chloroform.png", label: "Chemical Reactor", pos: "t", w: 200, h: 200, constraint: "on" }
 
-    B@{ img: "https://start-dev-team.github.io/Chemical-Lines/Plastics/PTFE_img/chemical_reactor_hydrofluoric_acid_from_elements_2.png", label: "Chemical Reactor", pos: "t", w: 200, h: 200, constraint: "on" }
+    B@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PTFE_img/chemical_reactor_hydrofluoric_acid_from_elements_2.png", label: "Chemical Reactor", pos: "t", w: 200, h: 200, constraint: "on" }
 
     C@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PTFE_img/chemical_reactor_chloroform_3.png", label: "Chemical Reactor", pos: "t", w: 200, h: 200, constraint: "on" }
 
