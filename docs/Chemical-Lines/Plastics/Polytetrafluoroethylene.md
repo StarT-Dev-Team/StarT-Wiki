@@ -1,87 +1,100 @@
+---
+title: Polytetrafluroethylene
+author: ME Item Storage Cell
+---
+
 # Polytetrafluoroethylene (PTFE)
+<small>**Guide by:** ME Item Storage Cell</small>
+
+!!! quote ""
+
+The third plastic in progression, made in <hv>HV</hv> to create the Large Chemical Reactor.
 
 ## How to make PTFE
 
-### Option 1
+### Tetrafluoroethylene
 
-**Step 1: Chemically react [Hydrofluoric Acid](/StarT-Wiki/Chemical-Lines/Acids/Hydrofluoric-Acid/), Methane and Chlorine to make Tetrafluoroethylene. <IV>(*Cir 24* IV LCR)</IV>**
+#### Pre-LCR
+```mermaid
+flowchart LR
+    %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent', 'labelBkgBackground' : 'transparent' }}}%%
 
-![lcrptfe](PTFE_img/large_chemical_reactor_tetrafluoroethylene_from_methane.png) 
+    A@{ img: "http://127.0.0.1:8000/StarT-Wiki/Chemical-Lines/Plastics/PTFE_img/chemical_reactor_tetrafluoroethylene_from_chloroform.png", label: "Chemical Reactor", pos: "t", w: 200, h: 200, constraint: "on" }
 
-Step 2a: Chemically react **Tetrafluoroethylene** and **Air/Oxygen** to get **Liquid PTFE**. **(Cir 1)**
+    B@{ img: "http://127.0.0.1:8000/StarT-Wiki/Chemical-Lines/Plastics/PTFE_img/chemical_reactor_hydrofluoric_acid_from_elements.png", label: "Chemical Reactor", pos: "t", w: 200, h: 200, constraint: "on" }
 
-![lptfe](PTFE_img/large_chemical_reactor_ptfe_from_air.png)
+    C@{ img: "http://127.0.0.1:8000/StarT-Wiki/Chemical-Lines/Plastics/PTFE_img/chemical_reactor_chloroform.png", label: "Chemical Reactor", pos: "t", w: 200, h: 200, constraint: "on" }
 
-![lptfe2](PTFE_img/large_chemical_reactor_ptfe_from_oxygen.png)
+    D@{ shape: lean-r, label: "12b Chlorine" }
 
-Step 2b: You can also chemically react **Tetrafluoroethylene**, [Titanium Tetrachloride](/StarT-Wiki/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Titanium Tetrachloride) and **Air/Oxygen** to get *more* **Liquid PTFE**. **(Cir 1)**
+    E@{ shape: lean-r, label: "2b Methane" }
 
-***Rutile Dust + Carbon Dust + Chlorine = Carbon Monoxide + [Titanium Tetrachloride](/StarT-Wiki/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Titanium Tetrachloride)***
+    F@{ shape: lean-r, label: "4b Hydrogen" }
 
-![ttc](PTFE_img/large_chemical_reactor_titanium_tetrachloride.png)
+    G@{ shape: lean-r, label: "4b Fluorine" }
 
-![ttcptfe](PTFE_img/large_chemical_reactor_ptfe_from_tetrachloride_air.png)
+    H@{ shape: lean-l, label: "12b Hydrochloric Acid" }
 
-![ttcptfe1](PTFE_img/large_chemical_reactor_ptfe_from_tetrachloride_oxygen.png)
+    I@{ shape: lean-l, label: "1b Tetrafluoroethylene" }
 
-### Option 2 
+    B --4b Hydrofluoric Acid--> A
+    C --2b Chloroform--> A
+    A --> I
+    A --> H
+    F --> B
+    G --> B
+    D --> C
+    E --> C
+```
+You can loop the Chlorine by electrolysing the extra HCl.
 
-***Use the Chemical Plant to make Polytetrafluoroethylene from Fluorine and Carbon Dust. <Luv>(Chem Plant LuV)</Luv>***
 
-![cpptfe](PTFE_img/chemical_plant_ptfe.png)
+####  Post-LCR
 
-### Option 3 
+In <ev>EV</ev>, you can overclock your LCR and make use of this circuit 24 recipe for quicker PTFE.
 
-***Note that you can also make Tetrafluoroethylene wit Chloroform and Chlorine.***
+![PTFE_LCRCir24](PTFE_img/large_chemical_reactor_tetrafluoroethylene_from_methane.png)
 
-**Recipe for Chloroform**
+You skip Chloroform and instead use chlorine and methane directly, saving you a step. You still get the extra HCl
 
-![cltfe](PTFE_img/large_chemical_reactor_chloroform.png)
+#### Chem Plant
 
-**Recipe for Tetrafluoroethylene from Chloroform and [Hydrofluoric Acid](/StarT-Wiki/Chemical-Lines/Acids/Hydrofluoric-Acid/)**
+You can use the Chemical Plant in <zpm>ZPM</zpm> to the other chemicals and simply react Carbon and Fluorine to directly get PTFE.
 
-![cltfe2](PTFE_img/large_chemical_reactor_tetrafluoroethylene_from_chloroform.png)
+![ChemPlant_PTFE](PTFE_img/chemical_plant_ptfe.png)
+
+### Polymerisation
+
+!!! example ""
+
+    === "Air"
+
+        ![PTFE_Air](PTFE_img\chemical_reactor_ptfe_from_air.png)
+
+    === "Oxygen"
+
+        ![PTFE_Oxygen](PTFE_img/chemical_reactor_ptfe_from_oxygen.png)
 
 ## Uses of PTFE
 
-**Making PTFE Casings for LCR (Cir 6)**
+You will first use PTFE in <hv>HV</hv> to make an LCR. Every block that isn't the controller or i/o uses the plastic.
 
-![ptfec](PTFE_img/assembler_casing_ptfe_inert.png)
+![LCR_PipeCasing](PTFE_img/shaped_casing_ptfe_pipe.png)
 
-**Making <IV>IV</IV> Hatches/Busses**
+![LCR_InertCasing](PTFE_img/assembler_casing_ptfe_inert.png)
 
-![ivh](PTFE_img/assembler_item_import_bus_iv_polytetrafluoroethylene.png)
+Used as a sheet in <iv>IV</iv> and <luv>LUV</luv> machine hulls.
 
-**Making Petri Dishes <HV>(HV Fluid Solidifier)</HV>**
+!!! example ""
 
-![pdptfe](PTFE_img/fluid_solidifier_petri_dish_ptfe.png)
+    === "IV"
 
-**Making Battery Hulls**
+        ![IV_MachineHull](PTFE_img/shaped_iv_machine_hull.png)
 
-![batteries](PTFE_img/assembler_battery_hull_iv.png)
+    === "LUV"
 
-**Used in Assembly line crafting**
+        ![LUV_MachineHull](PTFE_img/shaped_luv_machine_hull.png)
 
-![assliner](PTFE_img/assembly_line_exotic_gas_siphon.png)
+Additionally, PTFE is used in making <iv>IV</iv> input/output busses/hatches
 
-### Uses of PTFE Plates
-
-**Fluid solidify liquid PTFE to plates**
-
-![fsptfe](PTFE_img/fluid_solidifier_solidify_polytetrafluoroethylene_to_plate.png)
-
-**Making Machine Hulls**
-
-**<iv>IV</iv> Machine Hull**
-
-![ivhulls](PTFE_img/shaped_iv_machine_hull.png)
-
-**<luv>LuV</luv> Machine Hull**
-
-![luvhulls](PTFE_img/shaped_luv_machine_hull.png)
-
-**Making PTFE pipe casings**
-
-![ptfec](PTFE_img/shaped_casing_ptfe_pipe.png)
-
-
+![IV_InputBus](PTFE_img/assembler_item_import_bus_iv_polytetrafluoroethylene.png)

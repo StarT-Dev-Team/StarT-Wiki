@@ -4,7 +4,9 @@ author: ME Item Storage Cell
 ---
 
 # Polyvinyl Chloride (PVC)
-<small>**Guide By:** ME Item Storage Cell</small>
+<small>**Guide by:** ME Item Storage Cell</small>
+
+!!! quote ""
 
 A plastic that you can optionally make in <mv>MV</mv>, immediately as you make Polyethylene. You can avoid making it until <ev>EV</ev>.
 
@@ -88,8 +90,6 @@ A plastic that you can optionally make in <mv>MV</mv>, immediately as you make P
     === "Oxygen"
 
         ![PVC_Oxygen](PVC_img/chemical_reactor_polyvinyl_chloride_from_oxygen_2.png)
-
-        ***Most efficient**
 
 ## Uses for PVC
 
