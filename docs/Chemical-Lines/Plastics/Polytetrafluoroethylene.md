@@ -69,7 +69,7 @@ You can use the Chemical Plant in <zpm>ZPM</zpm> to the other chemicals and simp
 
     === "Air"
 
-        ![PTFE_Air](PTFE_img\chemical_reactor_ptfe_from_air.png)
+        ![PTFE_Air](PTFE_img/chemical_reactor_ptfe_from_air.png)
 
     === "Oxygen"
 
