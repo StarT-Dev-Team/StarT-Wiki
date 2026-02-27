@@ -4,7 +4,9 @@ author: ME Item Storage Cell
 ---
 
 # Polyethylene (PE)
-<small>**Guide By:** ME Item Storage Cell</small>
+<small>**Guide by:** ME Item Storage Cell</small>
+
+!!! quote ""
 
 Polyethylene is the first plastic that you will make. Its main component is ethanol.
 
@@ -94,11 +96,13 @@ Polyethylene is used in various assembling recipes such as SMD components.
 
 Most commonly however, it is used as a sheet in <hv>HV</hv> and <ev>EV</ev> machine hulls.
 
-<ev>EV</ev> Machine Hull
+!!! example ""
 
-![Machine hulls](PE_img/shaped_ev_machine_hull.png)
+    === "HV"
 
-<hv>HV</hv> Machine Hull
+        ![Machine hulls(2)](PE_img/shaped_hv_machine_hull.png)
 
-![Machine hulls(2)](PE_img/shaped_hv_machine_hull.png)
+    === "EV"
+
+        ![Machine hulls](PE_img/shaped_ev_machine_hull.png)
 
