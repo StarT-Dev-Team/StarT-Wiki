@@ -19,11 +19,11 @@ The third plastic in progression, made in <hv>HV</hv> to create the Large Chemic
 flowchart LR
     %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent', 'labelBkgBackground' : 'transparent' }}}%%
 
-    A@{ img: "http://127.0.0.1:8000/StarT-Wiki/Chemical-Lines/Plastics/PTFE_img/chemical_reactor_tetrafluoroethylene_from_chloroform.png", label: "Chemical Reactor", pos: "t", w: 200, h: 200, constraint: "on" }
+    A@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PTFE_img/chemical_reactor_tetrafluoroethylene_from_chloroform.png", label: "Chemical Reactor", pos: "t", w: 200, h: 200, constraint: "on" }
 
-    B@{ img: "http://127.0.0.1:8000/StarT-Wiki/Chemical-Lines/Plastics/PTFE_img/chemical_reactor_hydrofluoric_acid_from_elements.png", label: "Chemical Reactor", pos: "t", w: 200, h: 200, constraint: "on" }
+    B@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PTFE_img/chemical_reactor_hydrofluoric_acid_from_elements.png", label: "Chemical Reactor", pos: "t", w: 200, h: 200, constraint: "on" }
 
-    C@{ img: "http://127.0.0.1:8000/StarT-Wiki/Chemical-Lines/Plastics/PTFE_img/chemical_reactor_chloroform.png", label: "Chemical Reactor", pos: "t", w: 200, h: 200, constraint: "on" }
+    C@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PTFE_img/chemical_reactor_chloroform.png", label: "Chemical Reactor", pos: "t", w: 200, h: 200, constraint: "on" }
 
     D@{ shape: lean-r, label: "12b Chlorine" }
 
