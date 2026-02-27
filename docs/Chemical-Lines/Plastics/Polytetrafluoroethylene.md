@@ -21,9 +21,9 @@ flowchart LR
 
     A@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PTFE_img/chemical_reactor_tetrafluoroethylene_from_chloroform.png", label: "Chemical Reactor", pos: "t", w: 200, h: 200, constraint: "on" }
 
-    B@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PTFE_img/chemical_reactor_hydrofluoric_acid_from_elements.png", label: "Chemical Reactor", pos: "t", w: 200, h: 200, constraint: "on" }
+    B@{ img: "https://start-dev-team.github.io/Chemical-Lines/Plastics/PTFE_img/chemical_reactor_hydrofluoric_acid_from_elements_2.png", label: "Chemical Reactor", pos: "t", w: 200, h: 200, constraint: "on" }
 
-    C@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PTFE_img/chemical_reactor_chloroform.png", label: "Chemical Reactor", pos: "t", w: 200, h: 200, constraint: "on" }
+    C@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PTFE_img/chemical_reactor_chloroform_3.png", label: "Chemical Reactor", pos: "t", w: 200, h: 200, constraint: "on" }
 
     D@{ shape: lean-r, label: "12b Chlorine" }
 
@@ -69,15 +69,15 @@ You can use the Chemical Plant in <zpm>ZPM</zpm> to the other chemicals and simp
 
     === "Air"
 
-        ![PTFE_Air](PTFE_img/chemical_reactor_ptfe_from_air.png)
+        ![PTFE_Air](PTFE_img/chemical_reactor_ptfe_from_air_2.png)
 
     === "Oxygen"
 
-        ![PTFE_Oxygen](PTFE_img/chemical_reactor_ptfe_from_oxygen.png)
+        ![PTFE_Oxygen](PTFE_img/chemical_reactor_ptfe_from_oxygen_2.png)
 
 ## Uses of PTFE
 
-You will first use PTFE in <hv>HV</hv> to make an LCR. Every block that isn't the controller or i/o uses the plastic.
+You will first use PTFE in <hv>HV</hv> to make an LCR. Every block that isn't the controller or I/O uses the plastic.
 
 ![LCR_PipeCasing](PTFE_img/shaped_casing_ptfe_pipe.png)
 
@@ -95,6 +95,7 @@ Used as a sheet in <iv>IV</iv> and <luv>LUV</luv> machine hulls.
 
         ![LUV_MachineHull](PTFE_img/shaped_luv_machine_hull.png)
 
-Additionally, PTFE is used in making <iv>IV</iv> input/output busses/hatches
+Additionally, PTFE is used in making <iv>IV</iv> I/O busses/hatches
 
 ![IV_InputBus](PTFE_img/assembler_item_import_bus_iv_polytetrafluoroethylene.png)
+
