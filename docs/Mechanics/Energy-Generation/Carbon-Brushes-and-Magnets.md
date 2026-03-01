@@ -6,7 +6,7 @@ author: humanoferth
 # Carbon Brushes and Magnets
 <small>**Guide by:** humanoferth</small>
 
-Create can be used early on to generate power by converting stress to power. It is often used from <LV>LV</LV> to <HV>HV</EV> or early <EV>EV</EV> depending on your power needs. <!-- Link back to other articles on create stress gen and over article-->
+Create can be used early on to generate power by converting stress to power. It is often used from <LV>LV</LV> to <HV>HV</HV> or early <EV>EV</EV> depending on your power needs. <!-- Link back to other articles on create stress gen and over article-->
 
 ## Generator Construction
 
@@ -14,19 +14,19 @@ A generator is constructed using generator coils, carbon brushes, and magnets fr
 
 1. Have some source of SU prepared. For this example, I'll be using a steam engine to make SU and upping the speed of the output shaft to 256 RPM with a rotation speed controller.
 
-![Engines](CarbronBrush_img/2026-03-01_13.28.22.png)
+    ![Engines](CarbronBrush_img/2026-03-01_13.28.22.png)
 
 2. Place generator coils in a line, connected by the central shaft running through them. Coils can be placed vertically or horizontally. In this example I'll be placing 3 of them down horizontally.
 
-![Engines+Coils](CarbronBrush_img/2026-03-01_13.28.42.png)
+    ![Engines+Coils](CarbronBrush_img/2026-03-01_13.28.42.png)
 
 3. Surround the generator coils with magnet blocks of your choice. For this example I'll be using a total of 36 fluxuated magnetite. Each generator coil can support a total of 12 magnets placed in the circular pattern pictured below.
 
-![Coils+magnets](CarbronBrush_img/2026-03-01_13.29.00.png)
+    ![Coils+magnets](CarbronBrush_img/2026-03-01_13.29.00.png)
 
 4. Place a carbon brush on either end of the line of generator coils. Power can be pulled from this carbon brush itself via any source of FE transport (Create: New Age wires, LaserIO, Flux Networks, etc.).
 
-![Brush at end](CarbronBrush_img/2026-03-01_13.31.52.png)
+    ![Brush at end](CarbronBrush_img/2026-03-01_13.31.52.png)
 
 ## Magnet Types
 
