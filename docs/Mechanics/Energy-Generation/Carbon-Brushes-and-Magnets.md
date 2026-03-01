@@ -1,4 +1,10 @@
-# Create Energy Production
+---
+title: Carbon Brushes and Magnets
+author: humanoferth
+---
+
+# Carbon Brushes and Magnets
+<small>**Guide by:** humanoferth</small>
 
 Create can be used early on to generate power by converting stress to power. It is often used from <LV>LV</LV> to <HV>HV</EV> or early <EV>EV</EV> depending on your power needs. <!-- Link back to other articles on create stress gen and over article-->
 
@@ -66,7 +72,7 @@ Using the example shown in generator construction, there are a total of 3 genera
 
     === "Diesel Engines"
 
-        Diesel engines require a liquid from Create: Diesel Generators (Ethanol, Plant Oil, or Crude Biodiesel) and water input into the steam engines. This setup uses 60 huge diesel engines and consumes 60 crude bio diesel per second.
+        Diesel engines require a liquid from Create: Diesel Generators (Ethanol, Plant Oil, or Crude Biodiesel). This setup uses 60 huge diesel engines and consumes 60 crude bio diesel per second.
 
         ![Diesel Engine](CarbronBrush_img/2026-03-01_14.38.14.png)
 

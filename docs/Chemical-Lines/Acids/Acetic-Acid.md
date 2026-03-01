@@ -62,7 +62,7 @@ These recipes can use either regular or large chemical reactors. While they are 
 
         ![Acet from Mon](C2H4O2_img/large_chemical_reactor_acetic_acid_from_monoxide.png)
 
-        This recipe is faster then making it from its elements, though it does have a higher energy cost. It's also one of the few recipes fully availible in <LV>**LV**</LV>, though it's not worth making at that point since you don't have access to the [Formic Acid](docs/Chemical-Lines/Acids/Formic-Acid.md) Loop.
+        This recipe is faster then making it from its elements, though it does have a higher energy cost. It's also one of the few recipes fully availible in <LV>**LV**</LV>, though it's not worth making at that point since you don't have access to the [Formic Acid](Start-Wiki/Chemical-Lines/Acids/Formic-Acid) Loop.
 
     === "Methanol + Carbon Monoxide"
 
