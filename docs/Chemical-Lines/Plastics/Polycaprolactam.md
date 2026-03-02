@@ -25,7 +25,7 @@ flowchart TD
         direction LR
         F@{ shape: lean-r, label: "2b Benzene", constraint: "on" }
         G@{ shape: lean-r, label: "12b Hydrogen", constraint: "on" }
-        A@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PCL_img/large_chemical_reactor_cyclohexane.png", label: "LCR (Nickel Catalyst)", pos: "t", w: 200, h: 200, constraint: "on" }
+        A@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/Nylong6_img/large_chemical_reactor_cyclohexane.png", label: "LCR (Nickel Catalyst)", pos: "t", w: 200, h: 200, constraint: "on" }
         F --> A
         G --> A
     end
@@ -35,7 +35,7 @@ flowchart TD
         direction LR
         H@{ shape: lean-r, label: "5b Nitrogen Oxide", constraint: "on" }
         I@{ shape: lean-r, label: "2b Ammonia", constraint: "on" }
-        B@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PCL_img/large_chemical_reactor_nitric_oxide_from_ammonia.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
+        B@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/Nylong6_img/large_chemical_reactor_nitric_oxide_from_ammonia.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
         O@{ shape: lean-l, label: "3b Water", constraint: "on" }
         H --> B
         I --> B
@@ -46,14 +46,14 @@ flowchart TD
     subgraph P3 [" "]
         direction LR
         J@{ shape: lean-r, label: "2b Chlorine", constraint: "on" }
-        C@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PCL_img/large_chemical_reactor_nitrosyl_chloride.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
+        C@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/Nylong6_img/large_chemical_reactor_nitrosyl_chloride.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
         J --> C
     end
     class P3 invisible
 
     subgraph P4 [" "]
         direction LR
-        D@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PCL_img/large_chemical_reactor_cyclohexanone_oxime.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
+        D@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/Nylong6_img/large_chemical_reactor_cyclohexanone_oxime.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
         M@{ shape: lean-l, label: "2b Hydrochloric Acid", constraint: "on" }
         D --> M
     end
@@ -62,7 +62,7 @@ flowchart TD
     subgraph P5 [" "]
         direction LR
         K@{ shape: lean-r, label: "2b Sulfuric Acid", constraint: "on" }
-        E@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PCL_img/large_chemical_reactor_caprolactam.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
+        E@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/Nylong6_img/large_chemical_reactor_caprolactam.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
         N@{ shape: lean-l, label: "2b Diluted Sulfuric Acid", constraint: "on" }
         L@{ shape: lean-l, label: "38 Caprolactam dust", constraint: "on" }
         K --> E
