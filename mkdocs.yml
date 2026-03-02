@@ -66,6 +66,11 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
           config:
             theme: 'base'
+            flowchart: 
+              nodeSpacing: 10
+              rankSpacing: 20
+              curve: basis
+              useMaxWidth: false
             themeVariables:
               primaryColor: '#fff'
               primaryTextColor: '#fff'
