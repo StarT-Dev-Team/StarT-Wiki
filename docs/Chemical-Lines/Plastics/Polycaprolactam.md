@@ -1,46 +1,68 @@
-# Polycaprolactam ((Nylon 6))
+# Polycaprolactam (Nylon 6)
 
+Another optional plastic you can make in <hv>HV</hv>. The only real use for it is to make lots of string very quickly. Especially useful if you don't have flax automated.
 
-## How to make Polycaprolactam
+## How to make Nylon 6
 
-**Step 1: Obtain Cyclohexane by combining Nickel Dust(NC), Benzene and Hydrogen (<hv>HV</hv> LCR)**
+### Caprolactam
 
-![cx](PCL_img/large_chemical_reactor_cyclohexane.png)
+#### LCR
+```mermaid
+flowchart TD
+    %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent', 'labelBkgBackground' : 'transparent' }}}%%
 
-**Step 2: Obtain Nitric Oxide by combining Nitrogen Oxide and Ammonia**
+    A@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PCL_img/large_chemical_reactor_cyclohexane.png", label: "LCR (Nickel Catalyst)", pos: "t", w: 200, h: 200, constraint: "on" }
 
-![no](PCL_img/large_chemical_reactor_nitric_oxide_from_ammonia.png)
+    B@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PCL_img/large_chemical_reactor_nitric_oxide_from_ammonia.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
 
-**Step 3: Obtain Nitrosyl Chloride by combining Nitric Oxide and Chlorine**
+    C@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PCL_img/large_chemical_reactor_nitrosyl_chloride.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
 
-![nsc](PCL_img/large_chemical_reactor_nitrosyl_chloride.png)
+    D@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PCL_img/large_chemical_reactor_cyclohexanone_oxime.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
 
-**Step 4: Combine Nitrosyl Chloride and Cyclohexane to obtain Cyclohexanone Oxime Dust and [Hydrochloric Acid](/StarT-Wiki/Chemical-Lines/Acids/Hydrochloric-Acid/)**
+    E@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PCL_img/large_chemical_reactor_caprolactam.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
 
-![cho](PCL_img/large_chemical_reactor_cyclohexanone_oxime.png)
+    F@{ shape: lean-r, label: "Benzene" }
 
-**Step 5: Obtain Polycaprolactam Dust by combining Cyclohexanone Oxime Dust and [Sulfuric Acid](/StarT-Wiki/Chemical-Lines/Acids/Sulfuric-Acid/)**
+    G@{ shape: lean-r, label: "Hydrogen" }
 
-![pcld](PCL_img/large_chemical_reactor_caprolactam.png)
+    H@{ shape: lean-r, label: "Nitrogen Oxide" }
 
-**Step 6: PUt Cyclohexanone Oxime Dust in an EBF with Nitrogen to get Polycaprolactam Ingots (Cupronickel <mv>MV</mv> EBF)**
+    I@{ shape: lean-r, label: "Ammonia" }
 
-![pci](PCL_img/electric_blast_furnace_polycaprolactam.png)
+    J@{ shape: lean-r, label: "Chlorine" }
 
-## Uses of Polycaprolactam Ingots
+    K@{ shape: lean-r, label: "Sulfuric Acid" }
 
-**Fluid Solidify PCL into ingots**
+    L@{ shape: lean-l, label: "Caprolactam dust" }
 
-![pcli](PCL_img/fluid_solidifier_solidify_polycaprolactam_to_ingot.png)
+    M@{ shape: lean-l, label: "Hydrochloric Acid" }
 
-**Making string (<mv>MV</mv> Extruder** )
+    N@{ shape: lean-l, label: "Diluted Sulfuric Acid" }
 
-![st](PCL_img/wiremill_string_from_polycaprolactam.png)
+    O@{ shape: lean-l, label: "Water" }
 
-## Uses of PCL Foil
+    F --> A
+    G --> A
+    H --> B
+    I --> B
+    B --> O
+    B --Nitric Oxide--> C
+    J ---> C
+    A --Cyclohexane--> D
+    C --Nitrosyl Chloride--> D
+    D --> M
+    D --Cyclohexanone Oxime Dust--> E
+    K --> E
+    E --> N
+    E --> L
+```
 
-![pclf](PCL_img/bender_bend_polycaprolactam_ingot_to_foil.png)
+#### Chem Plant Skip
+In <zpm>ZPM</zpm>, you can use the chemical plant to make Caprolactam in 1 step. Then you just have to smelt it
 
-**Making FAL tape**
+![Caprolactam_ChemPlant](Nylong6_img/chemical_skip_caprolactam_skip.png)
 
-![falt](PCL_img/assembler_duct_tape_polycaprolactam.png)
+### Polymerisation
+
+## Uses of Nylon 6
+Streeeng
