@@ -40,13 +40,13 @@ These recipes can also be used in the LCR.
 
         This recipe takes nitrogen, hydrogen, and oxygen on circuit 24.
 
-        ![No oxy](HNO3_img/chemical_reactor_nitric_acid_from_dioxide_1.png)
+        ![No oxy](HNO3_img/large_chemical_reactor_nitric_acid_from_elements.png)
 
         This recipe is a good choice once you can produce enough energy to take advantage of the perfect overclock.
     === "Ammonia skip"
 
         This recipe takes nitrogen dioxide, water, and oxygen on circuit 3.
 
-        ![oxy](HNO3_img/chemical_reactor_nitric_oxide_from_dioxide_2.png)
-        
+        ![oxy](HNO3_img/large_chemical_reactor_nitric_acid_from_ammonia.png)
+
         While this recipe may may appear faster then its counterpart, the time to make ammonia casues it to be about the same. This is only faster if you already have ammonia stockpiled from another source (Distillation, a seperate passive, etc).
