@@ -1,11 +1,19 @@
-# Hydrofluoric Acid
+---
+title: Hydrofluoric Acid
+author: humanoferth
+---
 
-## How to make Hydrofluoric Acid
+# Hydrofluoric Acid (HF)
+<small>**Guide by:** humanoferth</small>
 
-**Option 1: Combine Hydrogen and Fluorine**
+Hydrofluoric acid is available as early on as <LV>**LV**</LV> and is used in a couple of recipes including [Polytetrafluoroethylene](/StarT-Wiki/Chemical-Lines/Plastics/Polytetrafluoroethylene/) and uranium hexafluoride.
 
-![hf](HF_img/large_chemical_reactor_hydrofluoric_acid_from_elements.png)
+# Making Hydrofluoric Acid
 
-**Option 2: Obtain it as a byproduct of fluorobenzene (Benzene + Fluorine) <luv>(LuV LCR)</luv>**
+Hydrofluoric Acid is most easily made by reacting hydrogen and fluorine directly in a large / regular chemical reactor. 
 
-![hf2](HF_img/large_chemical_reactor_fluorobenzene_process.png)
+![HF](HF_img/large_chemical_reactor_hydrofluoric_acid_from_elements.png)
+
+This is the best recipe for making hydrofluoric acid. While hydrogen is abundant (mainly via the formic acid loop), fluorine is more difficult to obtain. Methods of obtaining fluorine include electrolysis of topaz (rock filtrator or mystical agriculture), lepidolite (void extractor processing), or biotite (deepslate processing).
+
+It is also a byproduct of a couple of recipes, including fluorobenzene, though they are few and far between.

@@ -1,6 +1,52 @@
-# Nitric Acid
+---
+title: Nitric Acid
+author: humanoferth
+---
 
-**Option 1 : Combine Nitrogen, Oxygen and Hydrogen <hv>(HV LCR Cir 24)**</hv>
+# Sulfuric Acid (H~2~SO~4~)
+<small>**Guide by:** humanoferth</small>
 
-![nitric acid](HNO3_img/large_chemical_reactor_nitric_acid_from_elements.png)
+Nitric Acid is availible as early as <LV>**LV**</LV> and has a few important uses. Its most important use is in the plat line (both for aqua regia and processing purified ore) and nitration mixture (used in nitrobenzene production).
 
+## Making Nitric Acid
+
+### Chemical Reactor
+
+These recipes can also be used in the LCR.
+
+!!! example ""
+
+    === "Nitrogen Dioxide + Water"
+
+        This recipe takes nitrogen dioxide and water on circuit 1.
+
+        ![No oxy](HNO3_img/chemical_reactor_nitric_acid_from_dioxide_1.png)
+
+        When considering the time to craft nitrogen dioxide, this recipe is slower then its counterpart.
+
+    === "Nitrogen Dioxide + Water + Oxygen"
+
+        This recipe takes nitrogen dioxide, water, and oxygen on circuit 3.
+
+        ![oxy](HNO3_img/chemical_reactor_nitric_oxide_from_dioxide_2.png)
+
+        When considering the time to craft nitrogen dioxide, this recipe is faster then its counterpart.
+
+### Large Chemical Reactor
+
+!!! example ""
+
+    === "Elements skip"
+
+        This recipe takes nitrogen, hydrogen, and oxygen on circuit 24.
+
+        ![No oxy](HNO3_img/large_chemical_reactor_nitric_acid_from_elements.png)
+
+        This recipe is a good choice once you can produce enough energy to take advantage of the perfect overclock.
+    === "Ammonia skip"
+
+        This recipe takes nitrogen dioxide, water, and oxygen on circuit 3.
+
+        ![oxy](HNO3_img/large_chemical_reactor_nitric_acid_from_ammonia.png)
+
+        While this recipe may may appear faster then its counterpart, the time to make ammonia casues it to be about the same. This is only faster if you already have ammonia stockpiled from another source (Distillation, a seperate passive, etc).

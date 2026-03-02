@@ -1,27 +1,23 @@
-# Hydrochloric Acid
+---
+title: Hydrochloric Acid
+author: humanoferth
+---
 
-## How to make Hydrochloric Acid
+# Hydrochloric Acid (HCl)
+<small>**Guide by:** humanoferth</small>
 
-**Option 1: Combine Chlorine and Hydrogen**
+Hydrochloric acid available as early as <LV>**LV**</LV>, and has a wide range of uses as key component in the production of iron III chloride and cupric chloride (etching fluid), aqua regia (used in plat line), and as a part of many other recipes.
 
-![hcl](HCl_img/large_chemical_reactor_hydrochloric_acid.png)
+## Making Hydrochloric Acid
 
-**Option 2: Obtain it as a byproduct of phenol (Benzene +  Chlorine + Water (Cir 24))**
+Hydrochloric Acid is made most simply by combining hydrogen and chlorine in a large / regular chemical reactor.
 
-![hcl2](HCl_img/large_chemical_reactor_phenol_hcl_shortcut.png)
+![HCl](HCl_img/chemical_reactor_hydrochloric_acid.png)
 
-**Option 3: Obtain it as a byproduct of allyl chloride (Propene + Chlorine (Cir 1))**
+This recipe is the best way to produce large amounts of hydrochloric acid, as hydrogen can be obtained through the formic acid loop and chlorine can be obtained by electrolyzing salt. 
 
-![hcl3](HCl_img/large_chemical_reactor_allyl_chloride.png)
+It is also a byproduct of a variety of recipes, including tetrafluoroethylene, platline (namely iridium processing), among others.
 
-**Option 4: Obtain it as a byproduct of chloroform (Methane + Chlorine (Cir 1))**
+Hydrochloric acid also has a dilute form (dilute hydrochloric acid), which sometimes appears as a byproduct in certain reactions. This can be distilled back into hydrochloric acid and water in a distillation tower or one of the two in a distillery.
 
-![hcl4](HCl_img/large_chemical_reactor_chloroform.png)
-
-**Option 5: Obtain it as a byproduct of tetrafluoroethylene (Methane + Hydrofluoric Acid + Chlorine (Cir 24))**
-
-![hcl3](HCl_img/large_chemical_reactor_tetrafluoroethylene_from_methane.png)
-
-**Option 6: Obtain it as a byproduct of polydimetnylsiloxane dust (Sillicon Dust + Water + Chlorine + Methane (<mv>MV LCR</mv>))**
-
-![hcl3](HCl_img/large_chemical_reactor_polydimetnylsiloxane_from_elements.png)
+![Dil DT](HCl_img/distillation_tower_distill_dilute_hcl.png)
