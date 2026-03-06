@@ -3,7 +3,7 @@ title: Dynamos
 author: humanoferth
 ---
 
-# Dynamos3
+# Dynamos
 <small>**Guide by:** humanoferth</small>
 
 Dynamos are a type of block added by Thermal that can generate power. They are often used from <LV>**LV**</LV> to <EV>**EV**</EV> or early <IV>**IV**</IV>. There are  types of dynamos:
@@ -30,7 +30,7 @@ Without augments, dynamos produce 200 FE/t (4000 FE/s). Fuel consumption can be 
 
     === "Upgrade Kits"
     
-        Upgrade kits multiply power production at the same rate they multiply fuel consumption. For example, an EV upgrade kit multiplies fuel consumption and power production by 48x. If your feeding it    
+        Upgrade kits multiply power production at the same rate they multiply fuel consumption. For example, an EV upgrade kit multiplies fuel consumption and power production by 48x while consuming fuel 48x faster. If, for example, a lapidairy dynamo is being fueled by diamonds, it would produce 9600 RF/t while consuming a diamond every ~1.5 seconds.
 
     === "ARC Kits"
         
@@ -40,9 +40,9 @@ Without augments, dynamos produce 200 FE/t (4000 FE/s). Fuel consumption can be 
 
         Multicycle Injector Kits (MCI Kits) allow for higher fuel efficiency at the cost of fuel consumption.
         
-The amount of fuel consumed per second can be calculated by finding the total FE produced by the fuel and dividing it by how much FE/t your dynamo produces.
 
 ## Example Setups
 
 <!-- Do tabs for all -->
+
 
