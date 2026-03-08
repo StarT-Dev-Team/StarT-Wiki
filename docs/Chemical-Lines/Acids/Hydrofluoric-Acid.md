@@ -6,6 +6,8 @@ author: humanoferth
 # Hydrofluoric Acid (HF)
 <small>**Guide by:** humanoferth</small>
 
+!!! quote ""
+
 Hydrofluoric acid is available as early on as <LV>**LV**</LV> and is used in a couple of recipes including [Polytetrafluoroethylene](/StarT-Wiki/Chemical-Lines/Plastics/Polytetrafluoroethylene/) and uranium hexafluoride.
 
 # Making Hydrofluoric Acid

@@ -83,7 +83,7 @@ You will first use PTFE in <hv>HV</hv> to make an LCR. Every block that isn't th
 
 ![LCR_InertCasing](PTFE_img/assembler_casing_ptfe_inert.png)
 
-Used as a sheet in <iv>IV</iv> and <luv>LUV</luv> machine hulls.
+Also used as a sheet in <iv>IV</iv> and <luv>LUV</luv> machine hulls.
 
 !!! example ""
 
@@ -95,7 +95,7 @@ Used as a sheet in <iv>IV</iv> and <luv>LUV</luv> machine hulls.
 
         ![LUV_MachineHull](PTFE_img/shaped_luv_machine_hull.png)
 
-Additionally, PTFE is used in making <iv>IV</iv> I/O busses/hatches
+Additionally, PTFE is used in making <iv>IV</iv> I/O busses/hatches.
 
 ![IV_InputBus](PTFE_img/assembler_item_import_bus_iv_polytetrafluoroethylene.png)
 

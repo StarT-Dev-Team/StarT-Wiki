@@ -1,47 +1,45 @@
+---
+title: Polyvinyl Butyral
+author: ME Item Storage Cell
+---
+
 # Polyvinyl Butyral (PVB)
+<small>**Guide by:** ME Item Storage Cell</small>
+
+!!! quote ""
+
+A fairly simple <hv>HV</hv> plastic, used only to make greenhouses, useful if you need trees or other crops.
 
 ## How to make PVB
 
-**Step 1: Make Butyraldehyde with Propene, Carbon Monoxide and Hydrogen<hv>(HV LCR)</hv>**
+```mermaid
+flowchart LR
+    %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent', 'labelBkgBackground' : 'transparent' }}}%%
 
-![b](PVB_img/large_chemical_reactor_butraldehyde.png)
+    A@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PVB_img/large_chemical_reactor_butraldehyde.png", label: "LCR (HV)", pos: "t", w: 200, h: 200, constraint: "on" }
 
-**Step 2: Make Vinyl Acetate with Oxygen, [Acetic Acid](/StarT-Wiki/Chemical-Lines/Acids/Acetic-Acid/) and Ethylene (LCR Cir 3)**
+    B@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PVB_img/large_chemical_reactor_polyvinyl_butyral.png", label: "LCR (HV)", pos: "t", w: 200, h: 200, constraint: "on" }
+    
+    C@{ shape: lean-r, label: "1b Propene" }
 
-![b](PVB_img/large_chemical_reactor_vinyl_acetate.png)
+    D@{ shape: lean-r, label: "1b Carbon Monoxide" }
 
-**Step 3: Make Polyvinyl Acetate with Air/Oxygen, with/without [Titanium Tetrachloride](/StarT-Wiki/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Titanium Tetrachloride)**
+    E@{ shape: lean-r, label: "2b Hydrogen" }
 
-**With Air**
+    F@{ shape: lean-r, label: "576mb PVA" }
 
-**Without [Titanium Tetrachloride](/StarT-Wiki/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Titanium Tetrachloride) (Cir 1)* 
+    G@{ shape: lean-r, label: "576mb PVB" }
 
-![b](PVB_img/large_chemical_reactor_pva_from_air.png)
+    C --> A
+    D --> A
+    E --> A
+    F --> B
+    A --1b Butyraldehyde--> B
+    B --> G
+```
 
-**With [Titanium Tetrachloride](/StarT-Wiki/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Titanium Tetrachloride) (Cir 2)*
+## Uses of PVB
 
-![b](PVB_img/large_chemical_reactor_pva_from_tetrachloride_air.png) 
+PVB's only important use if making laminated glass, which is used in Greenhouses.
 
-**With Oxygen**
-
-**Without [Titanium Tetrachloride](/StarT-Wiki/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Titanium Tetrachloride) (Cir 1)*
-
-![b](PVB_img/large_chemical_reactor_pva_from_oxygen.png)
-
-**With [Titanium Tetrachloride](/StarT-Wiki/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Titanium Tetrachloride) (Cir 2)*
-
-![b](PVB_img/large_chemical_reactor_pva_from_tetrachloride_oxygen.png) 
-
-**Step 4: Make Polyvinyl Butyral with Butyraldehyde and Polyvinyl Acetate <hv>(HV LCR)</hv>**
-
-![b](PVB_img/large_chemical_reactor_polyvinyl_butyral.png)
-
-## Uses of PVB plate
-
-**Fluid solidify PVB into plate**
-
-![b](PVB_img/fluid_solidifier_solidify_polyvinyl_butyral_to_plate.png)
-
-**Put the plates into a forming press with Tempered Glass to make Laminated Glass <hv>(HV LCR)</hv>**
-
-![b](PVB_img/forming_press_laminated_glass.png)
+![PVB_LaminatedGlass](PVB_img/forming_press_laminated_glass.png)

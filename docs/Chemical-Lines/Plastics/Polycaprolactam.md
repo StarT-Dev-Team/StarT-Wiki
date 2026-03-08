@@ -3,11 +3,11 @@ title: Polycaprolactam
 author: ME Item Storage Cell
 ---
 
-
 # Polycaprolactam (Nylon 6)
 <small>**Guide by:** ME Item Storage Cell</small>
 
 !!! quote ""
+
 Another optional plastic you can make in <hv>HV</hv>. The only real use for it is to make lots of string very quickly. Especially useful if you don't have flax automated.
 
 ## How to make Nylon 6
