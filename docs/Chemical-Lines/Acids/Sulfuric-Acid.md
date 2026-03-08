@@ -5,6 +5,7 @@ author: ME Item Storage Cell
 
 # Sulfuric Acid (H~2~SO~4~)
 <small>**Guide by:** ME Item Storage Cell</small>
+
 !!! quote ""
 
 One of the first acids you'll ever make, and the first of many. Sulfuric acid  is mandatory in <mv>MV</mv> , as it is needed to create [Polyethylene](/StarT-Wiki/Chemical-Lines/Plastics/Polyethylene/), a basic plastic. However you can optionally make use of the acid in <lv>LV</lv> to make etching fluids.
