@@ -6,6 +6,8 @@ author: humanoferth
 # Sulfuric Acid (H~2~SO~4~)
 <small>**Guide by:** humanoferth</small>
 
+!!! quote ""
+
 Nitric Acid is availible as early as <LV>**LV**</LV> and has a few important uses. Its most important use is in the plat line (both for aqua regia and processing purified ore) and nitration mixture (used in nitrobenzene production).
 
 ## Making Nitric Acid

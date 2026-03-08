@@ -6,6 +6,8 @@ author: humanoferth
 # Formic Acid (CH~2~O~2~)
 <small>**Guide by:** humanoferth</small>
 
+!!! quote ""
+
 Formic acid is an acid available as early as <MV>**MV**</MV>. While it is not used in any major recipes, it is notable for its use in the formic acid loop, which takes in water and outputs hydrogen and oxygen.
 
 ## Making Formic Acid
