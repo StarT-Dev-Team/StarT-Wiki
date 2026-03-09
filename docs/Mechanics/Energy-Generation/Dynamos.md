@@ -6,7 +6,7 @@ author: humanoferth
 # Dynamos
 <small>**Guide by:** humanoferth</small>
 
-Dynamos are a type of block added by Thermal that can generate power. They are often used from <LV>**LV**</LV> to <EV>**EV**</EV> or early <IV>**IV**</IV>. There are  types of dynamos:
+Dynamos are a type of block added by Thermal that can generate power. They are often used from <LV>**LV**</LV> to <EV>**EV**</EV> or early <IV>**IV**</IV>. There are 3 types of dynamos:
 
 !!! example ""
 
@@ -30,19 +30,25 @@ Without augments, dynamos produce 200 FE/t (4000 FE/s). Fuel consumption can be 
 
     === "Upgrade Kits"
     
-        Upgrade kits multiply power production at the same rate they multiply fuel consumption. For example, an EV upgrade kit multiplies fuel consumption and power production by 48x while consuming fuel 48x faster. If, for example, a lapidairy dynamo is being fueled by diamonds, it would produce 9600 RF/t while consuming a diamond every ~1.5 seconds.
+        Upgrade kits multiply power production at the same rate they multiply fuel consumption. If, for example, a lapidary dynamo is being fueled by diamonds (produces 300,000 RF each) had an EV upgrade kit (48x scale factor), the dynamo would produce 9,600 RF/t (200 RF/t * 48) while consuming a diamond every 1.5625 seconds (300,000 RF / (9,600 RF/t / 20 t/s)). While you can put multiple upgrade kits in a dynamo, only one of the highest tier one will do anything.
 
     === "ARC Kits"
         
-        Auxillery Reaction Chamber Kits (ARC Kits) allow for higher power output at the cost of fuel consumption.
+        Auxillery Reaction Chamber Kits (ARC's) **additively** increase power output at the cost of a **multiplicative** increase in fuel energy. Its really important to keep in mind that these effects are compounding. If, for example, a lapidary dynamo is being fueled by diamonds (produces 300,000 RF each) had an EV ARC (.6x fuel energy, +300% power output), the dynamo would produce 800 RF/t (200 RF/t + (300% * 200 RF/t)) and it would consume a diamond every 11.25 seconds ((300,000 RF * .6)/(800 RF/t * 20 t/s)). A dynamo can take multiple ARC's, where fuel energy is multipled, and  power output is added for each ARC. If, for example, a lapidary dynamo is being fueled by diamonds (produces 300,000 RF each) had 3 EV ARC's (.216x fuel energy (.6 ^ 3), +900% power output (300 * 3)), the dynamo would produce 2000 RF/t (200 RF/t + (900% * 200 RF/t)) and it would consume a diamond every 1.62 seconds ((300,000 RF * .216)/(2000 RF/t * 20 t/s)).
 
     === "MCI Kits"
 
-        Multicycle Injector Kits (MCI Kits) allow for higher fuel efficiency at the cost of fuel consumption.
+        Multi-cycle Injector Kits (MCI's)  **multaplicatively** decrease fuel consumption without affecting power output.  If, for example, a lapidary dynamo is being fueled by diamonds (produces 300,000 RF each) had an EV MCI (1.6x fuel energy), the dynamo would produce 200 RF/t and it would consume a diamond every 120 seconds ((300,000 RF * 1.6)/(200 RF/t * 20 t/s)). A dynamo can take multiple MCI's, where fuel energy is multipled for each ARC. If, for example, a lapidary dynamo is being fueled by diamonds (produces 300,000 RF each) had 3 EV ARC's (4.096x fuel energy (1.6 ^ 3)), the dynamo would produce 200 RF/t and it would consume a diamond every 307.2 seconds ((300,000 RF * 4.096)/(2000 RF/t * 20 t/s)).
         
+MCI's are better than ARC's since you MCI's just gives fuel more energy at no cost. While ARC's output more power, this increase in power also increases the speed at which fuel is consumed on top of the decrease in fuel. Using the numbers above, a lapidary dynamo with three EV ARC's would consume a diamond every 1.62 seconds and produce 2000 RF/t. To do the same with lapidary dynamos with three MCI's (which consume a diamond every 307.2 seconds and produces 200 RF/t), you could put down 10 lapidary dynamos with three MCI's and get the same power output (200 RF/t * 10) while consuming a diamond every 30.72 seconds (307.2 s / 10).
+
+
+Optimally, you'll want to have an upgrade kit and three MCI's of the highest tier you can afford in your dynamos. The upgrade kit will 
 
 ## Example Setups
 
 <!-- Do tabs for all -->
+
+<!-- 40,000 Nether quartz, 300,000 for diamonds, 40,000 for lapis, 40,000 for amathyst, 125,000 for amathyst. Produces 16 of each every 40 seconds at LV -->
 
 
