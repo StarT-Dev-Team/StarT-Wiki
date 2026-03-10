@@ -22,8 +22,8 @@ flowchart LR
     %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent', 'labelBkgBackground' : 'transparent' }}}%%
 
     A@{shape: lean-r, label: Air}
-    B@{img: "https://github.com/Jkj3000/StarT-Wiki/blob/14ff8370fd6536851476c685b03db2eb192ac15a/docs/Resources/Resource-Production-Machines-Lines/AirDistillation_img/vacuum_freezer_liquid_air.png?raw=true", pos: "t", label: "Vacuum Freezer", h: 200, constraint: "on"}
-    C@{img: "https://github.com/Jkj3000/StarT-Wiki/blob/14ff8370fd6536851476c685b03db2eb192ac15a/docs/Resources/Resource-Production-Machines-Lines/AirDistillation_img/distillation_tower_distill_liquid_air.png?raw=true", pos: "t", label: "Distillation Tower", h: 400, constraint: "on"}
+    B@{img: "https://github.com/StarT-Dev-Team/StarT-Wiki/blob/7d9c51003415e9a037184d338acf80c3aadce7fb/docs/Resources/Resource-Production-Machines-Lines/AirDistillation_img/vacuum_freezer_liquid_air.png?raw=true", pos: "t", label: "Vacuum Freezer", h: 200, constraint: "on"}
+    C@{img: "https://github.com/StarT-Dev-Team/StarT-Wiki/blob/7d9c51003415e9a037184d338acf80c3aadce7fb/docs/Resources/Resource-Production-Machines-Lines/AirDistillation_img/distillation_tower_distill_liquid_air.png?raw=true", pos: "t", label: "Distillation Tower", h: 400, constraint: "on"}
     A-- Air 4B -->B
     B-- Liquid Air 50B -->C
 ```
@@ -44,14 +44,14 @@ Nether air cannot be easily collected so you need to create it from scratch.
 flowchart TD
     %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent', 'labelBkgBackground' : 'transparent' }}}%%
 
-    A@{img: "https://github.com/Jkj3000/StarT-Wiki/blob/14ff8370fd6536851476c685b03db2eb192ac15a/docs/Resources/Resource-Production-Machines-Lines/AirDistillation_img/large_chemical_reactor_easy_netherrack.png?raw=true", pos: "t", label: "Large Chemical Reactor", h: 200, constraint: "on"}
-    B@{img: "https://github.com/Jkj3000/StarT-Wiki/blob/14ff8370fd6536851476c685b03db2eb192ac15a/docs/Resources/Resource-Production-Machines-Lines/AirDistillation_img/macerator_macerate_netherrack.png?raw=true", pos: "t", label: "Macerator", h: 200, constraint: "on"}
-    C@{img: "https://github.com/Jkj3000/StarT-Wiki/blob/14ff8370fd6536851476c685b03db2eb192ac15a/docs/Resources/Resource-Production-Machines-Lines/AirDistillation_img/extractor_nether_agglomeration.png?raw=true", pos: "t", label: "Extractor", h: 200, constraint: "on"}
+    A@{img: "https://github.com/StarT-Dev-Team/StarT-Wiki/blob/7d9c51003415e9a037184d338acf80c3aadce7fb/docs/Resources/Resource-Production-Machines-Lines/AirDistillation_img/large_chemical_reactor_easy_netherrack.png?raw=true", pos: "t", label: "Large Chemical Reactor", h: 200, constraint: "on"}
+    B@{img: "https://github.com/StarT-Dev-Team/StarT-Wiki/blob/7d9c51003415e9a037184d338acf80c3aadce7fb/docs/Resources/Resource-Production-Machines-Lines/AirDistillation_img/macerator_macerate_netherrack.png?raw=true", pos: "t", label: "Macerator", h: 200, constraint: "on"}
+    C@{img: "https://github.com/StarT-Dev-Team/StarT-Wiki/blob/7d9c51003415e9a037184d338acf80c3aadce7fb/docs/Resources/Resource-Production-Machines-Lines/AirDistillation_img/extractor_nether_agglomeration.png?raw=true", pos: "t", label: "Extractor", h: 200, constraint: "on"}
     D@{shape: lean-l, label: "Gold Nugget"}
-    E@{img: "https://github.com/Jkj3000/StarT-Wiki/blob/14ff8370fd6536851476c685b03db2eb192ac15a/docs/Resources/Resource-Production-Machines-Lines/AirDistillation_img/mixer_nether_air_mix.png?raw=true", pos: "t", label: "Mixer", h: 200, constraint: "on" }
+    E@{img: "https://github.com/StarT-Dev-Team/StarT-Wiki/blob/7d9c51003415e9a037184d338acf80c3aadce7fb/docs/Resources/Resource-Production-Machines-Lines/AirDistillation_img/mixer_nether_air_mix.png?raw=true", pos: "t", label: "Mixer", h: 200, constraint: "on" }
     F@{shape: lean-r, label: "Air"}
-    G@{img: "https://github.com/Jkj3000/StarT-Wiki/blob/14ff8370fd6536851476c685b03db2eb192ac15a/docs/Resources/Resource-Production-Machines-Lines/AirDistillation_img/vacuum_freezer_liquid_nether_air.png?raw=true", pos: "t", label: "Vacuum Freezer", h: 200, constraint: "on"}
-    H@{img: "https://github.com/Jkj3000/StarT-Wiki/blob/14ff8370fd6536851476c685b03db2eb192ac15a/docs/Resources/Resource-Production-Machines-Lines/AirDistillation_img/distillation_tower_distill_liquid_nether_air.png?raw=true", pos: "t", label: "Distillation Tower", h: 400, constraint: "on"}
+    G@{img: "https://github.com/StarT-Dev-Team/StarT-Wiki/blob/7d9c51003415e9a037184d338acf80c3aadce7fb/docs/Resources/Resource-Production-Machines-Lines/AirDistillation_img/vacuum_freezer_liquid_nether_air.png?raw=true", pos: "t", label: "Vacuum Freezer", h: 200, constraint: "on"}
+    H@{img: "https://github.com/StarT-Dev-Team/StarT-Wiki/blob/7d9c51003415e9a037184d338acf80c3aadce7fb/docs/Resources/Resource-Production-Machines-Lines/AirDistillation_img/distillation_tower_distill_liquid_nether_air.png?raw=true", pos: "t", label: "Distillation Tower", h: 400, constraint: "on"}
 
     A-- Netherrack -->B
     B-- Netherrack Dust -->C
@@ -80,12 +80,12 @@ Ender Air is made by mixing Nether Air with End Agllomeratio
 flowchart TD
     %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent', 'labelBkgBackground' : 'transparent' }}}%%
 
-    A@{img: "https://github.com/Jkj3000/StarT-Wiki/blob/14ff8370fd6536851476c685b03db2eb192ac15a/docs/Resources/Resource-Production-Machines-Lines/AirDistillation_img/large_chemical_reactor_easy_endstone.png?raw=true", pos: "t", label: "Large Chemical Reactor", h: 200, constraint: "on"}
-    B@{img: "https://github.com/Jkj3000/StarT-Wiki/blob/14ff8370fd6536851476c685b03db2eb192ac15a/docs/Resources/Resource-Production-Machines-Lines/AirDistillation_img/macerator_macerate_end_stone.png?raw=true", pos: "t", label: "Macerator", h: 200, constraint: "on"}
-    C@{img: "https://github.com/Jkj3000/StarT-Wiki/blob/14ff8370fd6536851476c685b03db2eb192ac15a/docs/Resources/Resource-Production-Machines-Lines/AirDistillation_img/extractor_end_agglomeration.png?raw=true", pos: "t", label: "Extractor", h: 200, constraint: "on"}
-    D@{img: "https://github.com/Jkj3000/StarT-Wiki/blob/14ff8370fd6536851476c685b03db2eb192ac15a/docs/Resources/Resource-Production-Machines-Lines/AirDistillation_img/mixer_ender_air_mix.png?raw=true", pos: "t", label: "Mixer", h: 200, constraint: "on"}
-    E@{img: "https://github.com/Jkj3000/StarT-Wiki/blob/14ff8370fd6536851476c685b03db2eb192ac15a/docs/Resources/Resource-Production-Machines-Lines/AirDistillation_img/vacuum_freezer_liquid_ender_air.png?raw=true", pos: "t", label: "Vacuum Freezer", h: 200, constraint: "on"}
-    F@{img: "https://github.com/Jkj3000/StarT-Wiki/blob/14ff8370fd6536851476c685b03db2eb192ac15a/docs/Resources/Resource-Production-Machines-Lines/AirDistillation_img/distillation_tower_distill_liquid_ender_air.png?raw=true", pos: "t", label: "Distillation Tower", h: 400, constraint: "on"}
+    A@{img: "https://github.com/StarT-Dev-Team/StarT-Wiki/blob/7d9c51003415e9a037184d338acf80c3aadce7fb/docs/Resources/Resource-Production-Machines-Lines/AirDistillation_img/large_chemical_reactor_easy_endstone.png?raw=true", pos: "t", label: "Large Chemical Reactor", h: 200, constraint: "on"}
+    B@{img: "https://github.com/StarT-Dev-Team/StarT-Wiki/blob/7d9c51003415e9a037184d338acf80c3aadce7fb/docs/Resources/Resource-Production-Machines-Lines/AirDistillation_img/macerator_macerate_end_stone.png?raw=true", pos: "t", label: "Macerator", h: 200, constraint: "on"}
+    C@{img: "https://github.com/StarT-Dev-Team/StarT-Wiki/blob/7d9c51003415e9a037184d338acf80c3aadce7fb/docs/Resources/Resource-Production-Machines-Lines/AirDistillation_img/extractor_end_agglomeration.png?raw=true", pos: "t", label: "Extractor", h: 200, constraint: "on"}
+    D@{img: "https://github.com/StarT-Dev-Team/StarT-Wiki/blob/7d9c51003415e9a037184d338acf80c3aadce7fb/docs/Resources/Resource-Production-Machines-Lines/AirDistillation_img/mixer_ender_air_mix.png?raw=true", pos: "t", label: "Mixer", h: 200, constraint: "on"}
+    E@{img: "https://github.com/StarT-Dev-Team/StarT-Wiki/blob/7d9c51003415e9a037184d338acf80c3aadce7fb/docs/Resources/Resource-Production-Machines-Lines/AirDistillation_img/vacuum_freezer_liquid_ender_air.png?raw=true", pos: "t", label: "Vacuum Freezer", h: 200, constraint: "on"}
+    F@{img: "https://github.com/StarT-Dev-Team/StarT-Wiki/blob/7d9c51003415e9a037184d338acf80c3aadce7fb/docs/Resources/Resource-Production-Machines-Lines/AirDistillation_img/distillation_tower_distill_liquid_ender_air.png?raw=true", pos: "t", label: "Distillation Tower", h: 400, constraint: "on"}
     G@{shape: lean-r, label: "Nether Air"}
 
     A-->B
