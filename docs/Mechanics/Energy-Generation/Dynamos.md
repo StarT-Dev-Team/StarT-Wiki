@@ -43,7 +43,7 @@ Without augments, dynamos produce 200 FE/t (4000 FE/s). Fuel consumption can be 
 MCI's are better than ARC's since you MCI's just gives fuel more energy at no cost. While ARC's output more power, this increase in power also increases the speed at which fuel is consumed on top of the decrease in fuel. Using the numbers above, a lapidary dynamo with three EV ARC's would consume a diamond every 1.62 seconds and produce 2000 RF/t. To do the same with lapidary dynamos with three MCI's (which consume a diamond every 307.2 seconds and produces 200 RF/t), you could put down 10 lapidary dynamos with three MCI's and get the same power output (200 RF/t * 10) while consuming a diamond every 30.72 seconds (307.2 s / 10).
 
 
-Optimally, you'll want to have an upgrade kit and three MCI's of the highest tier you can afford in your dynamos. The upgrade kit will 
+Optimally, for a dynamo you'll want to have an upgrade kit and three MCI's of the highest tier you can afford in your dynamos. The upgrade kit will increase power output so that it can scale with your power needs without spamming while the MCI's will help alleviate the increases in fuel consumption.
 
 ## Example Setups
 
