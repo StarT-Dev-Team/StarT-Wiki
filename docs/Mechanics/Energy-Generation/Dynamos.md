@@ -46,7 +46,7 @@ Optimally, for a dynamo you'll want to have an upgrade kit and three MCI's of th
 
 ## Example Setups
 
-I **highly** reccomend you use lapidary dynamos as your primary power source. It is much easier to scale then the other two sources and will last you a long time, at least until you get better power sources like Nitrobenzene. To make the intial poewr reuired to get the lapidary dynamo, stirling dynamos are an option, though I advise against trying to scale them since they are highly inefficient. I strongly advise against using the compression dynamo as well.
+I **highly** recommend you use lapidary dynamos as your primary power source. It is much easier to scale then the other two sources and will last you a long time, at least until you get better power sources like Nitrobenzene. To make the initial power required to get the lapidary dynamo, stirling dynamos are an option, though I advise against trying to scale them since they are highly inefficient. I strongly advise against using the compression dynamo as well.
 
 !!! example ""
 
