@@ -36,13 +36,13 @@ flowchart TD
 
     subgraph P3 [" "]
         direction LR
-        C@{ img: "https://start-dev-team.github.io/Chemical-Lines/Plastics/Epoxy_img/electrolyzer_decomposition_electrolyzing_hydrochloric_acid.png", label: "Electrolyser", pos: "t", w: 200, h: 200, constraint: "on" }
+        C@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/Epoxy_img/electrolyzer_decomposition_electrolyzing_hydrochloric_acid.png", label: "Electrolyser", pos: "t", w: 200, h: 200, constraint: "on" }
     end 
     class P3 invisible
     
     subgraph  P4 [" "]
         direction LR
-        B@{ img: "https://start-dev-team.github.io/Chemical-Lines/Plastics/Epoxy_img/large_chemical_reactor_epichlorohydrin_shortcut_water.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
+        B@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/Epoxy_img/large_chemical_reactor_epichlorohydrin_shortcut_water.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
         H@{ shape: lean-r, label: "4b/500mb Chlorine" }
         I@{ shape: lean-r, label: "1b Propene" }
         K@{ shape: lean-r, label: "1b Water" }
