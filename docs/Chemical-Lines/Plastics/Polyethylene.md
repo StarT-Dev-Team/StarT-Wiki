@@ -4,6 +4,7 @@ author: ME Item Storage Cell
 ---
 
 # Polyethylene (PE)
+
 <small>**Guide by:** ME Item Storage Cell</small>
 
 !!! quote ""
@@ -14,12 +15,11 @@ Polyethylene is the first plastic that you will make. Its main component is etha
 
 ### Ethanol
 
-There are 2 ways to go about it, using either Create ethanol, or Gregtech ethanol. 
+There are 2 ways to go about it, using either Create ethanol, or Gregtech ethanol.
 
-Create is good as an early game source, not requiring electricity, and easily automated with just a few pipes. However it doesn't scale very well (especially in terms of space). 
+Create is good as an early game source, not requiring electricity, and easily automated with just a few pipes. However it doesn't scale very well (especially in terms of space).
 
 Thus if you find yourself running out of ethanol, it may be best to switch to the Gregtech method instead. Both guides will assume you have some source of sugarcane automation setup.
-
 
 #### Create Ethanol
 
@@ -64,7 +64,6 @@ flowchart LR
 
         Not worth setting up in <mv>MV</mv>, as it gives less ethanol than normal Biomass. But in <hv>HV</hv>, it does give other useful byproducts like methane in the Distillation Tower, so its really up to you if you set it up.
 
-
 ### Polyethylene
 
 After obtaining Ethanol, it isn't much harder to get Polyethylene. 
@@ -90,7 +89,7 @@ Then, you simply Polymerise it (Again in a chemical reactor), with either air or
 
 ## Uses of Polyethylene
 
-Polyethylene is used in various assembling recipes such as SMD components. 
+Polyethylene is used in various assembling recipes such as SMD components.
 
 ![Example recipe of Polyethylene](PE_img/assembler_inductor.png)
 
@@ -105,4 +104,3 @@ Most commonly however, it is used as a sheet in <hv>HV</hv> and <ev>EV</ev> mach
     === "EV"
 
         ![Machine hulls](PE_img/shaped_ev_machine_hull.png)
-
