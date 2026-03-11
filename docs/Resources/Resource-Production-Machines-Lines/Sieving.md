@@ -17,3 +17,6 @@ In the early game \(tiers <ULV>**ULV**</ULV> and <LV>**LV**</LV>\) you may be pr
 - Dirt
 - Any Leaves
 
+Sifting **Gravel**:
+
+![ManualSieveGravel](SiftingFiltrating_img/Sifting/manual_sieve_gravel.png)
