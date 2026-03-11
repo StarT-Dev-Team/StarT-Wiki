@@ -122,6 +122,7 @@ nav:
         - Oxygen: 'Resources/Resource-Production/Oxygen.md'
     - Resource Producing Machines:
         - Sifting: Resources/Resource-Production-Machines-Lines/Sifting.md
+        - Geode Filtration: Resources/Resource-Production-Machines-Lines/GeodeFiltration.md
         - Void Extraction: Resources/Resource-Production-Machines-Lines/Void-Extraction.md
         - Rock Filtration: Resources/Resource-Production-Machines-Lines/Rock-Filtration.md
         - Air Distilation: Resources/Resource-Production-Machines-Lines/Air-Distilation.md
