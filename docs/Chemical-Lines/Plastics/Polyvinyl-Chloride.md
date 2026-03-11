@@ -73,7 +73,7 @@ A plastic that you can optionally make in <mv>MV</mv>, immediately as you make P
             A --> H
         ```
 
-        Would not recommend using this method. It's much more straightforward to just use Chlorine. This method takes more machines energy, and resources (needs Oxygen and HCl inputs.). In <zpm>ZPM</zpm>, you can use a similar recipe in the Chemical Plant. It takes more materials, and is pretty slow, but it skips on polymerisation.
+        Would not recommend using this method. It's much more straightforward to just use Chlorine. This method takes more machines energy, and resources (needs Oxygen and HCl inputs). In <zpm>ZPM</zpm>, you can use a similar recipe in the Chemical Plant. It takes more materials, and is pretty slow, but it skips on polymerisation.
 
         ![ChemPlant_PVC_TakeThatJoyal](PVC_img/chemical_skip_polyvinyl_chloride_skip.png)
 
