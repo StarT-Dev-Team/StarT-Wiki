@@ -42,13 +42,29 @@ Without augments, dynamos produce 200 FE/t (4000 FE/s). Fuel consumption can be 
         
 MCI's are better than ARC's since you MCI's just gives fuel more energy at no cost. While ARC's output more power, this increase in power also increases the speed at which fuel is consumed on top of the decrease in fuel. Using the numbers above, a lapidary dynamo with three EV ARC's would consume a diamond every 1.62 seconds and produce 2000 RF/t. To do the same with lapidary dynamos with three MCI's (which consume a diamond every 307.2 seconds and produces 200 RF/t), you could put down 10 lapidary dynamos with three MCI's and get the same power output (200 RF/t * 10) while consuming a diamond every 30.72 seconds (307.2 s / 10).
 
-
-Optimally, for a dynamo you'll want to have an upgrade kit and three MCI's of the highest tier you can afford in your dynamos. The upgrade kit will increase power output so that it can scale with your power needs without spamming while the MCI's will help alleviate the increases in fuel consumption.
+Optimally, for a dynamo you'll want to have an upgrade kit and three MCI's of the highest tier you can afford in your dynamos. The upgrade kit will increase power output so that it can scale with your power needs without spamming while the MCI's will help alleviate the increases in fuel consumption. Using ARC's will just require you to make more fuel  much faster due to the compounding effects.
 
 ## Example Setups
+
+I **highly** reccomend you use lapidary dynamos as your primary power source. It is much easier to scale then the other two sources and will last you a long time, at least until you get better power sources like Nitrobenzene. To make the intial poewr reuired to get the lapidary dynamo, stirling dynamos are an option, though I advise against trying to scale them since they are highly inefficient. I strongly advise against using the compression dynamo as well.
+
+!!! example ""
+
+    === "Stirling Dynamo"
+    
+        
+
+    === "Compression Dynamo"
+        
+        
+
+    === "Lapidary Dynamo"
+    
+        
 
 <!-- Do tabs for all -->
 
 <!-- 40,000 Nether quartz, 300,000 for diamonds, 40,000 for lapis, 40,000 for amathyst, 125,000 for amathyst. Produces 16 of each every 40 seconds at LV -->
+
 
 
