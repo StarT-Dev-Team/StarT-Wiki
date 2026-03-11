@@ -4,6 +4,7 @@ author: Jkj3000
 ---
 
 # A guide to Sifting
+<small>**Guide by**: Jkj3000</small>
 
 ## Early game sifting
 
