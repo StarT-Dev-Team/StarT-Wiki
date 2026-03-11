@@ -119,7 +119,6 @@ nav:
         - Nitrogen: 'Resources/Resource-Production/Nitrogen.md'
         - Oxygen: 'Resources/Resource-Production/Oxygen.md'
     - Resource Production Lines:
-        - Oxygen: 'Resources/Resource-Production/Oxygen.md'
     - Resource Producing Machines:
         - Sieving: Resources/Resource-Production-Machines-Lines/Sieving.md
         - Void Extraction: Resources/Resource-Production-Machines-Lines/Void-Extraction.md

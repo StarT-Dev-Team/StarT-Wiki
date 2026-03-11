@@ -1,9 +1,9 @@
 ---
-title: Sieving
+title: Sifting/Filtration
 author: Jkj3000
 ---
 
-# A guide to Sieving
+# A guide to Sifting
 
 ## The early game sieving
 
