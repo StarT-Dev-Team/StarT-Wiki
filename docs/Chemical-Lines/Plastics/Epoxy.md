@@ -53,7 +53,7 @@ flowchart TD
     class P4 invisible
 
     subgraph P5 [" "]
-        A@{ img: "https://start-dev-team.github.io/Chemical-Lines/Plastics/Epoxy_img/large_chemical_reactor_epoxy_shortcut.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
+        A@{ img: "https://start-dev-team.github.io//StarT-Wiki/Chemical-Lines/Plastics/Epoxy_img/large_chemical_reactor_epoxy_shortcut.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
         F@{ shape: lean-r, label: "1b Acetone" }
         G@{ shape: lean-r, label: "2b Phenol" }
         J@{ shape: lean-l, label: "1b Liquid Epoxy" }
