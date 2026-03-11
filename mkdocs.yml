@@ -118,19 +118,21 @@ nav:
         - Hydrogen: 'Resources/Resource-Production/Hydrogen.md'
         - Nitrogen: 'Resources/Resource-Production/Nitrogen.md'
         - Oxygen: 'Resources/Resource-Production/Oxygen.md'
-    - Resource Production Machine Lines:
+    - Resource Production Lines:
+        - Oxygen: 'Resources/Resource-Production/Oxygen.md'
+    - Resource Producing Machines:
         - Sieving: Resources/Resource-Production-Machines-Lines/Sieving.md
         - Void Extraction: Resources/Resource-Production-Machines-Lines/Void-Extraction.md
         - Rock Filtration: Resources/Resource-Production-Machines-Lines/Rock-Filtration.md
         - Air Distilation: Resources/Resource-Production-Machines-Lines/Air-Distilation.md
         - Drilling Rigs: 'Resources/Resource-Production-Machines-Lines/Drilling Rigs.md'
-        - Wood Distilation: Resources/Resource-Production-Machines-Lines/Wood-Distilation
+        - Wood Distilation: Resources/Resource-Production-Machines-Lines/Wood-Distilation.md
         - Barrel: Resources/Resource-Production-Machines-Lines/Industrial-Barrel.md
 
 - Power Gen:
     - Create Power: 'Mechanics/Energy-Generation/Carbon-Brushes-and-Magnets.md'
 
-- Chemical/Processing Lines:
+- Chemical Lines:
     - Chemical-Lines/index.md
 
     - Plastics: 
@@ -141,8 +143,12 @@ nav:
         - Polycaprolactam: Chemical-Lines/Plastics/Polycaprolactam.md
         - Polyvinyl Acetate: Chemical-Lines/Plastics/Polyvinyl-Acetate.md
         - Polyvinyl Butyral: Chemical-Lines/Plastics/Polyvinyl-Butyral.md
+        - Epoxy: Chemical-Lines/Plastics/Epoxy.md
+        - Polyphenylene Sulfide: Chemical-Lines/Plastics/Polyphenylene-Sulfide.md
         - Polybenzimidazole: Chemical-Lines/Plastics/Polybenzimidazole.md
         - Polyether Ether Ketone: Chemical-Lines/Plastics/PEEK.md
+        - Polyimide: Chemical-Lines/Plastics/Polyimide.md
+        - PEDOT:PSS: Chemical-Lines/Plastics/PEDOT-PSS.md
         
     
     - Rubbers:
