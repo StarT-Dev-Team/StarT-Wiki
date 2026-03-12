@@ -56,7 +56,7 @@ flowchart TD
         A@{ img: "https://start-dev-team.github.io//StarT-Wiki/Chemical-Lines/Plastics/Epoxy_img/large_chemical_reactor_epoxy_shortcut.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
         F@{ shape: lean-r, label: "1b Acetone" }
         G@{ shape: lean-r, label: "2b Phenol" }
-        J@{ shape: lean-l, label: "1b Liquid Epoxy" }
+        J@{ shape: lean-l, label: "1b Epoxy" }
         F ==> A
         G ==> A
         A --> J
@@ -79,7 +79,7 @@ flowchart TD
     E ==500mb Hydrochloric Acid==>C
 ```
 
-Looping is optional.
+Looping is optional. You can perfectly loop Sodium Hydroxide, but if you loop Chlorine you will still need to input half a buckets worth.
 
 ### Chem Plant
 
@@ -93,7 +93,7 @@ As mentioned before, Epoxy is used to make circuits, specifically for circuit bo
 
 ### Epoxy Circuit Board
 
-You can use Epoxy sheets to make blank Epoxy boards, which you can then etch before using in circuits. You would usually make the <HV>HV Nano Processor </HV> first.
+You can use Epoxy sheets to make blank Epoxy boards, which you can then etch before using in circuits. You would usually make the <HV>HV Nanoprocessor </HV> first.
 
 ![HVNanoProcessor](Epoxy_img/circuit_assembler_nano_processor_hv_soldering_alloy.png)
 

@@ -1,55 +1,52 @@
+---
+title: Polyphenylene Sulfide
+author: ME Item Storage Cell
+---
+
 # Polyphenylene Sulfide (PPS)
+<small>**Guide by:** ME Item Storage Cell</small>
 
-## How to make Polyphenylene Sulfide
+!!! quote ""
 
-**Step 1: Chemically react Sodium dust and Sulfur dust to obtain Sodium Sulfide(LCR)**
+A plastic you will need to make in <LUV>Luv</LUV> to make <ZPM>ZPM</ZPM> energy hatches. Compared to other mid-game plastics, PPS is pretty simple to make.
 
-![nas](PPS_img/large_chemical_reactor_sodium_sulfide.png)
+## How to make PPS
+```mermaid
+flowchart LR
+    %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent', 'labelBkgBackground' : 'transparent' }}}%%
 
-**Step 2 Option 1: Chemically react Chlorine and Benzene to obtain Dichlorobenzene(LCR Cir 2)**
+    A@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PPS_img/large_chemical_reactor_sodium_sulfide.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
 
-![nas](PPS_img/large_chemical_reactor_dichlorobenzene.png)
+    B@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PPS_img/large_chemical_reactor_dichlorobenzene.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
 
-**Step 2 Option 2: Chemically react Iron(III)Chloride and Chlorobenzene to obtain Dichlorobenzene(LCR)**
+    C@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PPS_img/large_chemical_reactor_polyphenylene_sulfide_from_oxygen.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
 
-**Obtain Iron(III)Chloride by chemically reacting Iron Dusts and [Hydrochloric Acid](/StarT-Wiki/Chemical-Lines/Acids/Hydrochloric-Acid/)**
+    D@{ shape: lean-r, label: "1x Sulfur Dust" }
 
-![i3c](PPS_img/large_chemical_reactor_iron_3_chloride.png)
+    F@{ shape: lean-r, label: "2b Chlorine" }
 
-**Obtain Chlorobenzene by chemically reacting Chlorine and Benzene**
+    G@{ shape: lean-r, label: "1b Benzene" }
 
-![cbz](PPS_img/large_chemical_reactor_chlorobenzene.png)
+    H@{ shape: lean-l, label: "2b Hydrochloric Acid" }
 
-**Obtain Dichlorobenzene by chemically reacting Chlorobenzene and Iron(III)Chloride**
+    I@{ shape: lean-r, label: "6b Oxygen" }
 
-![dcb](PPS_img/large_chemical_reactor_iron_2_chloride.png)
+    J@{ shape: lean-r, label: "1.5b Polyphenylene Sulfide" }r
 
-**Step 3: Combine Sodium Sulfide, Dichlorobenzene and Air/Oxygen to obtain Polyphenylene Sulfide**
+    K@{ img: "http://127.0.0.1:8000/StarT-Wiki/Chemical-Lines/Plastics/PPS_img/electrolyzer_decomposition_electrolyzing_salt.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
 
-***With Air***
+    D --> A
+    K --2x Sodium Dust--> A
+    A --3x Sodium Sulfide Dust--> C
 
-![pps](PPS_img/large_chemical_reactor_polyphenylene_sulfide_from_air.png)
+    F --> B
+    G --> B
+    B --> H
+    B --2b Dichlorobenzene--> C
 
-***With Oxygen***
+    I --> C
+    C --> J
+    C --4x Salt--> K
+    K --2b Chlorine--B
 
-![pps](PPS_img/large_chemical_reactor_polyphenylene_sulfide_from_oxygen.png)
-
-## Uses of Polyphenylene Sulfide
-
-**Fluid solidify PPS into ingots**
-
-![ppsi](PPS_img/fluid_solidifier_solidify_polyphenylene_sulfide_to_ingot.png)
-
-**Bend PPS ingots into foil(Cir 10)**
-
-![ppsf](PPS_img/bender_bend_polyphenylene_sulfide_ingot_to_foil.png)
-
-### Uses of Polyphenylene Sulfide Foil
-
-**Used to coat wires of differing sizes**
-
-![ppsw](PPS_img/assembler_cover_naquadah_alloy_wire_gt_double_silicone.png)
-
-![ppsw2](PPS_img/assembler_cover_osmium_wire_gt_octal_styrene_butadiene.png)
-
-![ppsw3](PPS_img/assembler_cover_hssg_wire_gt_hex_styrene_butadiene.png)
+```
