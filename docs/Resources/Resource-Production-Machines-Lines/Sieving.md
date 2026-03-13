@@ -1,14 +1,14 @@
 ---
-title: Sifting
+title: Sieving 
 author: Jkj3000
 ---
 
-# A guide to Sifting
+# Sieving
 <small>**Guide by**: Jkj3000</small>
 
-## Early game sifting
+## Early game sieving
 
-In the early game \(tiers <ULV>**ULV**</ULV> and <LV>**LV**</LV>\) you may be primarily using Ex Nihilo to get ores and resources from sieving various loose materials, them beeing:
+In the early game \(<ULV>**ULV**</ULV> and <LV>**LV**</LV>\) you may be primarily using Ex Nihilo to get ores and resources from sieving various loose materials, them being:
 
 !!! abstract "Manual Sieve"
 
@@ -54,9 +54,9 @@ Later on in <LV>**LV**</LV> and <MV>**MV**</MV> you get the **Mechanical Sieve**
     === "**Crushed Blackstone**"
         ![MechanicalSieveCrushedBlackstone](SiftingFiltrating_img/Sifting/mechanical_sieve_crushed_blackstone_sieving.png)
 
-# Later sifting
+# Mid-Late game Sieving
 
-Later on in the game you can unlock better sieves such as the parallel **Large Sieve** at <IV>**IV**</IV> which only takes 48 material to give the same amount back as the mechanical sieve. Even later when you get to <UHV>**UHV**</UHV> you can unlock the **Aincent Refinement Center** which can do the same recepies as the **Large Sieve** but it has acces to **subtick parallels** and **bulking**
+Later on in the game you can unlock better sieves such as the parallel **Large Sieve** at <IV>**IV**</IV> 75% of the input to give the same output. Even later when you get to <UHV>**UHV**</UHV> you can unlock the **Ancient Refinement Center** which can do the same recipes as the **Large Sieve** but it has access to **subtick parallels** and **bulking**.
 
 !!! abstract "Large Sieve"
     

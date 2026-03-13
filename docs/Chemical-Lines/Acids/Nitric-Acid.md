@@ -8,7 +8,7 @@ author: humanoferth
 
 !!! quote ""
 
-Nitric Acid is availible as early as <LV>**LV**</LV> and has a few important uses. Its most important use is in the plat line (both for aqua regia and processing purified ore) and nitration mixture (used in nitrobenzene production).
+Nitric Acid is available as early as <LV>**LV**</LV> and has a few important uses. Its most important use is in the Platline (both for aqua regia and processing purified ore) and nitration mixture (used in nitrobenzene production).
 
 ## Making Nitric Acid
 
@@ -51,4 +51,4 @@ These recipes can also be used in the LCR.
 
         ![oxy](HNO3_img/large_chemical_reactor_nitric_acid_from_ammonia.png)
 
-        While this recipe may may appear faster then its counterpart, the time to make ammonia casues it to be about the same. This is only faster if you already have ammonia stockpiled from another source (Distillation, a seperate passive, etc).
+        While this recipe may may appear faster then its counterpart, the time to make ammonia causes it to be about the same. This is only faster if you already have ammonia stockpiled from another source (Distillation, a separate passive, etc).
