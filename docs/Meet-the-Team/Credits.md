@@ -9,6 +9,7 @@ This page contains credits to the people who contributed to the creation of this
     - [WabWit](https://github.com/WabWit)
     - [eldation-adv](https://github.com/elation-adv)
     - [LeDiablePatate](https://github.com/LeDiablePatate)
+    - [Jkj3000](https://github.com/Jkj3000)
     - [ME Item Storage Cell](https://github.com/ME-Item-Storage-Cell)
     - [ME Fluid Storage Cell](https://github.com/RandomSquared)
 
