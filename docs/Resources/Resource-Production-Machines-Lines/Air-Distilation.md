@@ -2,7 +2,7 @@
 title: Air Distillation
 author: Jkj3000
 ---
-# A guide to Air Distillation
+# Air Distillation
 <small>**Guide By:** Jkj3000</small>
 
 !!! quote ""
@@ -107,8 +107,8 @@ This recipe produces:
 
 ## Later Upgrades
 
-When you get to parallel multiblocks \(which are around <IV>**IV**</IV>\), you can unlock the **Large Fractionaalising Distillery** which can accept parallel hatches, this will greatly speed up the final step of distillation. 
+When you get to parallel multiblocks \(around <IV>**IV**</IV>\), you can unlock the **Large Fractionating Distillery** which accepts parallel hatches, greatly speeding up the distillation. 
 
-When you reach <IV>**IV**</IV> and <UV>**UV**</UV>, you will gain acces to the **Arctic Chilling Unit** and **Bulk Blast Chiller** respectively which you can speed the freexing part with. 
+When you reach <IV>**IV**</IV> and <UV>**UV**</UV>, you will gain access to the **Arctic Chilling Unit** and **Bulk Blast Chiller** respectively which you can speed the freezing. 
 
-And when you get to Abydos \(post <UHV>**UHV**</UHV>\) you will unlock the **Exotic Gas Syphon** which allows you to skip all of theese production lines alltogether.
+And when you get to Abydos \(post <UHV>**UHV**</UHV>\) you will unlock the **Exotic Gas Syphon** which allows you to skip all of these production lines all together.

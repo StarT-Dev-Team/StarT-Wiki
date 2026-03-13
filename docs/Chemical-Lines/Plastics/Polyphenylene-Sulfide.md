@@ -31,7 +31,7 @@ flowchart LR
 
     I@{ shape: lean-r, label: "6b Oxygen" }
 
-    J@{ shape: lean-r, label: "1.5b Polyphenylene Sulfide" }r
+    J@{ shape: lean-r, label: "1.5b Polyphenylene Sulfide" }
 
     K@{ img: "http://127.0.0.1:8000/StarT-Wiki/Chemical-Lines/Plastics/PPS_img/electrolyzer_decomposition_electrolyzing_salt.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
 
@@ -47,6 +47,6 @@ flowchart LR
     I --> C
     C --> J
     C --4x Salt--> K
-    K --2b Chlorine--B
+    K --2b Chlorine-->B
 
 ```
