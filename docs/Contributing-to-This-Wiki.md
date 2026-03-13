@@ -100,6 +100,6 @@ When contributing to the wiki, please follow these rules/considerations to maint
     
     - Don't include things from other packs (such as comparisons). This is purely StarT wiki
 
-    - Capitalise chemical names (Hydrogen, not hydrogen. Carbon monoxide, not carbon monoxide)
+    - Capitalise chemical names (Hydrogen, not hydrogen. Carbon Monoxide, not carbon monoxide)
 
     - Be consistent with abbreviations.
