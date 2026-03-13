@@ -7,8 +7,9 @@ author: Jkj3000
 
 !!! quote ""
 
-Air distillation is available as soon as <HV>**HV**</HV>, and continues into <EV>**EV**</EV> and <IV>**IV**</IV> with the use of a **Distillation Tower** for short **DT**. 
-There are three types of Air Distillation which rely on distilling **liquid air**
+Air distillation is available as soon as <HV>**HV**</HV>, and continues into <EV>**EV**</EV> and <IV>**IV**</IV> with the use of a **Distillation Tower**, or **DT** for short. 
+
+There are 3 airs you can distill, which must be in liquid form:
 
 - Liquid Air Distillation
 - Liquid Nether Air Distillation

@@ -99,3 +99,7 @@ When contributing to the wiki, please follow these rules/considerations to maint
     - In your screenshots do not use mods that are not available in the pack and you added yourself. Avoid using texture packs.
     
     - Don't include things from other packs (such as comparisons). This is purely StarT wiki
+
+    - Capitalise chemical names (Hydrogen, not hydrogen. Carbon monoxide, not carbon monoxide)
+
+    - Be consistent with abbreviations.

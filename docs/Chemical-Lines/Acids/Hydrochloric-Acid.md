@@ -12,14 +12,14 @@ Hydrochloric acid available as early as <LV>**LV**</LV>, and has a wide range of
 
 ## Making Hydrochloric Acid
 
-Hydrochloric Acid is made most simply by combining hydrogen and chlorine in a large / regular chemical reactor.
+Hydrochloric Acid is made most simply by combining Hydrogen and Chlorine in a large/regular chemical reactor.
 
 ![HCl](HCl_img/chemical_reactor_hydrochloric_acid.png)
 
-This recipe is the best way to produce large amounts of hydrochloric acid, as hydrogen can be obtained through the formic acid loop and chlorine can be obtained by electrolyzing salt. 
+This recipe is the best way to produce large amounts of hydrochloric acid, as hydrogen can be obtained through the Formic acid loop and Chlorine can be obtained by electrolyzing salt. 
 
-It is also a byproduct of a variety of recipes, including tetrafluoroethylene, platline (namely iridium processing), among others.
+It is also a byproduct of a variety of recipes, including Tetrafluoroethylene, Platline (namely iridium processing), among others.
 
-Hydrochloric acid also has a dilute form (dilute hydrochloric acid), which sometimes appears as a byproduct in certain reactions. This can be distilled back into hydrochloric acid and water in a distillation tower or one of the two in a distillery.
+Hydrochloric acid also has a dilute form (dilute Hydrochloric acid), which sometimes appears as a byproduct in certain reactions. This can be distilled back into Hydrochloric acid and water in a distillation tower or one of the two in a distillery.
 
 ![Dil DT](HCl_img/distillation_tower_distill_dilute_hcl.png)

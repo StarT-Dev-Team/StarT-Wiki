@@ -12,7 +12,7 @@ Formic acid is an acid available as early as <MV>**MV**</MV>. While it is not us
 
 ## Making Formic Acid
 
-Formic acid is made from carbon dioxide and water.
+Formic acid is made from Carbon dioxide and water.
 
 ![Formic recipe](CH2O2_img/chemical_reactor_formic_acid.png)
 
@@ -41,4 +41,4 @@ flowchart TD;
     A --1b Carbon Dioxide--> B --1b Formic Acid--> C --1 Carbon Dust, 2b Oxygen--> A;
 ```
 
-The Chemical Reactor can be substituted for the Large Chemical Reactor as well. This loop consumes much less power on top of being faster than electrolyzing water. Per two buckets of hydrogen and with all machines running at <MV>**MV**</MV>, the formic acid loop takes 8,960 EU over 5 seconds compared to 90,000 EU over 35 seconds.
+The Chemical Reactor can be substituted for the Large Chemical Reactor as well. This loop consumes much less power on top of being faster than electrolyzing water. Per two buckets of Hydrogen and with all machines running at <MV>**MV**</MV>, the Formic acid loop takes 8,960 EU over 5 seconds compared to 90,000 EU over 35 seconds.

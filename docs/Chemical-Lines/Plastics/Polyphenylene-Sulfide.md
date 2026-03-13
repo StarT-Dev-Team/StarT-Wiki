@@ -12,7 +12,7 @@ A plastic you will need to make in <LUV>Luv</LUV> to make <ZPM>ZPM</ZPM> energy 
 
 ## How to make PPS
 ```mermaid
-flowchart LR
+flowchart TD
     %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent', 'labelBkgBackground' : 'transparent' }}}%%
 
     A@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PPS_img/large_chemical_reactor_sodium_sulfide.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
@@ -31,9 +31,9 @@ flowchart LR
 
     I@{ shape: lean-r, label: "6b Oxygen" }
 
-    J@{ shape: lean-r, label: "1.5b Polyphenylene Sulfide" }
+    J@{ shape: lean-l, label: "1.5b Polyphenylene Sulfide" }
 
-    K@{ img: "http://127.0.0.1:8000/StarT-Wiki/Chemical-Lines/Plastics/PPS_img/electrolyzer_decomposition_electrolyzing_salt.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
+    K@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PPS_img/electrolyzer_decomposition_electrolyzing_salt.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
 
     D --> A
     K --2x Sodium Dust--> A
@@ -50,3 +50,12 @@ flowchart LR
     K --2b Chlorine-->B
 
 ```
+Looping is optional. For the final step you can use air instead of oxygen, but it is less efficent, and at this stage you should have no issues sourcing oxygen.
+
+## Uses of PPS
+
+PPS is required to enter <ZPM>ZPM</ZPM>. The <ZPM>ZPM</ZPM> energy hatch and machine hull requires Vanadium Gallium Cable, which requires PPS foil to make.
+
+![VanadiumGalliumCable_1x](PPS_img/assembler_cover_vanadium_gallium_wire_gt_single_silicone.png)
+
+PPS is also required for other cables, among other things.
