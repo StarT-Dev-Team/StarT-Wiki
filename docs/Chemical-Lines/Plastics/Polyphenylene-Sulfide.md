@@ -50,7 +50,7 @@ flowchart TD
     K --2b Chlorine-->B
 
 ```
-Looping is optional. For the final step you can use air instead of oxygen, but it is less efficent, and at this stage you should have no issues sourcing oxygen.
+Looping is optional. For the final step you can use air instead of oxygen, but it is less efficient, and at this stage you should have no issues sourcing oxygen.
 
 ## Uses of PPS
 
