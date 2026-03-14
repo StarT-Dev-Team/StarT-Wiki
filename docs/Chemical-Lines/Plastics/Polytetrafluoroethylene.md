@@ -83,7 +83,7 @@ You will first use PTFE in <hv>HV</hv> to make an LCR. Every block that isn't th
 
 ![LCR_InertCasing](PTFE_img/assembler_casing_ptfe_inert.png)
 
-Also used as a sheet in <iv>IV</iv> and <luv>LUV</luv> machine hulls.
+Also used as a sheet in <iv>IV</iv> and <luv>LuV</luv> machine hulls.
 
 !!! example ""
 
