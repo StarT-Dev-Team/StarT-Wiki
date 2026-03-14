@@ -131,6 +131,7 @@ nav:
 
 - Power Gen:
     - Create Power: 'Mechanics/Energy-Generation/Carbon-Brushes-and-Magnets.md'
+    - Dynamos: 'Mechanics/Energy-Generation/Dynamos.md'
 
 - Chemical Lines:
     - Chemical-Lines/index.md
