@@ -8,7 +8,7 @@ author: humanoferth
 
 !!! quote ""
 
-Nitric Acid is availible as early as <LV>**LV**</LV> and has a few important uses. Its most important use is in the plat line (both for aqua regia and processing purified ore) and nitration mixture (used in nitrobenzene production).
+Nitric Acid is available as early as <LV>**LV**</LV> and has a few important uses. Its most important use is in the plat line (both for Aqua Regia and processing purified ore) and Nitration Mixture (used in Nitrobenzene production).
 
 ## Making Nitric Acid
 
@@ -20,19 +20,19 @@ These recipes can also be used in the LCR.
 
     === "Nitrogen Dioxide + Water"
 
-        This recipe takes nitrogen dioxide and water on circuit 1.
+        This recipe takes Nitrogen Dioxide and Water on Circuit 1.
 
         ![No oxy](HNO3_img/chemical_reactor_nitric_acid_from_dioxide_1.png)
 
-        When considering the time to craft nitrogen dioxide, this recipe is slower then its counterpart.
+        When considering the time to craft Nitrogen Dioxide, this recipe is slower then its counterpart.
 
     === "Nitrogen Dioxide + Water + Oxygen"
 
-        This recipe takes nitrogen dioxide, water, and oxygen on circuit 3.
+        This recipe takes Nitrogen Dioxide, Water, and Oxygen on circuit 3.
 
         ![oxy](HNO3_img/chemical_reactor_nitric_oxide_from_dioxide_2.png)
 
-        When considering the time to craft nitrogen dioxide, this recipe is faster then its counterpart.
+        When considering the time to craft Nitrogen Dioxide, this recipe is faster then its counterpart.
 
 ### Large Chemical Reactor
 
@@ -40,15 +40,15 @@ These recipes can also be used in the LCR.
 
     === "Elements skip"
 
-        This recipe takes nitrogen, hydrogen, and oxygen on circuit 24.
+        This recipe takes Nitrogen, Hydrogen, and Oxygen on Circuit 24.
 
         ![No oxy](HNO3_img/large_chemical_reactor_nitric_acid_from_elements.png)
 
         This recipe is a good choice once you can produce enough energy to take advantage of the perfect overclock.
     === "Ammonia skip"
 
-        This recipe takes nitrogen dioxide, water, and oxygen on circuit 3.
+        This recipe takes Oxygen and Ammonia on Circuit 3.
 
         ![oxy](HNO3_img/large_chemical_reactor_nitric_acid_from_ammonia.png)
 
-        While this recipe may may appear faster then its counterpart, the time to make ammonia casues it to be about the same. This is only faster if you already have ammonia stockpiled from another source (Distillation, a seperate passive, etc).
+        While this recipe may may appear faster then its counterpart, the time to make Ammonia casues it to be about the same. This is only faster if you already have Ammonia stockpiled from another source (Distillation, a seperate passive, etc).
