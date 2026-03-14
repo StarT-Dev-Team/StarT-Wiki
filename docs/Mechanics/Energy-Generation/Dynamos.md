@@ -73,3 +73,8 @@ It is also slightly positive on fuel to ensure no downtime. This setup can be wa
 ![alt text](Dynamo_img/2026-03-14_00.52.33.png)
 
 If everything is scaled to <MV>**MV**</MV>, it would be able to handle 18 dynamos and would produce 332.5A of <MV>**MV**</MV>. If everything is scaled to <HV>**HV**</HV>, it would be able to handle 26 dynamos and would produce 238.75 of <HV>**HV**</HV>. If everything is scaled to <EV>**EV**</EV>, it would be able to handle 36 dynamos and would produce 163.75A of <EV>**EV**</EV>.
+
+## Calculators and Credits
+
+- This [calculator](https://docs.google.com/spreadsheets/d/1n_muSKYPbVeTxJMGTGKpWlGKDjqaXruxRV3P3R-xkLA/edit?gid=616691493#gid=616691493) can be helpful for doing calculations.
+- Thanks to c-rad for the guide on the discord.
