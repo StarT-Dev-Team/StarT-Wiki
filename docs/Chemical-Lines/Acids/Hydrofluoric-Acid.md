@@ -8,11 +8,11 @@ author: humanoferth
 
 !!! quote ""
 
-Hydrofluoric acid is available as early on as <LV>**LV**</LV> and is used in a couple of recipes including [Polytetrafluoroethylene](/StarT-Wiki/Chemical-Lines/Plastics/Polytetrafluoroethylene/) and uranium hexafluoride.
+Hydrofluoric Acid is available as early on as <LV>**LV**</LV> and is used in a couple of recipes including [Polytetrafluoroethylene](/StarT-Wiki/Chemical-Lines/Plastics/Polytetrafluoroethylene/) and Uranium Hexafluoride.
 
 # Making Hydrofluoric Acid
 
-Hydrofluoric Acid is most easily made by reacting hydrogen and fluorine directly in a large / regular chemical reactor. 
+Hydrofluoric Acid is most easily made by reacting Hydrogen and Fluorine directly in a regular / Large Chemical Reactor. 
 
 ![HF](HF_img/large_chemical_reactor_hydrofluoric_acid_from_elements.png)
 

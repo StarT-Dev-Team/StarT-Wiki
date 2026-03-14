@@ -8,7 +8,7 @@ author: humanoferth
 
 !!! quote ""
 
-Hydrochloric acid available as early as <LV>**LV**</LV>, and has a wide range of uses as key component in the production of iron III chloride and cupric chloride (etching fluid), aqua regia (used in plat line), and as a part of many other recipes.
+Hydrochloric Acid available as early as <LV>**LV**</LV>, and has a wide range of uses as a key component in the production of Iron (III) chloride and Cupric Chloride (etching fluid), Aqua Regia (used in plat line), and as a part of many other recipes.
 
 ## Making Hydrochloric Acid
 

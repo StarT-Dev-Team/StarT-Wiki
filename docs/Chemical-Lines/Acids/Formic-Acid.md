@@ -8,7 +8,7 @@ author: humanoferth
 
 !!! quote ""
 
-Formic acid is an acid available as early as <MV>**MV**</MV>. While it is not used in any major recipes, it is notable for its use in the formic acid loop, which takes in water and outputs hydrogen and oxygen.
+Formic Acid is an acid available as early as <MV>**MV**</MV>. While it is not used in any major recipes, it is notable for its use in the Formic Acid loop, which takes in Water and outputs Hydrogen and Oxygen.
 
 ## Making Formic Acid
 
