@@ -23,7 +23,13 @@ Dynamos are a type of block added by Thermal that can generate power. They are o
         Lapidary Dynamos use gems as an input to generate power. Out of the three dynamo options, these are the best in terms of ease of setup and maximum power output. These are gated by the assembler and require cobalt brass to craft.
 
 I **strongly** recommend you use lapidary dynamos as your primary power source if you want to use dynamos for power. It is much easier to scale then the other two sources and will last you a long time, at least until you get better power sources like Nitrobenzene. To make the initial power required to get the lapidary dynamo, stirling dynamos are an option, though I advise against trying to scale them since they are highly inefficient. I strongly advise against using the compression dynamo since it requires much more infrastructure and processing then the lapidary dynamo does, and by the time you can get fuel for it easily you'll have other options.
-        
+
+## Anatomy of a dynamo
+
+Dynamos only output power on the red piece protruding out. It won't output power on any other ends. Similarly, you can't input items on the red piece protruding out, although there are ways to get around this with LaserIO.
+
+![alt text](Dynamo_img/2026-03-14_13.16.23.png)
+
 ## Calculating Fuel Consumption and FE/t
 
 Without augments, dynamos produce 200 FE/t (4000 FE/s). Fuel consumption can be calculated by dividing the total FE produced by one item (Found in EMI) or bucket of fuel by the FE/s your dynamo is currently producing (factoring in augments). For example, a diamond produces a total of 300,000 FE, as found in EMI. Dividing this by 4000 (FE/s produced by a lapidary dynamo with no augments) gives 1 diamond consumed every 75 seconds. Below are a list of augments and how they effect fuel consumption and power production.
