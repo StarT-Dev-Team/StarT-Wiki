@@ -95,7 +95,4 @@ Also used as a sheet in <iv>IV</iv> and <luv>LuV</luv> machine hulls.
 
         ![LUV_MachineHull](PTFE_img/shaped_luv_machine_hull.png)
 
-Additionally, PTFE is used in making <iv>IV</iv> I/O busses/hatches.
-
-![IV_InputBus](PTFE_img/assembler_item_import_bus_iv_polytetrafluoroethylene.png)
 

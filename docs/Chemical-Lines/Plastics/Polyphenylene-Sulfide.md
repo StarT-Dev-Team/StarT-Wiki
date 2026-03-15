@@ -58,4 +58,4 @@ PPS is required to enter <ZPM>ZPM</ZPM>. The <ZPM>ZPM</ZPM> energy hatch and mac
 
 ![VanadiumGalliumCable_1x](PPS_img/assembler_cover_vanadium_gallium_wire_gt_single_silicone.png)
 
-PPS is also required for other cables, among other things.
+PPS is also required for other cables, among other things. But mainly cables.
