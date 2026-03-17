@@ -12,6 +12,8 @@ PBI is the <ZPM>ZPM</ZPM> plastic, which you will use until <Uv>UV</UV>.
 
 ## How to make PBI
 
+### LCR
+
 ```mermaid
 flowchart TD
     %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent', 'labelBkgBackground' : 'transparent' }}}%%
@@ -120,6 +122,10 @@ flowchart TD
 
 As evident by the flowchart, PBI is one of the more complex plastics to make. Don't worry, it only gets worse from here on. Do note however, the I/O in this flowchart has been balanced. You can make PBI with far less materials, you would just have left overs in some places.
 
+### Chem Plant
+
+Thankfully, with the help of the Chem Plant, you can skip that long chemical line, and condense it into 1 recipe.
+
 !!! tip ""
     === "Inputs"
         - 38b Naphthalene
@@ -139,6 +145,14 @@ As evident by the flowchart, PBI is one of the more complex plastics to make. Do
         - 45b Phenol (without recycling)
         - 180b Hydrochloric Acid
         - 135b Diluted Sulfuric Acid (You should really distill this)
+
+### Chem Plant
+
+Thankfully, with the help of the Chem Plant, you can skip that long chemical line, and condense it into 1 recipe. This recipe also skips on Phthalic Acid, so you no longer have to produce Naphthalene.
+
+![PBI_ChemPlant](PBI_img/chemical_skip_polybenzimidazole_phenol_skip.png)
+
+Inputs are Benzene, Phenol, Carbon Monoxide, Ammonia, and Oxygen. You can just void the water byproduct.
 
 ## Uses of PBI
 

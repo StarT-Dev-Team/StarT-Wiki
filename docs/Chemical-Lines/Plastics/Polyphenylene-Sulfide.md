@@ -11,6 +11,9 @@ author: ME Item Storage Cell
 A plastic you will need to make in <LUV>Luv</LUV> to make <ZPM>ZPM</ZPM> energy hatches. Compared to other mid-game plastics, PPS is pretty simple to make.
 
 ## How to make PPS
+
+### LCR
+
 ```mermaid
 flowchart TD
     %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent', 'labelBkgBackground' : 'transparent' }}}%%
@@ -51,6 +54,12 @@ flowchart TD
 
 ```
 Looping is optional. For the final step you can use air instead of oxygen, but it is less efficient, and at this stage you should have no issues sourcing oxygen.
+
+### Chem Plant
+
+In <ZPM>ZPM</ZPM>, you can make use of the Chem Plant to make PPS in 1 step, taking Sulfur, Oxygen, Benzene, and Chlorine as inputs, and giving a byproduct of Hydrochloric Acid.
+
+![PPS_ChemPlant](PPS_img/chemical_skip_polyphenylene_sulfide_skip.png)
 
 ## Uses of PPS
 
