@@ -46,10 +46,10 @@ This is the official and open-source wiki for the modpack Star Technology. Anyon
             source venv/bin/activate
             ```
 
-    - To install Material for MkDocs:
+    - To install Material for MkDocs and other used plugins:
 
         ```console
-        pip install mkdocs-material
+        pip install mkdocs-material pymdown-extensions mkdocs-mermaid2-plugin mkdocs-panzoom-plugin
         ```
 
 6. Run this command to launch the app:
