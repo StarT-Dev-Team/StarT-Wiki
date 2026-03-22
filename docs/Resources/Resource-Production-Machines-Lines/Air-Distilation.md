@@ -75,7 +75,7 @@ This recipe produces:
 ## Liquid Ender Air
 
 Liquid Ender Air is available at <EV>**EV**</EV> with overclocking or at <IV>**IV**</IV> without, but you need an <IV>**IV**</IV> input hatch as the recipe requires 200B to start.
-Ender Air is made by mixing Nether Air with End Agllomeratio
+Ender Air is made by mixing Nether Air with End Agglormoratio.
 
 ```mermaid
 flowchart TD
@@ -110,6 +110,6 @@ This recipe produces:
 
 When you get to parallel multiblocks \(around <IV>**IV**</IV>\), you can unlock the **Large Fractionating Distillery** which accepts parallel hatches, greatly speeding up the distillation. 
 
-When you reach <IV>**IV**</IV> and <UV>**UV**</UV>, you will gain access to the **Arctic Chilling Unit** and **Bulk Blast Chiller** respectively which you can speed the freezing. 
+When you reach <IV>**IV**</IV> and <UV>**UV**</UV>, you will gain access to the **Arctic Chilling Unit** and **Bulk Blast Chiller** respectively speed up freezing airs. 
 
 And when you get to Abydos \(post <UHV>**UHV**</UHV>\) you will unlock the **Exotic Gas Syphon** which allows you to skip all of these production lines all together.
