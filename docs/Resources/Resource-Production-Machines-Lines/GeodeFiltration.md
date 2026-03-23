@@ -6,6 +6,8 @@ author: Jkj3000
 # Geode Filtration
 <small>**Guide by:** Jkj3000</small>
 
+!!! quote ""
+
 Rock filtration is the only way to get **geodes** which are used to get rarer resources such as **phosphorus**, **certus quartz**, **monazite** and so on.
 
 The **Rock Filtrator** has two types of recipes <LV>**LV**</LV> and <MV>**MV**</MV>. The <LV>**LV**</LV> recipes take gravel and the <MV>**MV**</MV> take sand. Both of them take **distilled water** as the second input.

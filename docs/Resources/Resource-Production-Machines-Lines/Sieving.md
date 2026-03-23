@@ -6,6 +6,8 @@ author: Jkj3000
 # Sieving
 <small>**Guide by**: Jkj3000</small>
 
+!!! quote ""
+
 ## Early game sieving
 
 In the early game \(<ULV>**ULV**</ULV> and <LV>**LV**</LV>\) you may be primarily using Ex Nihilo to get ores and resources from sieving various loose materials, them being:
@@ -56,7 +58,7 @@ Later on in <LV>**LV**</LV> and <MV>**MV**</MV> you get the **Mechanical Sieve**
 
 # Mid-Late game Sieving
 
-Later on in the game you can unlock better sieves such as the parallel **Large Sieve** at <IV>**IV**</IV> 75% of the input to give the same output. Even later when you get to <UHV>**UHV**</UHV> you can unlock the **Ancient Refinement Center** which can do the same recipes as the **Large Sieve** but it has access to **subtick parallels** and **bulking**.
+Later on in the game you can unlock better sieves such as the parallel <IV>Large Sieve</IV> at <IV>IV</IV>, using 75% of the inputs for the same outputs. Even later you can unlock the <UHV>Ancient Refinement Center</UHV> in <UHV>UHV</UHV> which can do the same recipes as the <IV>Large Sieve</IV> but it has access to **Subtick Parallels** and **Bulking**.
 
 !!! abstract "Large Sieve"
     
