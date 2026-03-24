@@ -120,11 +120,9 @@ flowchart TD
 
 ```
 
-As evident by the flowchart, PBI is one of the more complex plastics to make. Don't worry, it only gets worse from here on. Do note however, the I/O in this flowchart has been balanced. You can make PBI with far less materials, you would just have left overs in some places.
+As evident by the flowchart, PBI is one of the more complex plastics to make. Don't worry, it only gets worse from here on. 
 
-### Chem Plant
-
-Thankfully, with the help of the Chem Plant, you can skip that long chemical line, and condense it into 1 recipe.
+Do note however, the I/O in this flowchart has been balanced. You can make PBI with far less materials, you would just have leftover ingredients.
 
 !!! tip ""
     === "Inputs"
@@ -148,11 +146,15 @@ Thankfully, with the help of the Chem Plant, you can skip that long chemical lin
 
 ### Chem Plant
 
-Thankfully, with the help of the Chem Plant, you can skip that long chemical line, and condense it into 1 recipe. This recipe also skips on Phthalic Acid, so you no longer have to produce Naphthalene.
+Thankfully, with the help of the Chem Plant, you can skip that long chemical line, and condense it into 1 recipe.
+
+### Chem Plant
+
+Thankfully, with the help of the Chem Plant, you can skip that long chemical line, and condense it into 1 recipe. This recipe also skips on Phthalic Acid, thus not needing Naphthalene any longer.
 
 ![PBI_ChemPlant](PBI_img/chemical_skip_polybenzimidazole_phenol_skip.png)
 
-Inputs are Benzene, Phenol, Carbon Monoxide, Ammonia, and Oxygen. You can just void the water byproduct.
+Inputs are Benzene, Phenol, Carbon Monoxide, Ammonia, and Oxygen. You can just void Water.
 
 ## Uses of PBI
 
@@ -168,7 +170,7 @@ You will need it as a sheet to make both <ZPM>ZPM</ZPM> and <UV>UV</UV> machine 
 
         ![Machine hullUV](PBI_img/shaped_uv_machine_hull.png)
 
-Along with being used for other <ZPM>ZPM</ZPM> and <UV>UV</UV> components, you will need PBI to make fusion glass and fusion casings, for your first fusion reactors, the MK1.
+Along with being used for other <ZPM>ZPM</ZPM> and <UV>UV</UV> components, you will need PBI to make fusion glass and fusion casings, for your first fusion reactor, the MK1.
 
 !!! example ""
 
