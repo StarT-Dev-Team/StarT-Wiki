@@ -146,10 +146,6 @@ Do note however, the I/O in this flowchart has been balanced. You can make PBI w
 
 ### Chem Plant
 
-Thankfully, with the help of the Chem Plant, you can skip that long chemical line, and condense it into 1 recipe.
-
-### Chem Plant
-
 Thankfully, with the help of the Chem Plant, you can skip that long chemical line, and condense it into 1 recipe. This recipe also skips on Phthalic Acid, thus not needing Naphthalene any longer.
 
 ![PBI_ChemPlant](PBI_img/chemical_skip_polybenzimidazole_phenol_skip.png)
