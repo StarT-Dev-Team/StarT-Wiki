@@ -77,4 +77,4 @@ If everything is scaled to <MV>**MV**</MV>, it would be able to handle 18 dynamo
 ## Calculators and Credits
 
 - This [calculator](https://docs.google.com/spreadsheets/d/1n_muSKYPbVeTxJMGTGKpWlGKDjqaXruxRV3P3R-xkLA/edit?gid=616691493#gid=616691493) can be helpful for doing calculations.
-- Thanks to c-rad for the guide on the discord.
+- Be sure to check out c-rad's guide on discord for more.
