@@ -12,5 +12,6 @@ Fluoroantimonic Acid is available in <HV>**HV**</HV> and is used in the processi
 
 ## Making Fluoroantimonic Acid
 
-Fluoroantimonic Acid is made Antimony Trifluoride and [Hydrofluoric Acid](/StarT-Wiki/Chemical-Lines/Acids/Hydrofluoric-Acid/) in the Large / regular Chemical Reactor. The line from elements to product is as follows:
+Fluoroantimonic Acid is made Antimony Trifluoride and [Hydrofluoric Acid](/StarT-Wiki/Chemical-Lines/Acids/Hydrofluoric-Acid/) in the Large / regular Chemical Reactor. 
 
+![Fluoroanti](H2SbF7_img/chemical_reactor_fluoroantimonic_acid.png)
