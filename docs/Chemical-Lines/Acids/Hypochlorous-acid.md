@@ -8,7 +8,7 @@ author: humanoferth
 
 !!! quote ""
 
-Hypochlorous Acid is available as early as <LV>**LV**</LV> and is used in the production of [Epoxy](StarT-Wiki/Chemical-Lines/Plastics/Epoxy/).
+Hypochlorous Acid is available as early as <LV>**LV**</LV> and is used in the production of [Epoxy](/StarT-Wiki/Chemical-Lines/Plastics/Epoxy/).
 
 ## Making Hyprochlorous Acid
 
