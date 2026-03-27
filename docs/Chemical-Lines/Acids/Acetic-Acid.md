@@ -18,23 +18,23 @@ Acetic acid can be made as early on as <LV>**LV**</LV> and is used in a variety 
 
     === "Fermented Biomass"
 
-        This recipe takes Fermented biomass and outputs a variety of organic materials, including a small amount of Acetic acid.
+        This recipe takes Fermented Biomass and outputs a variety of organic materials, including a small amount of Acetic Acid.
 
         ![Fermented Biomass to Acetic](C2H4O2_img/distillation_tower_distill_wood_vinegar.png)
 
         It can also be obtained from an <MV>**MV**</MV> Distillery on Circuit 1 with the same input.
 
-        This should not be the method used to obtain any amount of Acetic acid en mass since other methods are both faster and easier, though its still worth setting up for the other materials.
+        This should not be the method used to obtain any amount of Acetic Acid en mass since other methods are both faster and easier, though its still worth setting up for the other materials.
 
     === "Wood Vinegar"
 
-        This recipe takes Wood vinegar and outputs a variety of organic materials, including a small amount of Acetic acid.
+        This recipe takes Wood vinegar and outputs a variety of organic materials, including a small amount of Acetic Acid.
 
         ![Wood Vinegar to Acetic](C2H4O2_img/distillation_tower_distill_fermented_biomass.png)
 
         It can also be obtained from an <MV>**MV**</MV> Distillery on Circuit 1 with the same input.
 
-        This method is better then using fermented biomass, as its easier to obtain wood vinegar from other distillations and from the Pyrolose oven.
+        This method is better then using Fermented Biomass, as its easier to obtain Wood Vinegar from other distillations and from the Pyrolose oven.
 
 ### Chemical Reactors
 
@@ -56,7 +56,7 @@ These recipes can use either regular or Large Chemical Reactors. While they are 
 
         ![Acet from Ethy](C2H4O2_img/large_chemical_reactor_acetic_acid_from_ethylene.png)
 
-        While this is a good recipe, Ethylene has much better uses then for acetic acid. Keep in mind that while the recipe is <LV>**LV**</LV>, Ethylene requires <MV>**MV**</MV> to make.
+        While this is a good recipe, Ethylene has much better uses then for Acetic Acid. Keep in mind that while the recipe is <LV>**LV**</LV>, Ethylene requires <MV>**MV**</MV> to make.
 
     === "Hydrogen + Carbon Monoxide"
 
@@ -68,13 +68,13 @@ These recipes can use either regular or Large Chemical Reactors. While they are 
 
     === "Methanol + Carbon Monoxide"
 
-        This recipe takes Methanol and Carbon monoxide and methanol on any circuit.
+        This recipe takes Methanol and Carbon Monoxide and methanol on any circuit.
 
         ![Acet from Meth](C2H4O2_img/large_chemical_reactor_acetic_acid_from_methanol.png)
 
-        This recipe is not as good as the Hydrogen + Carbon monoxide recipe, as methanol requires <MV>**MV**</MV> to make and by that point Hydrogen + Carbon monoxide is viable.
+        This recipe is not as good as the Hydrogen + Carbon monoxide recipe, as Methanol requires <MV>**MV**</MV> to make and by that point Hydrogen + Carbon Monoxide is viable.
 
-There are a couple more recipes for making Acetic Acid with Chemical Reactors, though they are not as useful as the ones previously described and should be avoided if at all possible:
+There are a couple more recipes for making Acetic Acid with chemical reactors, though they are not as useful as the ones previously described and should be avoided if at all possible:
 
-- Reacting Acetic anhydride and Aminophenol.
-- Reacting Methyl acetate, water, and Sodium hydroxide (Sodium hydroxide is not consumed, requires <MV>**MV**</MV>).
+- Reacting Acetic Anhydride and Aminophenol.
+- Reacting Methyl Acetate, Water, and Sodium Hydroxide (Sodium Hydroxide is not consumed, requires <MV>**MV**</MV>).
