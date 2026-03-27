@@ -3,7 +3,7 @@ title: Hydroastatic Acid
 author: humanoferth
 ---
 
-# Hydroastatic Acid (H~4~SiO~4~)
+# Hydroastatic Acid (HAt)
 <small>**Guide by:** humanoferth</small>
 
 !!! quote ""
@@ -14,4 +14,4 @@ Hydroastatic Acid is available in <UEV>**UEV**</UEV> and is an intermediate in t
 
 Hydroastatic Acid its made in the Chemical Bath by bathing Barium Diastanide in Water.
 
-![bath](chemical_bath_barium_diastatide_hydration.png)
+![bath](HAt/chemical_bath_barium_diastatide_hydration.png)
