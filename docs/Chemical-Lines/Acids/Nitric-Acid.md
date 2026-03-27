@@ -3,7 +3,7 @@ title: Nitric Acid
 author: humanoferth
 ---
 
-# Sulfuric Acid (H~2~SO~4~)
+# Nitric Acid (HNO~3~)
 <small>**Guide by:** humanoferth</small>
 
 !!! quote ""
