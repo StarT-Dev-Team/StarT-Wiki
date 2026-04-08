@@ -15,7 +15,8 @@ Another optional plastic you can make in <hv>HV</hv>. The only real use for it i
 ### Caprolactam
 
 #### LCR
-```mermaid
+
+```mermaid { data-search-exclude }
 flowchart TD
     %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent', 'labelBkgBackground' : 'transparent' }}}%%
 

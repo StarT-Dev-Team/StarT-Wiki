@@ -23,7 +23,7 @@ Thus if you find yourself running out of ethanol, it may be best to switch to th
 
 #### Create Ethanol
 
-```mermaid
+```mermaid { data-search-exclude }
 flowchart LR
     %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent', 'labelBkgBackground' : 'transparent' }}}%%
 

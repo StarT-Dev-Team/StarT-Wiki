@@ -14,12 +14,11 @@ PBI is the <ZPM>ZPM</ZPM> plastic, which you will use until <Uv>UV</UV>.
 
 ### LCR
 
-```mermaid
+```mermaid { data-search-exclude }
 flowchart TD
     %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent', 'labelBkgBackground' : 'transparent' }}}%%
 
     classDef invisible fill:none,stroke:none,color:none,stroke-width:0px
-
 
     subgraph SubDiaminobenzidine [" "]
         direction TD
@@ -150,7 +149,17 @@ Thankfully, with the help of the Chem Plant, you can skip that long chemical lin
 
 ![PBI_ChemPlant](PBI_img/chemical_skip_polybenzimidazole_phenol_skip.png)
 
-Inputs are Benzene, Phenol, Carbon Monoxide, Ammonia, and Oxygen. You can just void Water.
+!!! tip ""
+    === "Inputs"
+        - Benzene
+        - Phenol
+        - Carbon Monoxide
+        - Ammonia
+        - Oxygen
+
+    === "Outputs"
+        - PBI
+        - Water 
 
 ## Uses of PBI
 
