@@ -2,6 +2,6 @@
 
 Documentation for the Minecraft mod Star Technology (Currently version Eta 3)
 
-Theta content
+Content being changed in Theta
 - Bacteria
 - Pedot:pss
