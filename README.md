@@ -1,7 +1,8 @@
-# Official Wiki for Star Technology
+# [Official Wiki](https://start-dev-team.github.io/StarT-Wiki/
+) for Star Technology
 
-https://start-dev-team.github.io/StarT-Wiki/
+Documentation for the Minecraft mod Star Technology (Currently version Eta 3)
 
-things to add when theta comes out
-- bacteria
-- pedot:pss
+Theta content
+- Bacteria
+- Pedot:pss
