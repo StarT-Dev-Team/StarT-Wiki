@@ -15,7 +15,7 @@ The third plastic in progression, made in <hv>HV</hv> to create the Large Chemic
 ### Tetrafluoroethylene
 
 #### Pre-LCR
-```mermaid
+```mermaid { data-search-exclude }
 flowchart LR
     %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent', 'labelBkgBackground' : 'transparent' }}}%%
 

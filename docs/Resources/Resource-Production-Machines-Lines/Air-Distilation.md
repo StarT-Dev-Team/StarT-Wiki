@@ -18,7 +18,8 @@ There are 3 airs you can distill, which must be in liquid form:
 ## Liquid Air
 
 Liquid Air is available at <HV>**HV**</HV> and is the easiest one to get as air can be gathered with a gas collector. Then put into any multiblock that can do freezing recipes, such as a **Vacuum Freezer**, and then distilled in a **DT**
-```mermaid
+
+```mermaid { data-search-exclude }
 flowchart LR
     %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent', 'labelBkgBackground' : 'transparent' }}}%%
 
@@ -41,7 +42,7 @@ This recipe produces:
 Liquid Nether air is available at <HV>**HV**</HV> with overclocking or at <EV>**EV**</EV> without.
 Nether air cannot be easily collected so you need to create it from scratch. 
 
-```mermaid
+```mermaid { data-search-exclude }
 flowchart TD
     %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent', 'labelBkgBackground' : 'transparent' }}}%%
 
@@ -77,7 +78,7 @@ This recipe produces:
 Liquid Ender Air is available at <EV>**EV**</EV> with overclocking or at <IV>**IV**</IV> without, but you need an <IV>**IV**</IV> input hatch as the recipe requires 200B to start.
 Ender Air is made by mixing Nether Air with End Agglormoratio.
 
-```mermaid
+```mermaid { data-search-exclude }
 flowchart TD
     %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent', 'labelBkgBackground' : 'transparent' }}}%%
 

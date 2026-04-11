@@ -17,7 +17,7 @@ A plastic that you can optionally make in <mv>MV</mv>, immediately as you make P
 !!! example ""
 
     === "Chlorine"
-        ```mermaid
+        ```mermaid { data-search-exclude }
         flowchart LR
             %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent', 'labelBkgBackground' : 'transparent' }}}%%
 
@@ -50,8 +50,8 @@ A plastic that you can optionally make in <mv>MV</mv>, immediately as you make P
         This is the recommended way to make Vinyl Chloride. You don't have to electrolyse the hydrochloric acid, you can simply use it. Recycling Chlorine isn't important, you more often than not have a surplus of it. 
 
     === "Oxygen + Hydrochloric acid"
-        ```mermaid
-        flowchart LR
+        ```mermaid { data-search-exclude }
+        flowchart LR 
             %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent', 'labelBkgBackground' : 'transparent' }}}%%
 
             A@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PVC_img/chemical_reactor_vinyl_chloride_from_hydrochloric.png", label: "Chemical Reactor (LV)", pos: "t", w: 200, h: 200, constraint: "on" }
