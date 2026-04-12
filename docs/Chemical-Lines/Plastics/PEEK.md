@@ -29,8 +29,9 @@ flowchart TD
             SAProcess@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PEEK_img/large_chemical_reactor_soda_ash_from_carbon_dioxide.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
             SAWater@{ shape: lean-l, label: "2b Water" }
 
+            
             CarbonDioxideSA & SodiumHydroxideSA --> SAProcess
-            SAProcess --> SAWater
+            
         end
         class SubSodaAshDust invisible
 
@@ -57,7 +58,8 @@ flowchart TD
 
         HQProcess --28x Hydroquinone Dust--> DHProcess
         SAProcess --12x Soda Ash Dust--> DHProcess
-        DHProcess --> DHCarbonic
+        SAProcess --> SAWater
+        
     end
     class DisodiumOfHydroquinone invisible
 
@@ -84,7 +86,7 @@ flowchart TD
             HydrofluoricAcidFB@{ shape: lean-l, label: "2b Hydrofluoric Acid" }
 
             BenzeneFB & FluorineFB --> FBProcess
-            FBProcess --> HydrofluoricAcidFB
+            
         end
         class SubFluorobenzene invisible
 
@@ -109,9 +111,9 @@ flowchart TD
             BTProcess --2b Benzotrichloride--> BCProcess
             WaterBC --> BCProcess
             BCProcess --> HydrochloricBC
-
-            BCProcess --2b Benzoyl Chloride--> FCProcess
+            
             FluorineFC --> FCProcess
+            BCProcess --2b Benzoyl Chloride--> FCProcess
             FCProcess --> FCHydrogen
         end
         class SubFluorobenzoylChloride invisible
@@ -120,18 +122,15 @@ flowchart TD
         DBPHydrochloric@{ shape: lean-l, label: "2b Hydrochloric Acid" }
 
         FBProcess --2b Fluorobenzene--> DBPProcess
+        FBProcess --> HydrofluoricAcidFB
         FCProcess --2b 4-Fluorobenzoyl Chloride--> DBPProcess
         DBPProcess --> DBPHydrochloric
     end
     class Difluorobenzophenone invisible
 
-    
-
-    
-
     DHProcess --28x Disodium Salt of Hydroquinone Dust--> PEEKProcess
+    DHProcess --> DHCarbonic
     DBPProcess --"48x 4,4-Difluorobenzophenone Dust"--> PEEKProcess
-
 ```
 
 A long, but worthy process for the best plastic. Some of the recycling steps has been left out of the flowchart, and here they are:
