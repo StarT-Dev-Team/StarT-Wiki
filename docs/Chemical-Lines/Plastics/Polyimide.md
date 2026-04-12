@@ -10,7 +10,7 @@ author: ME Item Storage Cell
 
 PI is the most advanced plastic used to insulate cables, used in conjunction with [PVC](Polyvinyl-Acetate.md) and [PPS](Polyphenylene-Sulfide.md). You will need it from <UHV>UHV</UHV> onwards. 
 
-In case you were wondering, it is pronounced close to *pol*-*yimide*, not *poly*-*mide*, or *poly*-*imide*.
+In case you were wondering, it is pronounced close to *pol*-*yimide*, not *poly*-*mide*, or <br /> *poly*-*imide*.
 
 ## How to make PI
 
