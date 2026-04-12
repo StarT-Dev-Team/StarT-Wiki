@@ -138,7 +138,7 @@ A long, but worthy process for the best plastic. Some of the recycling steps has
 - Electrolysing Hydrofluoric Acid to recycle Fluorine you used, with Hydrogen as a bonus
 - Electrolysing Hydrochloric Acid to recycle Chlorine, with more Hydrogen as a bonus
 
-!!! tip ""s
+!!! tip ""
     === "Inputs"
         - 2b Toluene
         - 6b Chlorine (Can be partially recycled)
