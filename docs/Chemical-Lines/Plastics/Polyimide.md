@@ -115,7 +115,7 @@ flowchart TD
         DistilledWaterNBZ@{ shape: lean-r, label: "18b Distilled Water" }
         NBZProcess@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/Polyimide_img/large_chemical_reactor_nitrobenzene.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
 
-        SRProcess@{ img: "http://127.0.0.1:8000/StarT-Wiki/Chemical-Lines/Plastics/Polyimide_img/distillery_distill_dilute_sulfuric_to_sulfuric_acid.png", label: "Distillery", pos: "t", w: 200, h: 200, constraint: "on" }
+        SRProcess@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/Polyimide_img/distillery_distill_dilute_sulfuric_to_sulfuric_acid.png", label: "Distillery", pos: "t", w: 200, h: 200, constraint: "on" }
 
         HydrogenMP@{ shape: lean-r, label: "624b Hydrogen" }
         AmmoniaMP@{ shape: lean-r, label: "24b Ammonia" }
