@@ -8,7 +8,7 @@ author: ME Item Storage Cell
 
 !!! quote ""
 
-PI is the most advanced plastic used to insulate cables, used in conjunction with [PVC](Polyvinyl-Acetate.md) and [PPS](Polyphenylene-Sulfide.md). You will need it from <UHV>UHV</UHV> onwards. 
+PI is the most advanced plastic used to insulate cables, used in conjunction with [PVC](/StarT-Wiki/Chemical-Lines/Plastics/Polyvinyl-Acetate/) and [PPS](/StarT-Wiki/Chemical-Lines/Plastics/Polyphenylene-Sulfide/). You will need it from <UHV>UHV</UHV> onwards. 
 
 In case you were wondering, it is pronounced close to *pol*-*yimide*, not *poly*-*mide*, or <br /> *poly*-*imide*.
 

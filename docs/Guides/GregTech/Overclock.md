@@ -1,4 +1,13 @@
+---
+title: Overclocking 
+author: driftbluestone
+---
+
 # Overclocking (OC)
+<small>**Guide by:** driftbluestone</small>
+
+!!! quote ""
+
 Overclocking is an umbrella term for feeding more energy into something to make it run faster. There are many types of overclock, each with different properties. Some machines can also subtick parallel when you overclock recipes faster than one tick. (Note that not all machines subtick)
 
 ## Regular Overclock (ROC)
@@ -17,5 +26,3 @@ SOC only really exists as a distinction from TOC. Putting a lone 4a or 16a hatch
 
 ## Fusion Overclock (FOC)
 Increasing the tier or amperage of energy hatches in a fusion reactor doesn’t make it any faster, but upgrading the reactor does. Every reactor tier above its base tier is 2x speed for 2x energy consumption.
-
-[Guide By driftbluestone](https://discord.com/channels/1177211394039484477/1339737084029698119)

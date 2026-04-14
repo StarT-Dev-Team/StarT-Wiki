@@ -68,7 +68,7 @@ flowchart LR
 
 After obtaining Ethanol, it isn't much harder to get Polyethylene. 
 
-First, you have to react [Sulfuric Acid](Chemical-Lines/Acids/Sulfuric-Acid/) with Ethanol to get Ethylene.
+First, you have to react [Sulfuric Acid](/StarT-Wiki/Chemical-Lines/Acids/Sulfuric-Acid/) with Ethanol to get Ethylene.
 
 ![Ethanol_to_Ethylene](PE_img/chemical_reactor_ethylene_from_ethanol.png)
 
