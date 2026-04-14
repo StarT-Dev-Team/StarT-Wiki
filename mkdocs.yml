@@ -166,9 +166,15 @@ nav:
 - Multiblocks:
     - LV Multiblocks: Mechanics/GregTech/Multiblocks/LV/LV-Multis.md
 
-- Logisitics:
+- Logistics:
+    - Logistics/index.md
+
     - LaserIO:
-        - Introduction: Mechanics/LaserIO/LaserIO.md
+        - Logistics/LaserIO/index.md
+        - Tools: Logistics/LaserIO/Tools.md
+        - Connectors & Nodes: Logistics/LaserIO/Connectors-&-Nodes.md
+        - Cards: Logistics/LaserIO/Cards.md
+        - Filters: Logistics/LaserIO/Filters.md
 
     - AE2:
         - Introduction: Mechanics/Applied-Energistics-2/AE2-Introduction.md
