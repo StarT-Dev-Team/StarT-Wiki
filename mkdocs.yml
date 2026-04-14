@@ -108,9 +108,9 @@ nav:
   - Meet the Team:
       - Developer Team: 'Meet-the-Team/Developer-Team.md'
       - Credits: 'Meet-the-Team/Credits.md'
-  - Contributing to this Wiki: 'Contributing-to-This-Wiki.md'
   - Patch Notes: Patch-Notes.md
   - Challenges: Challenges.md
+  - Contributing to this Wiki: 'Contributing-to-This-Wiki.md'
 
 - Resource Gen:
     - 'Resources/index.md'
@@ -130,7 +130,7 @@ nav:
         - Barrel: Resources/Resource-Production-Machines-Lines/Industrial-Barrel.md
 
 - Power Gen:
-    - Create Power: 'Mechanics/Energy-Generation/Carbon-Brushes-and-Magnets.md'
+    - Create Power: 'Energy-Generation/Carbon-Brushes-and-Magnets.md'
 
 - Chemical Lines:
     - Chemical-Lines/index.md
@@ -150,11 +150,11 @@ nav:
         - Polyimide: Chemical-Lines/Plastics/Polyimide.md
         - PEDOT:PSS: Chemical-Lines/Plastics/PEDOT-PSS.md
         
-    
     - Rubbers:
         - Latex Rubber: Chemical-Lines/Rubbers/Rubber.md
         - Silicone Rubber: Chemical-Lines/Rubbers/Silicone-Rubber.md
         - Styrene Butadiene: Chemical-Lines/Rubbers/Styrene-Butadiene.md
+
     - Acids: 
         - Sulfuric Acid: Chemical-Lines/Acids/Sulfuric-Acid.md 
         - Acetic Acid: Chemical-Lines/Acids/Acetic-Acid.md
@@ -164,17 +164,20 @@ nav:
         - Nitric Acid: Chemical-Lines/Acids/Nitric-Acid.md 
 
 - Multiblocks:
-    - LV Multiblocks: Mechanics/GregTech/Multiblocks/LV/LV-Multis.md
+    - LV Multiblocks: Guides/GregTech/Multiblocks/LV/LV-Multis.md
 
-- Logisitics:
-    - LaserIO:
-        - Introduction: Mechanics/LaserIO/LaserIO.md
+- Guides:
+    - LaserIO: Guides/LaserIO/LaserIO.md
 
-    - AE2:
-        - Introduction: Mechanics/Applied-Energistics-2/AE2-Introduction.md
+    - AE2: Guides/Applied-Energistics-2/AE2-Introduction.md 
 
-- Gregtech Mechanics:
-    - Electricity: Mechanics/GregTech/Energy.md
+    - Gregtech:
+        - Electricity: Guides/GregTech/Energy.md
+        - Overclocking: Guides/GregTech/Overclock.md
+    
+    - Transportation:
+        - Energy: Guides/Transportation-Methods/Energy.md
+        - Fluids: Guides/Transportation-Methods/Fluids.md
+        - Items: Guides/Transportation-Methods/Items.md
 
-- FAQ/Troubleshooting:
-    - Contribute: FAQ.md
+- FAQ: FAQ.md

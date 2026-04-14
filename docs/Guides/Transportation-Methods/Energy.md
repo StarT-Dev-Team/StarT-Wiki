@@ -1,16 +1,12 @@
 # Energy
 
-!!! warning "Note"
-
-    This page covers FE energy transfer options. For EU energy, check the [GregTech Energy](/StarT-Wiki/Gameplay/Mechanics/GregTech/Energy) page.
-
 ### Laser IO
 
 **Laser IO** is a highly recommended option for wireless FE energy transmit, available <lv>pre-LV</lv>. Each **Laser Node** connection can transmit up to 1 million FE/tick, more than enough to last you until mid game and **Flux Networks**.
 
 !!! info ""
 
-    For more details, visit the [Laser IO](/StarT-Wiki/Gameplay/Mechanics/LaserIO/LaserIO) page.
+    For more details, visit the [Laser IO](/StarT-Wiki/Guides/LaserIO/LaserIO/) page.
 
 ### Create Wires
 

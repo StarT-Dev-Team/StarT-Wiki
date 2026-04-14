@@ -14,9 +14,9 @@ Starting from <MV>MV</MV>, every 2 voltage tiers you will need to make a new pla
 
 However, machine hull aren't the only thing that needs better plastics to make. Each tiers I/O busses/hatches will also require their respective plastic, and this also applies to other items, such as rotor holders.
 
-Additionally, using more advanced plastics on older recipes is almost always beneficial, either providing more yield for the same amount of plastic, or using less plastic for the same yield. A good example of this is the creation of plastic boards, which becomes more efficient, and I/O busses/hatches, which use less millibuckets of plastic.
+Additionally, using more advanced plastics on older recipes provides a more efficient output. A good example of this is plastic boards, which you can produce more off, and I/O busses/hatches, which use less plastic.
 
-Keep this in mind in your playthrough, and remember that wiki pages do not list every single use an item/liquid. Be creative!
+Keep this in mind during your playthrough, and remember that wiki pages do not list every single use an item/liquid.
 
 ## Extrusion
 

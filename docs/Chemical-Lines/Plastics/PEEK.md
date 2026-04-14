@@ -8,7 +8,7 @@ author: ME Item Storage Cell
 
 !!! quote ""
 
-PEEK is the best plastic. Unfortunately you have to wait until <LuV>LuV</LuV> to make it. If for some reason you decide not to, you will absolutely need to make it at <UHV>UHV</UHV>
+PEEK is the best plastic. Unfortunately you have to wait until <LuV>LuV</LuV> to make it. If for some reason you decide not to, you will absolutely need to make it at <UHV>UHV</UHV>.
 
 ## How to make PEEK
 
@@ -18,119 +18,119 @@ flowchart TD
     %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent', 'labelBkgBackground' : 'transparent' }}}%%
 
     classDef invisible fill:none,stroke:none,color:none,stroke-width:0px
+    
     subgraph DisodiumOfHydroquinone [" "]
         direction TB
 
         subgraph SubSodaAshDust [" "]
             direction TB
-            CarbonDioxideSA@{ shape: lean-r, label: "1b Carbon Dioxide" }
-            SodiumHydroxideSA@{ shape: lean-r, label: "6x Sodium Hydroxide Dust" }
+            CarbonDioxideSA@{ shape: lean-r, label: "2b Carbon Dioxide" }
+            SodiumHydroxideSA@{ shape: lean-r, label: "12x Sodium Hydroxide Dust" }
             SAProcess@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PEEK_img/large_chemical_reactor_soda_ash_from_carbon_dioxide.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
             SAWater@{ shape: lean-l, label: "2b Water" }
 
+            
             CarbonDioxideSA & SodiumHydroxideSA --> SAProcess
-            SAProcess --> SAWater
+            
         end
         class SubSodaAshDust invisible
 
         subgraph SubHydroquinonedust [" "]
             direction TB
-            BenzeneHQ@{ shape: lean-r, label: "1b Benzene" }
-            OxygenHQ@{ shape: lean-r, label: "1b Oxygen" }
-            PropeneHQ@{ shape: lean-r, label: "1b Propene" }
+            BenzeneHQ@{ shape: lean-r, label: "2b Benzene" }
+            OxygenHQ@{ shape: lean-r, label: "2b Oxygen" }
+            PropeneHQ@{ shape: lean-r, label: "2b Propene" }
             HQProcess@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PEEK_img/large_chemical_reactor_hydroquinone_process.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
 
             PropeneR@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PEEK_img/electrolyzer_acetone_electrolysis.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
-            RCarbon@{ shape: lean-l, label: "1.5x Carbon" }
-            RWater@{ shape: lean-l, label: "1b Water" }
+            RCarbon@{ shape: lean-l, label: "3x Carbon" }
+            RWater@{ shape: lean-l, label: "2b Water" }
 
             BenzeneHQ & OxygenHQ & PropeneHQ --> HQProcess
-            HQProcess --1b Acetone--> PropeneR
-            PropeneR --500mb Propene--> HQProcess
+            HQProcess --2b Acetone--> PropeneR
+            PropeneR --1b Propene--> HQProcess
             PropeneR --> RCarbon & RWater
         end
         class SubHydroquinonedust invisible
 
         DHProcess@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PEEK_img/large_chemical_reactor_disodium_salt_of_hydroquinone_process.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
-        DHCarbonic@{ shape: lean-l, label: "1b Carbonic Acid" }
+        DHCarbonic@{ shape: lean-l, label: "2b Carbonic Acid" }
 
-        HQProcess --14x Hydroquinone Dust--> DHProcess
-        SAProcess --6x Soda Ash Dust--> DHProcess
-        DHProcess --> DHCarbonic
+        HQProcess --28x Hydroquinone Dust--> DHProcess
+        SAProcess --12x Soda Ash Dust--> DHProcess
+        SAProcess --> SAWater
+        
     end
     class DisodiumOfHydroquinone invisible
 
     
-    
+    subgraph SubPEEK [" "]
+        direction TB
+        PEEKProcess@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PEEK_img/large_chemical_reactor_peek_process.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
+        PEEK@{ shape: lean-l, label: "9.8b Polyether Ether Ketone" }
+        PEEKSodiumFluoride@{ shape: lean-l, label: "8x Sodium Fluoride Dust" }
+
+        PEEKProcess --> PEEK
+        PEEKProcess --> PEEKSodiumFluoride
+    end
+    class SubPEEK invisible
     
 
     subgraph Difluorobenzophenone [" "]
 
         subgraph SubFluorobenzene [" "]
             direction TB
-            BenzeneFB@{ shape: lean-r, label: "1b Benzene" }
-            FluorineFB@{ shape: lean-r, label: "1b Fluorine" }
+            BenzeneFB@{ shape: lean-r, label: "2b Benzene" }
+            FluorineFB@{ shape: lean-r, label: "4b Fluorine" }
             FBProcess@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PEEK_img/large_chemical_reactor_fluorobenzene_process.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
-            HydrofluoricAcidFB@{ shape: lean-l, label: "1b Hydrofluoric Acid" }
+            HydrofluoricAcidFB@{ shape: lean-l, label: "2b Hydrofluoric Acid" }
 
             BenzeneFB & FluorineFB --> FBProcess
-            FBProcess --> HydrofluoricAcidFB
+            
         end
         class SubFluorobenzene invisible
 
         subgraph SubFluorobenzoylChloride [" "]
             direction TB
-            BenzeneBT@{ shape: lean-r, label: "1b Toluene" }
-            ChlorineBT@{ shape: lean-r, label: "3b Chlorine" }
+            BenzeneBT@{ shape: lean-r, label: "2b Toluene" }
+            ChlorineBT@{ shape: lean-r, label: "6b Chlorine" }
             BTProcess@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PEEK_img/large_chemical_reactor_benzotrichloride_process.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
-            BTHydrogen@{ shape: lean-l, label: "3b Hydrogen" }
+            BTHydrogen@{ shape: lean-l, label: "6b Hydrogen" }
 
-            WaterBC@{ shape: lean-r, label: "1b Water" }
+            WaterBC@{ shape: lean-r, label: "2b Water" }
             BCProcess@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PEEK_img/large_chemical_reactor_benzoyl_chloride_process.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
-            HydrochloricBC@{ shape: lean-l, label: "2b Hydrochloric Acid" }
+            HydrochloricBC@{ shape: lean-l, label: "4b Hydrochloric Acid" }
 
-            FluorineFC@{ shape: lean-r, label: "1b Fluorine" }
+            FluorineFC@{ shape: lean-r, label: "2b Fluorine" }
             FCProcess@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PEEK_img/large_chemical_reactor_4_fluorobenzoyl_chloride_process.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
-            FCHydrogen@{ shape: lean-l, label: "1b Hydrogen" }
+            FCHydrogen@{ shape: lean-l, label: "2b Hydrogen" }
 
             BenzeneBT & ChlorineBT --> BTProcess
             BTProcess --> BTHydrogen
 
-            BTProcess --1b Benzotrichloride--> BCProcess
+            BTProcess --2b Benzotrichloride--> BCProcess
             WaterBC --> BCProcess
             BCProcess --> HydrochloricBC
-
-            BCProcess --1b Benzoyl Chloride--> FCProcess
+            
             FluorineFC --> FCProcess
+            BCProcess --2b Benzoyl Chloride--> FCProcess
             FCProcess --> FCHydrogen
         end
         class SubFluorobenzoylChloride invisible
         
         DBPProcess@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PEEK_img/large_chemical_reactor_44_difluorobenzophenone_process.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
-        DBPHydrochloric@{ shape: lean-l, label: "1b Hydrochloric Acid" }
+        DBPHydrochloric@{ shape: lean-l, label: "2b Hydrochloric Acid" }
 
-        FBProcess --1b Fluorobenzene--> DBPProcess
-        FCProcess --1b 4-Fluorobenzoyl Chloride--> DBPProcess
+        FBProcess --2b Fluorobenzene--> DBPProcess
+        FBProcess --> HydrofluoricAcidFB
+        FCProcess --2b 4-Fluorobenzoyl Chloride--> DBPProcess
         DBPProcess --> DBPHydrochloric
     end
     class Difluorobenzophenone invisible
 
-    
-
-    subgraph SubPEEK [" "]
-        direction TB
-        PEEKProcess@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PEEK_img/large_chemical_reactor_peek_process.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
-        PEEK@{ shape: lean-l, label: "4.9b Polyether Ether Ketone" }
-        PEEKSodiumFluoride@{ shape: lean-l, label: "4x Sodium Fluoride Dust" }
-
-        PEEKProcess --> PEEK
-        PEEKProcess --> PEEKSodiumFluoride
-    end
-    class SubPEEK invisible
-
-    DHProcess --14x Disodium Salt of Hydroquinone Dust--> PEEKProcess
-    DBPProcess --"24x 4,4-Difluorobenzophenone Dust"--> PEEKProcess
-
+    DHProcess --28x Disodium Salt of Hydroquinone Dust--> PEEKProcess
+    DHProcess --> DHCarbonic
+    DBPProcess --"48x 4,4-Difluorobenzophenone Dust"--> PEEKProcess
 ```
 
 A long, but worthy process for the best plastic. Some of the recycling steps has been left out of the flowchart, and here they are:
@@ -140,26 +140,26 @@ A long, but worthy process for the best plastic. Some of the recycling steps has
 
 !!! tip ""
     === "Inputs"
-        - 1b Toluene
-        - 3b Chlorine (Can be recycled)
-        - 1b Water
-        - 2b Fluorine (Can be recycled)
-        - 1b Benzene
-        - 1b Oxygen
-        - 1b Propene (Can be partially recycled)
-        - 1b Carbon Dioxide
-        - 6x Sodium Hydroxide Dust
+        - 2b Toluene
+        - 6b Chlorine (Can be partially recycled)
+        - 2b Water
+        - 6b Fluorine (Can be recycled)
+        - 2b Benzene
+        - 2b Oxygen
+        - 2b Propene (Can be partially recycled)
+        - 2b Carbon Dioxide
+        - 12x Sodium Hydroxide Dust
 
     === "Outputs"
-        - 4b Hydrogen
-        - 3b Hydrochloric Acid (Used for recycling)
-        - 1b Hydrofluoric Acid (Used for recycling)
-        - 1b Acetone (Used for recycling)
-        - 2b Water
-        - 1b Carbonic Acid
+        - 2b Hydrogen
+        - 6b Hydrochloric Acid (Used for recycling)
+        - 2b Hydrofluoric Acid (Used for recycling)
+        - 2b Acetone (Used for recycling)
+        - 4b Water
+        - 2b Carbonic Acid
         - 3x Carbon Dust
-        - 4x Sodium Fluoride Dust
-        - 4.9b PEEK
+        - 8x Sodium Fluoride Dust
+        - 9.8b PEEK
 
 
 ### Chem Plant

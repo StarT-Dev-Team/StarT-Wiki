@@ -23,7 +23,7 @@ flowchart TD
     subgraph SubDiaminobenzidine [" "]
         direction TD
         NitricNM@{ shape: lean-r, label: "90b Nitric Acid" }
-        SulfuricNM@{ shape: lean-r, label: "45b Sulfuric Acid" }
+        SulfuricNM@{ shape: lean-r, label: "30b Sulfuric Acid" }
         NMProcess@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PBI_img/mixer_nitration_mixture.png", label: "Mixer", pos: "t", w: 200, h: 200, constraint: "on" }
 
         ChlorineCB@{ shape: lean-r, label: "180b Chlorine" }
@@ -65,7 +65,7 @@ flowchart TD
         DABProcess --> DABHydrochloric
         DABProcess ~~~ DABHydrochloric
 
-        DSProcess --45b Sulfuric Acid--> NMProcess
+        DSProcess --60b Sulfuric Acid--> NMProcess
 
 
         end
@@ -81,7 +81,7 @@ flowchart TD
             SulfuricProcess@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PBI_img/large_chemical_reactor_sulfuric_acid_from_sulfide.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
 
             PhenolDI@{ shape: lean-r, label: "90b Phenol"}
-            SulfuricDI@{ shape: lean-r, label: "22.5b Sulfuric Acid"}
+            SulfuricDI@{ shape: lean-r, label: "15b Sulfuric Acid"}
             DIProcess@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PBI_img/large_chemical_reactor_diphenyl_isophtalate.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
             DSAProcess@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PBI_img/distillery_distill_dilute_sulfuric_to_sulfuric_acid_2.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
 
@@ -96,7 +96,7 @@ flowchart TD
 
             PhenolDI & SulfuricDI --> DIProcess
             DIProcess --45b Dilute Sulfuric Acid--> DSAProcess
-            DSAProcess --22.5b Sulfuric Acid--> DIProcess
+            DSAProcess --30b Sulfuric Acid--> DIProcess
 
         
         end
@@ -128,7 +128,7 @@ Do note however, the I/O in this flowchart has been balanced. You can make PBI w
         - 38b Naphthalene
         - 2x Potassium Dust
         - 90b Phenol (45 if you recycle)
-        - 67.5b Sulfuric Acid (135 without distillation, 153 if you store Hydrogen Sulfide for SPT boosting)
+        - 45b Sulfuric Acid (135 without distillation, 153 if you store Hydrogen Sulfide for SPT boosting)
         - 72b Oxygen (if you recycle Hydrogen Sulfide)
         - 90b Nitric Acid
         - 180b Chlorine
