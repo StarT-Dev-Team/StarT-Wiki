@@ -15,7 +15,8 @@ Another optional plastic you can make in <hv>HV</hv>. The only real use for it i
 ### Caprolactam
 
 #### LCR
-```mermaid
+
+```mermaid { data-search-exclude }
 flowchart TD
     %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent', 'labelBkgBackground' : 'transparent' }}}%%
 
@@ -61,12 +62,13 @@ flowchart TD
     
     subgraph P5 [" "]
         direction LR
-        K@{ shape: lean-r, label: "2b Sulfuric Acid", constraint: "on" }
+        K@{ shape: lean-r, label: "2/3b Sulfuric Acid", constraint: "on" }
         E@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/Nylong6_img/large_chemical_reactor_caprolactam.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
-        N@{ shape: lean-l, label: "2b Diluted Sulfuric Acid", constraint: "on" }
+        N@{ img: "https://emi.expandium.net/packs/StarTechnology/eta3-hf2/recipes/gtceu/distillery_distill_dilute_sulfuric_to_sulfuric_acid.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
         L@{ shape: lean-l, label: "38 Caprolactam dust", constraint: "on" }
         K --> E
-        E --> N
+        E --2b Diluted Sulfuric Acid--> N
+        N --4/3b Sulfuric Acid--> E
         E --> L
     end
     class P5 invisible

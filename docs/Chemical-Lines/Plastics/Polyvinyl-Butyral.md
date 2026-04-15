@@ -12,8 +12,10 @@ A fairly simple <hv>HV</hv> plastic, used only to make greenhouses, useful if yo
 
 ## How to make PVB
 
-```mermaid
-flowchart LR
+### LCR
+
+```mermaid { data-search-exclude }
+flowchart LR 
     %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent', 'labelBkgBackground' : 'transparent' }}}%%
 
     A@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PVB_img/large_chemical_reactor_butraldehyde.png", label: "LCR (HV)", pos: "t", w: 200, h: 200, constraint: "on" }
@@ -37,6 +39,24 @@ flowchart LR
     A --1b Butyraldehyde--> B
     B --> G
 ```
+
+### Chem Plant
+
+Mostly the same, just more condensed with simpler ingredients.
+
+![ChemPlant_PVB](PVB_img/chemical_skip_polyvinyl_butyral_skip.png)
+
+!!! tip ""
+    === "Inputs"
+        - Oxygen
+        - Acetic Acid
+        - Ethylene
+        - Propene
+        - Hydrogen
+
+    === "Outputs"
+        - PVB
+        - Water
 
 ## Uses of PVB
 

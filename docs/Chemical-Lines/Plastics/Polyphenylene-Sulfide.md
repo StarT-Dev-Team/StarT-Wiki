@@ -14,7 +14,7 @@ A plastic you will need to make in <LUV>Luv</LUV> to make <ZPM>ZPM</ZPM> energy 
 
 ### LCR
 
-```mermaid
+```mermaid { data-search-exclude }
 flowchart TD
     %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent', 'labelBkgBackground' : 'transparent' }}}%%
 
@@ -60,6 +60,17 @@ Looping is optional. For the final step you can use air instead of oxygen, but i
 In <ZPM>ZPM</ZPM>, you can make use of the Chem Plant to make PPS in 1 step, taking Sulfur, Oxygen, Benzene, and Chlorine as inputs, and giving a byproduct of Hydrochloric Acid.
 
 ![PPS_ChemPlant](PPS_img/chemical_skip_polyphenylene_sulfide_skip.png)
+
+!!! tip ""
+    === "Inputs"
+        - Sulfur
+        - Oxygen
+        - Benzene
+        - Chlorine
+
+    === "Outputs"
+        - PPS
+        - Hydrochloric Acid
 
 ## Uses of PPS
 

@@ -23,7 +23,7 @@ Thus if you find yourself running out of ethanol, it may be best to switch to th
 
 #### Create Ethanol
 
-```mermaid
+```mermaid { data-search-exclude }
 flowchart LR
     %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent', 'labelBkgBackground' : 'transparent' }}}%%
 
@@ -68,7 +68,7 @@ flowchart LR
 
 After obtaining Ethanol, it isn't much harder to get Polyethylene. 
 
-First, you have to react [Sulfuric Acid](Chemical-Lines/Acids/Sulfuric-Acid/) with Ethanol to get Ethylene.
+First, you have to react [Sulfuric Acid](/StarT-Wiki/Chemical-Lines/Acids/Sulfuric-Acid/) with Ethanol to get Ethylene.
 
 ![Ethanol_to_Ethylene](PE_img/chemical_reactor_ethylene_from_ethanol.png)
 

@@ -14,7 +14,7 @@ One of the first acids you'll ever make, and the first of many. Sulfuric Acid  i
 
 This is the first way that you will make Sulfuric Acid
 
-```mermaid
+```mermaid { data-search-exclude }
 flowchart LR
     %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent', 'labelBkgBackground' : 'transparent' }}}%%
 

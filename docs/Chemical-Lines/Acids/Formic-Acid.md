@@ -18,7 +18,7 @@ Formic Acid is made from Carbon Dioxide and Water.
 
 ## Formic Acid Loop
 
-```mermaid
+```mermaid { data-search-exclude }
 flowchart TD;
     %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent', 'labelBkgBackground' : 'transparent' }}}%%
 

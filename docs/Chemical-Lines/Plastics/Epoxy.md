@@ -16,7 +16,7 @@ A more complex acid made in <EV>EV</EV>, used for the construction of circuits u
 
 Epoxy needs various biomolecules to be made, so it is best to have wood distillation/oil drilling setup beforehand.
 
-```mermaid
+```mermaid { data-search-exclude }
 flowchart TD
     %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent', 'labelBkgBackground' : 'transparent'}}}%%
 
@@ -46,9 +46,9 @@ flowchart TD
         H@{ shape: lean-r, label: "4b/500mb Chlorine" }
         I@{ shape: lean-r, label: "1b Propene" }
         K@{ shape: lean-r, label: "1b Water" }
-        H ==> B
-        I ==> B
-        K ==> B
+        H --> B
+        I --> B
+        K --> B
     end
     class P4 invisible
 
@@ -57,8 +57,8 @@ flowchart TD
         F@{ shape: lean-r, label: "1b Acetone" }
         G@{ shape: lean-r, label: "2b Phenol" }
         J@{ shape: lean-l, label: "1b Epoxy" }
-        F ==> A
-        G ==> A
+        F --> A
+        G --> A
         A --> J
     end
     class P5 invisible
@@ -66,26 +66,37 @@ flowchart TD
     L@{ shape: lean-l, label: "5.5b Hydrogen" }
 
     
-    D ==3x Sodium Hydroxide dust==> A
-    B ==1b Epichlorohydrin + 1b Hydrochloric Acid==> A
-    A ==1b Salt Water==> D
-    A ==1b Diluted Hydrochloric Acid==> E
-    D ==3x Sodium Hydroxide dust==> B
-    C ==1.5B Chlorine==> B
-    B ==1b Salt Water==> D
-    B ==1b Hydrochloric Acid==> C
-    D ==2b Chlorine==> B
-    D ==> L
-    E ==500mb Hydrochloric Acid==>C
+    D --3x Sodium Hydroxide dust--> A
+    B --1b Epichlorohydrin + 1b Hydrochloric Acid--> A
+    A --1b Salt Water--> D
+    A --1b Diluted Hydrochloric Acid--> E
+    D --3x Sodium Hydroxide dust--> B
+    C --1.5B Chlorine--> B
+    B --1b Salt Water--> D
+    B --1b Hydrochloric Acid--> C
+    D --2b Chlorine--> B
+    D --> L
+    E --500mb Hydrochloric Acid-->C
 ```
 
 Looping is optional. You can perfectly loop Sodium Hydroxide, but if you loop Chlorine you will still need to input half a buckets worth.
 
 ### Chem Plant
 
-At <ZPM>ZPM</ZPM> you can use the Chemical Plant to directly synthesise epoxy from its substituent parts. You also get some extra Hydrochloric Acid.
+At <ZPM>ZPM</ZPM> you can use the Chemical Plant to directly synthesise epoxy from its substituent parts.
 
 ![Epoxy_ChemPlant](Epoxy_img/chemical_skip_epoxy_skip.png)
+
+!!! tip ""
+    === "Inputs"
+        - Benzene
+        - Propene
+        - Chlorine
+        - Oxygen
+
+    === "Outputs"
+        - Epoxy
+        - Hydrochloric Acid 
 
 ## Uses of Epoxy
 

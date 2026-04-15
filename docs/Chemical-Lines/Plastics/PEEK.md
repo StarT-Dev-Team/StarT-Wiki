@@ -1,107 +1,201 @@
+---
+title: Polyether Ether Ketone 
+author: ME Item Storage Cell
+---
+
 # Polyether Ether Ketone (PEEK)
+<small>**Guide by:** ME Item Storage Cell</small>
 
-PEEK is a type of plastic that is widely used late-game. In reality, it is a colourless organic thermoplastic polymer in the polyaryletherketone (PAEK) family, used in engineering applications. 
+!!! quote ""
 
-## How to Make PEEK
+PEEK is the best plastic. Unfortunately you have to wait until <LuV>LuV</LuV> to make it. If for some reason you decide not to, you will absolutely need to make it at <UHV>UHV</UHV>.
 
-**PEEK is mainly made from *4,4-Difluorobenzophenone Dust* and *Disodium Salt of Hydroquione dust***
+## How to make PEEK
 
-### How to make 4,4-Difluorobenzophenone Dust
+### LCR
+```mermaid { data-search-exclude }
+flowchart TD
+    %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent', 'labelBkgBackground' : 'transparent' }}}%%
 
-Step **1**: Obtain Fluorobenzene and [Hydrofluoric Acid](/StarT-Wiki/Chemical-Lines/Acids/Hydrofluoric-Acid/) by chemically reacting Fluorine Gas with Benzene. **(<luv>LuV</luv> LCR)**
+    classDef invisible fill:none,stroke:none,color:none,stroke-width:0px
+    
+    subgraph DisodiumOfHydroquinone [" "]
+        direction TB
 
-![fb](PEEK_img/large_chemical_reactor_fluorobenzene_process.png)
+        subgraph SubSodaAshDust [" "]
+            direction TB
+            CarbonDioxideSA@{ shape: lean-r, label: "2b Carbon Dioxide" }
+            SodiumHydroxideSA@{ shape: lean-r, label: "12x Sodium Hydroxide Dust" }
+            SAProcess@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PEEK_img/large_chemical_reactor_soda_ash_from_carbon_dioxide.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
+            SAWater@{ shape: lean-l, label: "2b Water" }
 
-Step **2**: Obtain **Benzotrichloride** by chemically reacting **Chlorine Gas** with **Toluene**. **(<zpm>ZPM</zpm> LCR)**
+            
+            CarbonDioxideSA & SodiumHydroxideSA --> SAProcess
+            
+        end
+        class SubSodaAshDust invisible
 
-![btc](PEEK_img/large_chemical_reactor_benzotrichloride_process.png)
+        subgraph SubHydroquinonedust [" "]
+            direction TB
+            BenzeneHQ@{ shape: lean-r, label: "2b Benzene" }
+            OxygenHQ@{ shape: lean-r, label: "2b Oxygen" }
+            PropeneHQ@{ shape: lean-r, label: "2b Propene" }
+            HQProcess@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PEEK_img/large_chemical_reactor_hydroquinone_process.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
 
-Step **3**: Obtain **Benzoyl Chloride** by chemically reacting **Benzotrichloride** with **Water**. **(<luv>LuV</luv> LCR)**
+            PropeneR@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PEEK_img/electrolyzer_acetone_electrolysis.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
+            RCarbon@{ shape: lean-l, label: "3x Carbon" }
+            RWater@{ shape: lean-l, label: "2b Water" }
 
-![bzc](PEEK_img/large_chemical_reactor_benzoyl_chloride_process.png)
+            BenzeneHQ & OxygenHQ & PropeneHQ --> HQProcess
+            HQProcess --2b Acetone--> PropeneR
+            PropeneR --1b Propene--> HQProcess
+            PropeneR --> RCarbon & RWater
+        end
+        class SubHydroquinonedust invisible
 
-Step **4**: Obtain **4-Fluorobenzoyl Chloride** by chemically reacting **Benzoyl Chloride** with **Hydrogen**. **(<luv>LuV</luv> LCR)**
+        DHProcess@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PEEK_img/large_chemical_reactor_disodium_salt_of_hydroquinone_process.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
+        DHCarbonic@{ shape: lean-l, label: "2b Carbonic Acid" }
 
-![4fbc](PEEK_img/large_chemical_reactor_4_fluorobenzoyl_chloride_process.png)
+        HQProcess --28x Hydroquinone Dust--> DHProcess
+        SAProcess --12x Soda Ash Dust--> DHProcess
+        SAProcess --> SAWater
+        
+    end
+    class DisodiumOfHydroquinone invisible
 
-Step **5**: Obtain **4,4-Difluorobenzophenone Dust** by chemically reacting **4-Fluorobenzoyl Chloride** and **Fluorobenzen**. (<luv>**LuV</luv> LCR)**
+    
+    subgraph SubPEEK [" "]
+        direction TB
+        PEEKProcess@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PEEK_img/large_chemical_reactor_peek_process.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
+        PEEK@{ shape: lean-l, label: "9.8b Polyether Ether Ketone" }
+        PEEKSodiumFluoride@{ shape: lean-l, label: "8x Sodium Fluoride Dust" }
 
-![44dfbp](PEEK_img/large_chemical_reactor_44_difluorobenzophenone_process.png)
+        PEEKProcess --> PEEK
+        PEEKProcess --> PEEKSodiumFluoride
+    end
+    class SubPEEK invisible
+    
 
-### How to make Disodium Salt of Hydroquione dust
+    subgraph Difluorobenzophenone [" "]
 
-Step **1**: Obtain **Soda Ash Dust** by chemically reacting **Sodium Hydroxide Dust** and **Carbon Dioxide**. **(<hv>HV</hv> LCR)**
+        subgraph SubFluorobenzene [" "]
+            direction TB
+            BenzeneFB@{ shape: lean-r, label: "2b Benzene" }
+            FluorineFB@{ shape: lean-r, label: "4b Fluorine" }
+            FBProcess@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PEEK_img/large_chemical_reactor_fluorobenzene_process.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
+            HydrofluoricAcidFB@{ shape: lean-l, label: "2b Hydrofluoric Acid" }
 
-![sad](PEEK_img/large_chemical_reactor_soda_ash_from_carbon_dioxide.png)
+            BenzeneFB & FluorineFB --> FBProcess
+            
+        end
+        class SubFluorobenzene invisible
 
-Step **2**: Obtain **Hydroquione Dust** from chemically reacting **Benzene**, **Propene** and **Oxygen**. **(<zpm>ZPM</zpm> LCR)**
+        subgraph SubFluorobenzoylChloride [" "]
+            direction TB
+            BenzeneBT@{ shape: lean-r, label: "2b Toluene" }
+            ChlorineBT@{ shape: lean-r, label: "6b Chlorine" }
+            BTProcess@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PEEK_img/large_chemical_reactor_benzotrichloride_process.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
+            BTHydrogen@{ shape: lean-l, label: "6b Hydrogen" }
 
-![hqd](PEEK_img/large_chemical_reactor_hydroquinone_process.png)
+            WaterBC@{ shape: lean-r, label: "2b Water" }
+            BCProcess@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PEEK_img/large_chemical_reactor_benzoyl_chloride_process.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
+            HydrochloricBC@{ shape: lean-l, label: "4b Hydrochloric Acid" }
 
-Step **3**: Obtain **Disodium Salt of Hydroquione dust** by chemically reacting **Soda Ash Dust** and **Hydroquione Dust**. **(<iv>IV</iv> LCR)**
+            FluorineFC@{ shape: lean-r, label: "2b Fluorine" }
+            FCProcess@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PEEK_img/large_chemical_reactor_4_fluorobenzoyl_chloride_process.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
+            FCHydrogen@{ shape: lean-l, label: "2b Hydrogen" }
 
-![dshqd](PEEK_img/large_chemical_reactor_disodium_salt_of_hydroquinone_process.png)
+            BenzeneBT & ChlorineBT --> BTProcess
+            BTProcess --> BTHydrogen
 
-### Making PEEK
+            BTProcess --2b Benzotrichloride--> BCProcess
+            WaterBC --> BCProcess
+            BCProcess --> HydrochloricBC
+            
+            FluorineFC --> FCProcess
+            BCProcess --2b Benzoyl Chloride--> FCProcess
+            FCProcess --> FCHydrogen
+        end
+        class SubFluorobenzoylChloride invisible
+        
+        DBPProcess@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PEEK_img/large_chemical_reactor_44_difluorobenzophenone_process.png", label: "LCR", pos: "t", w: 200, h: 200, constraint: "on" }
+        DBPHydrochloric@{ shape: lean-l, label: "2b Hydrochloric Acid" }
 
-**Obtain PEEK by chemically reacting *Disodium Salt of Hydroquione dust* and *4,4-Difluorobenzophenone Dust*. (<luv>LuV</luv> LCR)**
+        FBProcess --2b Fluorobenzene--> DBPProcess
+        FBProcess --> HydrofluoricAcidFB
+        FCProcess --2b 4-Fluorobenzoyl Chloride--> DBPProcess
+        DBPProcess --> DBPHydrochloric
+    end
+    class Difluorobenzophenone invisible
 
-![peek](PEEK_img/large_chemical_reactor_peek_process.png)
+    DHProcess --28x Disodium Salt of Hydroquinone Dust--> PEEKProcess
+    DHProcess --> DHCarbonic
+    DBPProcess --"48x 4,4-Difluorobenzophenone Dust"--> PEEKProcess
+```
 
-**Another way of crafting PEEK is to use the Chemical Plant you can craft when you reach <zpm>ZPM</zpm> tier.**
+A long, but worthy process for the best plastic. Some of the recycling steps has been left out of the flowchart, and here they are:
 
-**Note that the PEEK recipe requires <uhv>UHV</uhv> overclocking.**
+- Electrolysing Hydrofluoric Acid to recycle Fluorine you used, with Hydrogen as a bonus
+- Electrolysing Hydrochloric Acid to recycle Chlorine, with more Hydrogen as a bonus
 
-***PEEK = Soda Ash Dust + Benzene + Propene + Oxygen (<uhv>UHV</uhv> Chemical Plant)***
+!!! tip ""
+    === "Inputs"
+        - 2b Toluene
+        - 6b Chlorine (Can be partially recycled)
+        - 2b Water
+        - 6b Fluorine (Can be recycled)
+        - 2b Benzene
+        - 2b Oxygen
+        - 2b Propene (Can be partially recycled)
+        - 2b Carbon Dioxide
+        - 12x Sodium Hydroxide Dust
 
-![peek2](PEEK_img/chemical_plant_effortless_peek_process.png)
+    === "Outputs"
+        - 2b Hydrogen
+        - 6b Hydrochloric Acid (Used for recycling)
+        - 2b Hydrofluoric Acid (Used for recycling)
+        - 2b Acetone (Used for recycling)
+        - 4b Water
+        - 2b Carbonic Acid
+        - 3x Carbon Dust
+        - 8x Sodium Fluoride Dust
+        - 9.8b PEEK
+
+
+### Chem Plant
+Using PEEK to make PEEK, truly industry at its greatest. Inputs and outputs remain mostly the same, removing some trivial/useless ones. However, you will need to wait until <UHV>UHV</UHV> to overclock you Chem Plant to <UEV>UEV</UEV>.
+
+![PEEKSelfReplication](PEEK_img/chemical_skip_peek_skip.png)
+
+!!! tip ""
+    === "Inputs"
+        - Benzene
+        - Toluene
+        - Propene
+        - Oxygen
+
+    === "Outputs"
+        - PEEK
+        - Acetone
+        - Hydrogen 
+
 
 ## Uses of PEEK
 
-**Crafting of <uhv>UHV</uhv> hatches in the assembler**
+PEEK is used as a sheet in both <UHV>UHV</UHV> and <UEV>UEV</UEV> machine hulls 
 
-![upeek](PEEK_img/assembler_uhv_dual_output_hatch.png)
+!!! example ""
 
-**Crafting of PEEK Casings**
+    === "UHV"
 
-![upeek2](PEEK_img/assembler_peek_casing.png)
+        ![Machine hullZPM](PEEK_img/kjs_gtceu_uhv_machine_hull.png)
 
-**Used as fluid in assembly lines**
+    === "UEV"
 
-![upeek3](PEEK_img/assembly_line_draconic_processor_mainframe.png) 
+        ![Machine hullUV](PEEK_img/shaped_uev_machine_hull.png)
 
-**Uncraftable at Epsilon*
+### Chemical Plant
 
-**Used in <uhv>UHV</uhv> component crafting**
+The Chemical Plant, or Chem Plant for short, is quite a useful multiblock. Making a Chem Plant requires PEEK, as it is largely composed of PEEK Casing.
 
-![upeek4](PEEK_img/component_part_assembly_uhv_microfluidic_flow_valve.png)
-
-### Uses of PEEK foil
-
-**Fluid Solidify PEEK into PEEK ingots**
-
-![upeek5](PEEK_img/fluid_solidifier_solidify_polyether_ether_ketone_to_ingot.png)
-
-**Bend the ingots into foil (Cir 10)**
-
-![upeek6](PEEK_img/bender_bend_polyether_ether_ketone_ingot_to_foil.png)
-
-**Used as a crafting item in assembly line recipes**
- 
-![upeek7](PEEK_img/assembly_line_draconic_processor_mainframe.png)
-
-**Uncraftable at Epsilon*
-
-### Uses of PEEK plate
-
-**Fluid solifify PEEK into plate**
-
-![upeek](PEEK_img/fluid_solidifier_solidify_polyether_ether_ketone_to_plate.png)
-
-**Used to craft <uhv>UHV</uhv> hulls**
-
-![upeek8](PEEK_img/kjs_gtceu_uhv_machine_hull.png)
-
-**Used to make plastic circuit boards**
-
-![upeek9](PEEK_img/chemical_reactor_plastic_boards_peek.png)
+![PEEKCasing](PEEK_img/assembler_peek_casing.png)
