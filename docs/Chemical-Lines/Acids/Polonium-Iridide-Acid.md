@@ -8,7 +8,7 @@ author: humanoferth
 
 !!! quote ""
 
-Polonium Iridide Acid is available in <UEV>**UEV**<UEV> and is used in the production of Polonium Flux.
+Polonium Iridide Acid is available in <UEV>**UEV**</UEV> and is used in the production of Polonium Flux.
 
 ## Making Polonium Iridide Acid
 
