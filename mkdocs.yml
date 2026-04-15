@@ -167,7 +167,12 @@ nav:
     - LV Multiblocks: Guides/GregTech/Multiblocks/LV/LV-Multis.md
 
 - Guides:
-    - LaserIO: Guides/LaserIO/LaserIO.md
+    - LaserIO:
+        - Guides/LaserIO/index.md
+        - Tools: Guides/LaserIO/Tools.md
+        - Connectors & Nodes: Guides/LaserIO/Connectors-&-Nodes.md
+        - Cards: Guides/LaserIO/Cards.md
+        - Filters: Guides/LaserIO/Filters.md
 
     - AE2: Guides/Applied-Energistics-2/AE2-Introduction.md 
 
