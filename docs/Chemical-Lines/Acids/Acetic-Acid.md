@@ -22,7 +22,7 @@ Acetic acid can be made as early on as <LV>**LV**</LV> and is used in a variety 
 
         ![Fermented Biomass to Acetic](C2H4O2_img/distillation_tower_distill_wood_vinegar.png)
 
-        It can also be obtained from an <MV>**MV**</MV> distillery on circuit 1 with the same input.
+        It can also be obtained from an <MV>**MV**</MV> Distillery on Circuit 1 with the same input.
 
         This should not be the method used to obtain any amount of Acetic Acid en mass since other methods are both faster and easier, though its still worth setting up for the other materials.
 
@@ -32,13 +32,13 @@ Acetic acid can be made as early on as <LV>**LV**</LV> and is used in a variety 
 
         ![Wood Vinegar to Acetic](C2H4O2_img/distillation_tower_distill_fermented_biomass.png)
 
-        It can also be obtained from an <MV>**MV**</MV> distillery on circuit 1 with the same input.
+        It can also be obtained from an <MV>**MV**</MV> Distillery on Circuit 1 with the same input.
 
         This method is better then using Fermented Biomass, as its easier to obtain Wood Vinegar from other distillations and from the Pyrolose oven.
 
 ### Chemical Reactors
 
-These recipes can use either regular or large chemical reactors. While they are faster than distillations, they do require that you have the reagents on hand or passived somewhere else.
+These recipes can use either regular or Large Chemical Reactors. While they are faster than distillations, they do require that you have the reagents on hand or passived somewhere else.
 
 !!! example ""
 

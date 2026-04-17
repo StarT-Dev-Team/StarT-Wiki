@@ -131,6 +131,7 @@ nav:
 
 - Power Gen:
     - Create Power: 'Energy-Generation/Carbon-Brushes-and-Magnets.md'
+    - Dynamos: 'Energy-Generation/Dynamos.md'
 
 - Chemical Lines:
     - Chemical-Lines/index.md
@@ -161,7 +162,13 @@ nav:
         - Formic Acid: Chemical-Lines/Acids/Formic-Acid.md
         - Hydrochloric Acid: Chemical-Lines/Acids/Hydrochloric-Acid.md
         - Hydrofluoric Acid: Chemical-Lines/Acids/Hydrofluoric-Acid.md
-        - Nitric Acid: Chemical-Lines/Acids/Nitric-Acid.md 
+        - Nitric Acid: Chemical-Lines/Acids/Nitric-Acid.md
+        - Phosphoric Acid:  Chemical-Lines/Acids/Phosphoric-Acid.md
+        - Hypochlorous Acid: Chemical-Lines/Acids/Hypochlorous-Acid.md
+        - Fluoroantimonic Acid: Chemical-Lines/Acids/Fluoroantimonic-Acid.md
+        - Phthalic Acid: Chemical-Lines/Acids/Phthalic-Acid.md
+        - Perchloric Acid: Chemical-Lines/Acids/Perchloric-Acid.md
+        - Carbonic Acid: Chemical-Lines/Acids/Carbonic-Acid.md
 
 - Multiblocks:
     - LV Multiblocks: Guides/GregTech/Multiblocks/LV/LV-Multis.md
