@@ -1,9 +1,8 @@
-KillLaAqua [KMRU], Role icon, Maker of Gates, Remover of Spines — 23/04/2025 20:22
 # Star Technology Zeta Changelog:
 
 ## Zeta 1 Changelog:
 
-**Release Date:** 
+**Release Date:** 23/04/202
 
 **Additions:**
 
