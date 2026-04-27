@@ -1,9 +1,0 @@
-{
-  "ldlib": {
-    "connection": "gtceu:block/casings/slicing_blades/top_ctm"
-  },
-  "animation": {
-    "interpolate": false,
-    "frametime": 2
-  }
-}
