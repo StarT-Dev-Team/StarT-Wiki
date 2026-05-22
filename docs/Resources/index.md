@@ -2,10 +2,10 @@
 title: Resource production
 author: Jkj3000
 ---
-# How To produce items in StarT
+# Production in the Skys
 
-As Star Technology is a skyblock modpack you can not get resources the regular way. You cant mine for ores or other required resources. You need to use other ways to get them. 
+As Star Technology is a Skyblock modpack you can/t get resources the regular way. You can't mine for ores or other required resources. You need to use more creative and convoluted methods. 
 
-There are several ways of getting ores in Star Technology, sieving, void extraction, fluid drilling, and generation of ores or liquids from nothing in specific multiblocks.
+There are several ways of getting ores in Star Technology, such as sieving, void extraction, fluid drilling, and generation of ores or liquids from nothing.
 
-These methods of resource generation are covered on the next pages.
+These methods of resource generation are covered in this section.

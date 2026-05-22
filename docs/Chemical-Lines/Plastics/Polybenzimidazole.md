@@ -1,6 +1,7 @@
 ---
 title: Polybenzimidazole
 author: ME Item Storage Cell
+description: PBI is the ZPM plastic, which you will use until UV.
 ---
 
 # Polybenzimidazole (PBI)

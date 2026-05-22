@@ -7,7 +7,7 @@ description: Guide page for LaserIO.
 # LaserIO
 <small>**Guide by:** Elon-chan</small>
 
----
+!!! quote ""
 
 LaserIO is a powerful, early game, logistic mod. It is capable of moving items, fluids, energy and redstone signals wirelessly, at decently high rates.
 
@@ -24,7 +24,7 @@ To start, you will want to make a few Logic Chips by smelting Raw Logic Chips. T
 
 ![Raw_Logic_Chip_Crafting](./img/crafting/logic_chip_raw.png){align=center} ![Logic_Chip_Crafting](./img/crafting/logic_chip.png){align=center}
 
-The first thing you will want to craft is a [Laser Wrench](../LaserIO/Laser-Wrench.md).
+The first thing you will want to craft is a [Laser Wrench](/StarT-Wiki/Guides/LaserIO/Tools/#laser-wrench).
 
 ---
 

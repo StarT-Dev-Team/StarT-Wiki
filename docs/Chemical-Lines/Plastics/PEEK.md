@@ -1,6 +1,7 @@
 ---
 title: Polyether Ether Ketone 
 author: ME Item Storage Cell
+description: PEEK is the best plastic
 ---
 
 # Polyether Ether Ketone (PEEK)

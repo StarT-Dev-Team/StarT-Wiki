@@ -1,6 +1,7 @@
 ---
 title: Epoxy
 author: ME Item Storage Cell
+description: A more complex acid made in EV, used for the construction of circuits up to ZPM.
 ---
 
 # Epoxy

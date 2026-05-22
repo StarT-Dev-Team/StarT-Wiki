@@ -1,6 +1,7 @@
 ---
 title: Polytetrafluroethylene
 author: ME Item Storage Cell
+description: The plastic used to create Large Chemical Reactors!
 ---
 
 # Polytetrafluoroethylene (PTFE)

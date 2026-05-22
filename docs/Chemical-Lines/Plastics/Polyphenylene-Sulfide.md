@@ -1,6 +1,7 @@
 ---
 title: Polyphenylene Sulfide
 author: ME Item Storage Cell
+description: A plastic made in LUV, to reach ZPM.
 ---
 
 # Polyphenylene Sulfide (PPS)

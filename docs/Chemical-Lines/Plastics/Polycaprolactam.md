@@ -1,6 +1,7 @@
 ---
 title: Polycaprolactam
 author: ME Item Storage Cell
+description: A plastic you can optionally make in HV. Used for making lots of string really quickly.
 ---
 
 # Polycaprolactam (Nylon 6)

@@ -1,5 +1,6 @@
 site_name: Star Technology Wiki
 site_url: https://start-dev-team.github.io/StarT-Wiki/
+site_description: "Official documentation for the Minecraft modpack Star Technology"
 repo_name: Star Technology
 repo_url: https://github.com/StarT-Dev-Team/Star-Technology
 use_directory_urls: true
@@ -48,6 +49,7 @@ theme:
 
 markdown_extensions:
   - toc:
+      permalink: ¶
   - attr_list
   - def_list
   - pymdownx.emoji:
@@ -92,6 +94,7 @@ plugins:
   - mermaid2
   - panzoom:
       full_screen: true
+
 
 
 extra_css:
@@ -164,7 +167,7 @@ nav:
         - Hydrofluoric Acid: Chemical-Lines/Acids/Hydrofluoric-Acid.md
         - Nitric Acid: Chemical-Lines/Acids/Nitric-Acid.md
         - Phosphoric Acid:  Chemical-Lines/Acids/Phosphoric-Acid.md
-        - Hypochlorous Acid: Chemical-Lines/Acids/Hypochlorous-Acid.md
+        - Hypochlorous Acid: Chemical-Lines/Acids/Hypochlorous-acid.md
         - Fluoroantimonic Acid: Chemical-Lines/Acids/Fluoroantimonic-Acid.md
         - Phthalic Acid: Chemical-Lines/Acids/Phthalic-Acid.md
         - Perchloric Acid: Chemical-Lines/Acids/Perchloric-Acid.md
@@ -183,13 +186,13 @@ nav:
 
     - AE2: Guides/Applied-Energistics-2/AE2-Introduction.md 
 
-    - Gregtech:
-        - Electricity: Guides/GregTech/Energy.md
-        - Overclocking: Guides/GregTech/Overclock.md
-    
     - Transportation:
         - Energy: Guides/Transportation-Methods/Energy.md
         - Fluids: Guides/Transportation-Methods/Fluids.md
         - Items: Guides/Transportation-Methods/Items.md
 
+    - Gregtech:
+        - Electricity: Guides/GregTech/Energy.md
+        - Overclocking: Guides/GregTech/Overclock.md
+    
 - FAQ: FAQ.md

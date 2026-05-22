@@ -1,6 +1,7 @@
 ---
 title: Polyvinyl Butyral
 author: ME Item Storage Cell
+description: A plastic made in HV to make Greenhouses.
 ---
 
 # Polyvinyl Butyral (PVB)

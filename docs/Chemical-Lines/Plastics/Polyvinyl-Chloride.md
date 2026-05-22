@@ -1,6 +1,7 @@
 ---
 title: Polyvinyl Chloride
 author: ME Item Storage Cell
+descrption: A plastic that you can optionally make in MV, immediately as you make Polyethylene. You can avoid making it until EV.
 ---
 
 # Polyvinyl Chloride (PVC)

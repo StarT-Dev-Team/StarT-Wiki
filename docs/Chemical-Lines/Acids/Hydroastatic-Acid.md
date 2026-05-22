@@ -14,4 +14,4 @@ Hydroastatic Acid is available in <UEV>**UEV**</UEV> and is an intermediate in t
 
 Hydroastatic Acid its made in the Chemical Bath by bathing Barium Diastanide in Water.
 
-![bath](HAt/chemical_bath_barium_diastatide_hydration.png)
+![bath](HAt_img/chemical_bath_barium_diastatide_hydration.png)

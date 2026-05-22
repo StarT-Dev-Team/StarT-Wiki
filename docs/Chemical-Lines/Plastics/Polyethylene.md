@@ -1,6 +1,7 @@
 ---
 title: Polyethylene
 author: ME Item Storage Cell
+description: The first plastic you will make, comprised mainly of ethanol.
 ---
 
 # Polyethylene (PE)

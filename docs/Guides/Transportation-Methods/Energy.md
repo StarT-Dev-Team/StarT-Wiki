@@ -6,7 +6,7 @@
 
 !!! info ""
 
-    For more details, visit the [Laser IO](/StarT-Wiki/Guides/LaserIO/LaserIO/) page.
+    For more details, visit the [Laser IO](/StarT-Wiki/Guides/LaserIO/) page.
 
 ### Create Wires
 

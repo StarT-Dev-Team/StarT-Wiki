@@ -10,7 +10,7 @@ Thermal's **Fluid Cells** are one of the earliest options available for automati
 
 !!! info ""
 
-    For more details, visit the [Laser IO](/StarT-Wiki/Guides/LaserIO/LaserIO/) page.
+    For more details, visit the [Laser IO](/StarT-Wiki/Guides/LaserIO/) page.
 
 ### Create Pipes
 

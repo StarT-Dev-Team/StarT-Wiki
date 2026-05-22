@@ -1,6 +1,7 @@
 ---
 title: Polyvinyl Acetate
 author: ME Item Storage Cell
+description: Unfortunately used for PVB, not adhesion.
 ---
 
 # Polyvinyl Acetate (PVA)

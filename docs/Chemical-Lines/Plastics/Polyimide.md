@@ -1,9 +1,10 @@
 ---
 title: Polyimide 
 author: ME Item Storage Cell
+description: The last plastic used for cable insulation.
 ---
 
-# Poliyimide (PI)
+# Polyimide (PI)
 <small>**Guide by:** ME Item Storage Cell</small>
 
 !!! quote ""

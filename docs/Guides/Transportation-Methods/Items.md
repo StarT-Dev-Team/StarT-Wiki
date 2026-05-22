@@ -8,7 +8,7 @@
 1. 1320 items/second.
 
 !!! info ""
-    For more details, visit the [Laser IO](/StarT-Wiki/Guides/LaserIO/LaserIO.md) page.
+    For more details, visit the [Laser IO](/StarT-Wiki/Guides/LaserIO/) page.
 
 ### Create
 

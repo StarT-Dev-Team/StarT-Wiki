@@ -1,3 +1,10 @@
+---
+title: Plastics
+author: ME Item Storage Cell
+description: Plastics comprise a wide range of synthetic/semisynthetic materials composed primarily of polymers. Their most defining characteristic is their plasticity, that is, the ability to be molded, extruded, and pressed into a various amount of forms.
+img: https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/plastics_image_index.png
+---
+
 # Plastics
 Plastics comprise a wide range of synthetic/semisynthetic materials composed primarily of polymers. Their most defining characteristic is their plasticity, that is, the ability to be molded, extruded, and pressed into a various amount of forms. 
 
