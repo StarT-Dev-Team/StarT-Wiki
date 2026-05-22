@@ -35,7 +35,7 @@ Some machines have POC, instead of Regular OC. This means that, for every tier a
     As the Chem Plant is capable of POC, the recipe time is divide by 4 when going from <IV>IV</IV> to <LuV>LuV</Luv>. The energy usage also quadruples like normal (1A LuV = 4A IV), but the net power draw is still the same, as the recipe is 4 times faster. 
 
 ### Semi Perfect Overclock (SPOC)
-Increasing the tier or amperage of energy hatches in a fusion reactor doesn’t make it any faster, but upgrading the reactor does. Every reactor tier above its base tier is 2x speed for 2x energy consumption.
+Increasing the tier or amperage of energy hatches in a fusion reactor doesn’t make it any faster, but upgrading the reactor does. 
 
 ### Subtick Parallels
 As you progress through the pack, older recipes will continue to get faster and faster. But what happens when it reaches 1 tick? Minecraft does not compute between ticks, and because of that, a machine will no longer speed up if overclocking a recipe means running it faster than 1 tick. 
