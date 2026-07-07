@@ -1,4 +1,4 @@
-## Voltage and Amps
+## Voltage Tiers and Amps
 ### Voltage
 ### Amperes
 ## Power Output
