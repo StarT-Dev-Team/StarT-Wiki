@@ -6,5 +6,7 @@ A much harder rendition of the main game. Highly recommended that you attempt th
 
 ![ExampleHM](Challenges_img/examplehm.png){ align=right }
 
+Notice: Hard mode is discontinued for the foreseeable future. The dev behind it, KillLaAqua, left the team, and us such development is halted.
+
 ## Abydos Start
 Why work towards the Classic Stargate to reach Abydos when you can just start there? Start your journey in abydos, a vast dessert, and try to make your way back home. There are only minor differences in this mode. Most of the progression is the same as normal. 
