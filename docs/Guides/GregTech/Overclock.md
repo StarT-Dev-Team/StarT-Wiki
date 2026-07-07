@@ -34,8 +34,51 @@ Some machines have POC, instead of Regular OC. This means that, for every tier a
 
     As the Chem Plant is capable of POC, the recipe time is divide by 4 when going from <IV>IV</IV> to <LuV>LuV</Luv>. The energy usage also quadruples like normal (1A LuV = 4A IV), but the net power draw is still the same, as the recipe is 4 times faster. 
 
-### Semi Perfect Overclock (SPOC)
-Increasing the tier or amperage of energy hatches in a fusion reactor doesn’t make it any faster, but upgrading the reactor does. 
+### Fusion Overclock (FOC)
+Fusion reactors behave differently when overclocking, having a number of quirks. 
+
+- Its speed tier doesn't affect its recipe speed, the recipe tier does. 
+- It's recipe tier isn't affected by energy hatches (number or tier)
+- Every time a recipe is overclocked, it is twice as fast, but uses 2x energy instead of 4x energy
+
+#### Fusion Reactor Tier
+Every tier of fusion reactor has a base recipe tier, listed below.
+
+- MKI: <LuV>LuV</LuV>
+- MKII: <ZPM>ZPM</ZPM>
+- MKIII: <UV>UV</UV>
+- AUXI: <UHV>UHV</UHV>
+- MKIV: <UEV>UEV</UEV>
+- AUXII: <UIV>UIV</UIV>
+
+Therefore running fusion recipes in higher tiered reactors will give 2x speed while using 2x energy (per tier above base recipe tier). 
+
+!!! example "Example: Helium Plasma"
+
+    ![HeliumPlasma_Recipe](Overclock_img/reflector_fusion_reactor_helium_plasma_from_deuterium_and_tritium.png)
+    
+    The base recipe is at <IV>IV</IV> as seen above
+
+    When ran on the MKI, which has a base recipe tier of <LuV>Luv</LuV> (which is 1 tier higher)
+
+    ![HeliumPlasma_FusionTierOC](Overclock_img/fusion_tier_overclock_example.png)
+    
+    We see it runs twice as fast (7.2s --> 3.6s), while using twice the energy
+
+#### Fusion Reflector Tier
+However, you do not need to progress just to fuse elements faster. Upgrading the reflectors inside a fusion reactor can also give you a speed boost. 
+
+Each fusion recipe has base reflector tier. When using higher tier reflectors, for every tier above the base, you will gain an additional overclock alongside overclocks from the fusion reactor tier.
+
+!!! example "Example: Helium Plasma Cont"
+
+    When changing out the T1 reflectors on the MK1 and using T2 reflectors instead, we get the following results
+
+    ![HeliumPlasma_FusionReflectorOC](Overclock_img/fusion_reflector_overclock_example.png)
+
+    Now, since we are using a reflector tier 1 higher than the base requirement, the recipe is a further 2x faster, and uses 2x more energy, making it the same as a full POC
+
+A final thing to note is that, while not determining recipe speed, a fusion reactor's speed tier is still important. A fusion reactor must have enough energy to properly use all available overclocks. While you usually do not have a case where you speed tier is lower than your recipe tier, when accounting for the extra overclocks from reflectors, you may need to increase the number of hatches on your fusion reactor to make it as fast as possible.
 
 ### Subtick Parallels
 As you progress through the pack, older recipes will continue to get faster and faster. But what happens when it reaches 1 tick? Minecraft does not compute between ticks, and because of that, a machine will no longer speed up if overclocking a recipe means running it faster than 1 tick. 
