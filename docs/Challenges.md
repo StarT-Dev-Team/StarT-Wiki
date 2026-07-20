@@ -1,12 +1,12 @@
-# Challenges 
-Besides the default gamemode, Star Technology can be played in 2 different "challenge" modes, namely, Abydos mode and Hard mode. It should be noted that these 2 gamemodes are not at the same place in terms of development.
+## Community Challenges
 
-## Hard Mode
-A much harder rendition of the main game. Highly recommended that you attempt this mode after completing the main mode. If you thought that this wiki would guide you through it, think again. **0 DOCUMENTATION**, you're all on your own
+Besides the available pack modes, the Star Technology community also has optional long-term challenges for players.
 
-![ExampleHM](Challenges_img/examplehm.png){ align=right }
+### Madman
+Complete every major version of the pack on its latest content version and hotfix available (Alpha 3 Hotfix 2, Beta 10 Hotfix 4, Gamma Hotfix 3, Delta Hotfix 4, Epsilon Hotfix 4, Zeta Hotfix 5, Eta 3 Hotfix 2, Theta 1) until the last available Stargate or until a softlock.
 
-Notice: Hard mode is discontinued for the foreseeable future. The dev behind it, KillLaAqua, left the team, and us such development is halted.
+### Desert Life Enjoyer
+Reach the last available Stargate in the latest release of the Abydos pack mode.
 
-## Abydos Start
-Why work towards the Classic Stargate to reach Abydos when you can just start there? Start your journey in abydos, a vast dessert, and try to make your way back home. There are only minor differences in this mode. Most of the progression is the same as normal. 
+## Additional notes
+All of the challenges will earn you a custom role at the discord server, and so will getting the stargates.

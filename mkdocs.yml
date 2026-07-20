@@ -111,7 +111,8 @@ nav:
   - Meet the Team:
       - Developer Team: 'Meet-the-Team/Developer-Team.md'
       - Credits: 'Meet-the-Team/Credits.md'
-  - Patch Notes: Patch-Notes.md
+  - Patch Notes: Patch-Notes.md'
+  - Additional Packmodes: pack-modes.md
   - Challenges: Challenges.md
   - Contributing to this Wiki: 'Contributing-to-This-Wiki.md'
 
