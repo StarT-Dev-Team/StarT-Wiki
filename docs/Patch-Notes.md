@@ -83,8 +83,8 @@
 - Eta-3 Hotfix 1
 - Eta-3 Hotfix 2
 
+## [Theta](Patches/Theta-Patch-Notes.md)
 
-### [Theta](./Patches/Theta-Patch-Nodes.md)
 - Release of Theta 1
 - Theta 1 Hotfix 1
 - Theta 1 Hotfix 2
