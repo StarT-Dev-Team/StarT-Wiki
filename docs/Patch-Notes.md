@@ -1,7 +1,7 @@
 # Star Technology Major Versions
 
 
-**Current Patch:** Eta 3 Hotfix 2
+**Current Patch:** Theta 1 Hotfix 3
 
 ## [BETA](./Patches/Beta-Patch-Notes.md)
 
@@ -81,10 +81,12 @@
 - Eta-2 Hotfix 1
 - Release of Eta-3
 - Eta-3 Hotfix 1
-- Eta-3 Hotfix 2 (Current Patch)
+- Eta-3 Hotfix 2
 
-## Upcoming Patches
 
 ### [Theta](./Patches/Theta-Patch-Nodes.md)
-
-- Release of Theta WIP
+- Release of Theta 1
+- Theta 1 Hotfix 1
+- Theta 1 Hotfix 2
+- Theta 1 Hotfix 3 (Current Patch)
+- Theta 2 (Active Development)
