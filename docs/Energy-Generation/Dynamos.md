@@ -62,19 +62,18 @@ Optimally, for a dynamo you'll want to have an upgrade kit and three MCI's of th
 
 ## Example Lapidary setup
 
-This setup below is incredibly simple but outputs a massive amount of power (445A <LV>**LV**</LV>):
+This setup below is incredibly simple but outputs a massive amount of power (~110A <LV>**LV**</LV>):
 
 ![alt text](Dynamo_img/2026-03-14_00.52.22.png)
 
 It uses 2 <LV>**LV**</LV> rock crushers, 2 <LV>**LV**</LV> forge hammers, and an <LV>**LV**</LV> mechanical sieve. This makes sand, which is then pushed into a mechanical sieve that generates gems. All of these gems are pushed into 12 lapidary dynamos with an <LV>**LV**</LV> upgrade kit and 3 <LV>**LV**</LV> MCI's. Here is a single module:
 
-It is also slightly positive on fuel to ensure no downtime. This setup can be wallshared on its left, right, and back and can be expanded infinitely to the left and right. Here it is quaded:
+It is also slightly positive on fuel to ensure no downtime. If everything is scaled to <MV>**MV**</MV>, it would be able to handle 18 dynamos and would produce 82A of <MV>**MV**</MV>. If everything is scaled to <HV>**HV**</HV>, it would be able to handle 26 dynamos and would produce 58A of <HV>**HV**</HV>. If everything is scaled to <EV>**EV**</EV>, it would be able to handle 36 dynamos and would produce 39A of <EV>**EV**</EV>. This setup can be wallshared on its left, right, and back and can be expanded infinitely to the left and right. Here it is quaded:
 
 ![alt text](Dynamo_img/2026-03-14_00.52.33.png)
-
-If everything is scaled to <MV>**MV**</MV>, it would be able to handle 18 dynamos and would produce 332.5A of <MV>**MV**</MV>. If everything is scaled to <HV>**HV**</HV>, it would be able to handle 26 dynamos and would produce 238.75 of <HV>**HV**</HV>. If everything is scaled to <EV>**EV**</EV>, it would be able to handle 36 dynamos and would produce 163.75A of <EV>**EV**</EV>.
 
 ## Calculators and Credits
 
 - This [calculator](https://docs.google.com/spreadsheets/d/1n_muSKYPbVeTxJMGTGKpWlGKDjqaXruxRV3P3R-xkLA/edit?gid=616691493#gid=616691493) can be helpful for doing calculations.
 - Be sure to check out c-rad's guide on discord for more.
+- Thank you to TowerDefender for pointing out my calculation error.

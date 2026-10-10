@@ -3,7 +3,7 @@ title: Carbonic Acid
 author: humanoferth
 ---
 
-# Carbonic Acid (H~3~PO~4~)
+# Carbonic Acid (H~2~CO~3~)
 <small>**Guide by:** humanoferth</small>
 
 !!! quote ""
