@@ -1,0 +1,13 @@
+{
+  "name": "Geothermal_Plant",
+  "statePosArrayList": "{blockstatemap:[{Name:\"minecraft:air\"},{Name:\"gtceu:plascrete\"},{Name:\"minecraft:netherrack\"},{Name:\"gtceu:stable_machine_casing\"},{Name:\"gtceu:titanium_firebox_casing\",Properties:{active:\"false\"}},{Name:\"gtceu:ev_energy_output_hatch\",Properties:{facing:\"west\"}},{Name:\"minecraft:lava\",Properties:{level:\"0\"}},{Name:\"gtceu:titanium_frame\"},{Name:\"gtceu:ev_arc_furnace\",Properties:{facing:\"east\"}}],endpos:{X:3,Y:0,Z:3},startpos:{X:0,Y:-3,Z:0},statelist:[I;0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,2,2,0,3,4,3,0,0,3,0,0,0,0,0,0,5,6,2,0,4,7,8,0,3,7,3,0,0,0,0,0,2,2,2,0,3,4,3,0,0,3,0,0,0,0,0]}",
+  "requiredItems": {
+    "gtceu:plascrete": 1,
+    "gtceu:ev_energy_output_hatch": 1,
+    "gtceu:titanium_frame": 2,
+    "gtceu:titanium_firebox_casing": 3,
+    "gtceu:stable_machine_casing": 8,
+    "minecraft:netherrack": 7,
+    "gtceu:ev_arc_furnace": 1
+  }
+}

@@ -1,0 +1,1 @@
+The HORTH has a mechanic called radiation, where the more recipes that are run in a period of time, like 10 minutes, gives a parallel boost to processing. The radiation starts at 0.25x parallels, and scales to 4x as more is processed. If the radiation gets too high, the HORTH will void all inputs, and needs to have an empty input for the radiation to decrease.

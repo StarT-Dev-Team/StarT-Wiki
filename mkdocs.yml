@@ -175,6 +175,105 @@ nav:
 
 - Multiblocks:
     - LV Multiblocks: Guides/GregTech/Multiblocks/LV/LV-Multis.md
+    - Contest Submissions:
+        - Multiblocks/Contest/index.md
+        - "ULV":
+            - "High Pressure Steam Crucible Furnace (HPSCF)": Multiblocks/Contest/high-pressure-steam-crucible-furnace.md
+            - "Steam Centrifuge": Multiblocks/Contest/steam-centrifuge.md
+            - "Steam Forge": Multiblocks/Contest/steam-forge.md
+            - "Steam Glassworks and Glass Factory": Multiblocks/Contest/steam-glassworks-and-glass-factory.md
+            - "Water Cooled Steam Solidifier (W.C.S.S)": Multiblocks/Contest/water-cooled-steam-solidifier.md
+        - "LV":
+            - "BIO Diesel Refinery (BDR)": Multiblocks/Contest/bio-diesel-refinery.md
+            - "Large Fermenting Casket (LFC)": Multiblocks/Contest/large-fermenting-casket.md
+            - "Mega Mechanical Plate Presser (MMPP)": Multiblocks/Contest/mega-mechanical-plate-presser.md
+            - "Solar Array of Mirrors for Steam and Giant Lumium Overheater of Water (SAMS / GLOW)": Multiblocks/Contest/solar-array-of-mirrors-and-lumium-overheater.md
+            - "Syngas Processing Facility (SPF)": Multiblocks/Contest/syngas-processing-facility.md
+            - "Waterlogged Mechanical Sieve (WMSv)": Multiblocks/Contest/waterlogged-mechanical-sieve.md
+            - "Wire Insulation Plant (WIP)": Multiblocks/Contest/wire-insulation-plant.md
+        - "MV":
+            - "Large Electric Anemic Fermenter (L.E.A.F.)": Multiblocks/Contest/large-electric-anemic-fermenter.md
+            - "Low Temperature Pressure Chambers": Multiblocks/Contest/low-temperature-pressure-chambers.md
+        - "HV":
+            - "Bio Reactor": Multiblocks/Contest/bio-reactor.md
+            - "Crude Biodiesel Generator (CBdG)": Multiblocks/Contest/crude-biodiesel-generator.md
+            - "Industrial Fermentation Tank (IFT)": Multiblocks/Contest/industrial-fermentation-tank.md
+            - "Large Item Vault / Large Fluid Tank": Multiblocks/Contest/large-item-vault-and-large-fluid-tank.md
+            - "Rotary Kiln": Multiblocks/Contest/rotary-kiln.md
+            - "Sieving Apparatus": Multiblocks/Contest/sieving-apparatus.md
+            - "Sieving in Extraordinaire Velocity and Efficiency (S.I.E.V.E.)": Multiblocks/Contest/sieving-in-extraordinaire-velocity-and-efficiency.md
+            - "Slurry Leaching Ore Plant (S.L.O.P.)": Multiblocks/Contest/slurry-leaching-ore-plant.md
+            - "Thermal Plant": Multiblocks/Contest/thermal-plant.md
+            - "Thermic Fluid Heater (TFH)": Multiblocks/Contest/thermic-fluid-heater.md
+            - "Trace Ore Extractor / Trace Ore Processing Plant (TOE / TOPP)": Multiblocks/Contest/trace-ore-extractor-and-processing-plant.md
+            - "Wind Turbines/Mills": Multiblocks/Contest/wind-turbines-mills.md
+        - "EV":
+            - "Geothermal Plant (G.P)": Multiblocks/Contest/geothermal-plant.md
+            - "Lapidary Extraction Unit and Lapidary Extraction Matrix (LEU / LEM)": Multiblocks/Contest/lapidary-extraction-unit-and-matrix.md
+            - "Large Assembler (LA)": Multiblocks/Contest/large-assembler.md
+            - "Mass Multi Ore Processing Facility (MMOPF)": Multiblocks/Contest/mass-multi-ore-processing-facility.md
+            - "Thermal Cascade Furnace (TCF)": Multiblocks/Contest/thermal-cascade-furnace.md
+        - "IV":
+            - "Acoustic Entanglement Device (AED)": Multiblocks/Contest/acoustic-entanglement-device.md
+            - "Catalytic Reaction Chamber (CRC)": Multiblocks/Contest/catalytic-reaction-chamber.md
+            - "Joule-driven Unit for Industrial Coating & Electrodeposition (JUICE)": Multiblocks/Contest/joule-driven-unit-for-industrial-coating.md
+            - "Large Compressor": Multiblocks/Contest/large-compressor.md
+            - "Large Turbine": Multiblocks/Contest/large-turbine.md
+        - "LuV":
+            - "Atmosphere Dust Collector (A.D.C)": Multiblocks/Contest/atmosphere-dust-collector.md
+            - "Modular Ingot Processing Facility (MIPF)": Multiblocks/Contest/modular-ingot-processing-facility.md
+            - "Modular Thermal Distillation Plant (MTDP)": Multiblocks/Contest/modular-thermal-distillation-plant.md
+            - "Pattern Distribution Machine (PDM)": Multiblocks/Contest/pattern-distribution-machine.md
+            - "Stellar Nucleosynthesis Astrochemistry Disassembler (S.N.A.D)": Multiblocks/Contest/stellar-nucleosynthesis-astrochemistry-disassembler.md
+            - "Synergistic Gas Turbine (SGT)": Multiblocks/Contest/synergistic-gas-turbine.md
+        - "ZPM":
+            - "Large Cleaving Factory (LCF)": Multiblocks/Contest/large-cleaving-factory.md
+            - "Layered Universal Circuit Machines": Multiblocks/Contest/layered-universal-circuit-machines.md
+            - "Ocean Draining Device (O.D.D)": Multiblocks/Contest/ocean-draining-device.md
+            - "Thermal Dissociation Complex (TDC)": Multiblocks/Contest/thermal-dissociation-complex.md
+        - "UV":
+            - "Ancient Belief Yielding Data Optimization Sanctum and Eye of Horus (A.B.Y.D.O.S. and E.O.H.)": Multiblocks/Contest/data-optimization-sanctum-and-eye-of-horus.md
+            - "Diffracting Resource Inter-Dimensional Lithic Loader (D.R.I.L.L.)": Multiblocks/Contest/diffracting-resource-inter-dimensional-lithic-loader.md
+            - "Dimensional Resonator (D.R.)": Multiblocks/Contest/dimensional-resonator.md
+            - "Hawking Radiation Reactor (H.R.R)": Multiblocks/Contest/hawking-radiation-reactor.md
+            - "Industrial Kitchen and Protein Synthesis Vat (IK / PSV)": Multiblocks/Contest/industrial-kitchen-and-protein-synthesis-vat.md
+            - "Lagrangian Anchored Rift Pulsing Inductive Negating Generator (L.A.R.P.I.N.G.)": Multiblocks/Contest/lagrangian-anchored-rift-generator.md
+            - "ME Wireless Bridge": Multiblocks/Contest/me-wireless-bridge.md
+            - "Mega Epic Omni Wheel (M.E.O.W)": Multiblocks/Contest/mega-epic-omni-wheel.md
+            - "Plasma Factory (PF)": Multiblocks/Contest/plasma-factory.md
+            - "Pyrolytic Compound Breakdown Unit": Multiblocks/Contest/pyrolytic-compound-breakdown-unit.md
+        - "UHV":
+            - "Chilled IHPCA (CIHPCA)": Multiblocks/Contest/chilled-ihpca.md
+            - "Cryothermal Equilibrium Layered Liquidising Synthesiser, FLUID and ITEM (CELLS)": Multiblocks/Contest/cells-fluid-and-item.md
+            - "Dimensional Runically Engraved Energy Access Medium (DREEAM)": Multiblocks/Contest/dimensional-runically-engraved-energy-access-medium.md
+            - "Dyson Swarm Rail Cannon (DSRC)": Multiblocks/Contest/dyson-swarm-rail-cannon.md
+            - "Forgotten Phase Shifter (FPS)": Multiblocks/Contest/forgotten-phase-shifter.md
+            - "Fusion Reactor On Zero Energy Nodes and Crushed Riftic μonic Cold Internal Borealic Engine (FROZEN and CRμCIBLE)": Multiblocks/Contest/frozen-and-crucible.md
+            - "Neutron-conserving Atom Destabilizer (NCAD)": Multiblocks/Contest/neutron-conserving-atom-destabilizer.md
+            - "Small Modular Nuclear Reactor (SMNR)": Multiblocks/Contest/small-modular-nuclear-reactor.md
+            - "Solar Plasma Extractor (SPEx)": Multiblocks/Contest/solar-plasma-extractor.md
+            - "Stabilised Artificial Singularity Harvester (S.A.S.H.)": Multiblocks/Contest/stabilised-artificial-singularity-harvester.md
+            - "Void Breaking Accelerator (VBA)": Multiblocks/Contest/void-breaking-accelerator.md
+        - "UEV":
+            - "Cyclotron and Ambient Neutron Activator (ANA)": Multiblocks/Contest/cyclotron-and-ambient-neutron-activator.md
+            - "Draconic Nuclear Reactor (DNR)": Multiblocks/Contest/draconic-nuclear-reactor.md
+            - "gCrop Breeding-havesting Complex Array (gBhCA)": Multiblocks/Contest/gcrop-breeding-havesting-complex-array.md
+            - "Hyperpolarizing Object Radiation Thermojunction Holder (HORTH)": Multiblocks/Contest/hyperpolarizing-object-radiation-thermojunction-holder.md
+            - "Kamiokande Oscillation Engine (KOE)": Multiblocks/Contest/kamiokande-oscillation-engine.md
+        - "UIV":
+            - "Colossal Amazing Nano Technology Astronomical Legendary Ominous Underworld Puncturing Extractor (C.A.N.T.A.L.O.U.P.E)": Multiblocks/Contest/underworld-puncturing-extractor.md
+            - "Concentrated Overthermal Reaction Engine (C.O.R.E.)": Multiblocks/Contest/concentrated-overthermal-reaction-engine.md
+            - "Condensed Horizon Relativistic Oscillation Nucleus for Output Synthesis (C.H.R.O.N.O.S.)": Multiblocks/Contest/chronos.md
+            - "Draconic Life Breeding Chamber (DLBC)": Multiblocks/Contest/draconic-life-breeding-chamber.md
+            - "Temporally Insurgent Monocrystal Energizer (TIME)": Multiblocks/Contest/temporally-insurgent-monocrystal-energizer.md
+        - "UXV":
+            - "Beacon of Lucidity and Paragon of the Veil": Multiblocks/Contest/beacon-of-lucidity-and-paragon-of-the-veil.md
+            - "Nefarious Extradimensional Temporally Hyper Energetic Roaster (N.E.T.H.E.R)": Multiblocks/Contest/nefarious-extradimensional-roaster.md
+            - "Star Breeding": Multiblocks/Contest/star-breeding.md
+        - "OpV":
+            - "Draconic Reactor for Accelerated Generation of Ouroboric Nanofusion (DRAGoN)": Multiblocks/Contest/draconic-reactor.md
+        - "No tier given":
+            - "Draconic Stargate Guided Circuit Assembler": Multiblocks/Contest/draconic-stargate-guided-circuit-assembler.md
 
 - Guides:
     - LaserIO:

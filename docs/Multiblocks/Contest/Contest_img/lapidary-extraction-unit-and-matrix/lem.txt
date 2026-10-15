@@ -1,0 +1,17 @@
+{
+  "name": "",
+  "statePosArrayList": "{blockstatemap:[{Name:\"gtceu:hsla_steel_frame\"},{Name:\"gtceu:stress_proof_casing\"},{Name:\"minecraft:air\"},{Name:\"gtceu:iv_input_bus\",Properties:{facing:\"west\"}},{Name:\"gtceu:laminated_glass\"},{Name:\"gtceu:nonconducting_casing\"},{Name:\"gtceu:maintenance_hatch\",Properties:{facing:\"west\"}},{Name:\"chisel_chipped_integration:futura_me_controller_ae_2\",Properties:{blockstate:\"0\"}},{Name:\"gtceu:diatron_block\"},{Name:\"gtceu:iv_energy_output_hatch_16a\",Properties:{facing:\"east\"}},{Name:\"gtceu:iv_muffler_hatch\",Properties:{facing:\"up\"}},{Name:\"gtceu:iv_input_hatch\",Properties:{facing:\"west\"}}],endpos:{X:6,Y:4,Z:0},startpos:{X:0,Y:0,Z:-4},statelist:[I;0,0,0,0,0,0,0,1,2,2,2,2,2,1,1,2,2,2,2,2,1,1,2,2,2,2,2,1,0,0,0,0,0,0,0,1,2,2,2,2,2,1,2,3,4,5,4,5,2,2,5,4,5,4,5,2,2,5,4,5,4,5,2,1,2,2,2,2,2,1,1,2,2,2,2,2,1,2,6,4,5,4,5,2,2,7,8,8,8,9,2,2,5,4,10,4,5,2,1,2,2,2,2,2,1,1,2,2,2,2,2,1,2,11,4,5,4,5,2,2,5,4,5,4,5,2,2,5,4,5,4,5,2,1,2,2,2,2,2,1,0,0,0,0,0,0,0,1,2,2,2,2,2,1,1,2,2,2,2,2,1,1,2,2,2,2,2,1,0,0,0,0,0,0,0]}",
+  "requiredItems": {
+    "gtceu:stress_proof_casing": 24,
+    "gtceu:iv_input_bus": 1,
+    "gtceu:diatron_block": 3,
+    "gtceu:hsla_steel_frame": 28,
+    "chisel_chipped_integration:futura_me_controller_ae_2": 1,
+    "gtceu:nonconducting_casing": 20,
+    "gtceu:laminated_glass": 16,
+    "gtceu:iv_muffler_hatch": 1,
+    "gtceu:maintenance_hatch": 1,
+    "gtceu:iv_input_hatch": 1,
+    "gtceu:iv_energy_output_hatch_16a": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "",
+  "statePosArrayList": "{blockstatemap:[{Name:\"gtceu:silver_block\"},{Name:\"minecraft:air\"},{Name:\"gtceu:ulv_input_hatch\",Properties:{facing:\"west\"}},{Name:\"gtceu:bronze_machine_casing\"},{Name:\"gtceu:bronze_frame\"},{Name:\"chisel_chipped_integration:futura_me_controller\",Properties:{blockstate:\"0\"}},{Name:\"gtceu:maintenance_hatch\",Properties:{facing:\"west\"}},{Name:\"gtceu:bronze_pipe_casing\"},{Name:\"gtceu:bronze_firebox_casing\",Properties:{active:\"false\"}},{Name:\"gtceu:ulv_output_hatch\",Properties:{facing:\"west\"}}],endpos:{X:6,Y:0,Z:8},startpos:{X:0,Y:-5,Z:0},statelist:[I;0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,3,3,1,1,0,1,3,3,3,1,1,1,1,1,4,1,1,1,1,1,1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5,3,3,1,1,0,1,6,7,3,1,1,1,1,4,7,4,1,1,1,1,4,7,4,1,1,1,1,1,7,1,1,1,1,1,1,8,1,1,1,1,1,9,3,3,1,1,0,1,3,3,3,1,1,1,1,1,4,1,1,1,1,1,1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]}",
+  "requiredItems": {
+    "chisel_chipped_integration:futura_me_controller": 1,
+    "gtceu:ulv_output_hatch": 1,
+    "gtceu:silver_block": 15,
+    "gtceu:ulv_input_hatch": 1,
+    "gtceu:bronze_pipe_casing": 4,
+    "gtceu:bronze_firebox_casing": 1,
+    "gtceu:bronze_frame": 8,
+    "gtceu:maintenance_hatch": 1,
+    "gtceu:bronze_machine_casing": 13
+  }
+}

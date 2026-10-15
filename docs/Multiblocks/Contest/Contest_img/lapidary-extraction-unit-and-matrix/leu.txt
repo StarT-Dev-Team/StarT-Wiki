@@ -1,0 +1,14 @@
+{
+  "name": "",
+  "statePosArrayList": "{blockstatemap:[{Name:\"gtceu:nonconducting_casing\"},{Name:\"gtceu:laminated_glass\"},{Name:\"gtceu:ev_input_bus\",Properties:{facing:\"west\"}},{Name:\"chisel_chipped_integration:futura_me_controller_ae_2\",Properties:{blockstate:\"0\"}},{Name:\"minecraft:lapis_block\"},{Name:\"gtceu:ev_energy_output_hatch_16a\",Properties:{facing:\"east\"}},{Name:\"gtceu:maintenance_hatch\",Properties:{facing:\"west\"}},{Name:\"gtceu:ev_muffler_hatch\",Properties:{facing:\"up\"}}],endpos:{X:4,Y:2,Z:0},startpos:{X:0,Y:0,Z:-2},statelist:[I;0,1,0,1,0,0,1,0,1,0,0,1,0,1,0,2,1,0,1,0,3,4,4,4,5,6,1,7,1,0,0,1,0,1,0,0,1,0,1,0,0,1,0,1,0]}",
+  "requiredItems": {
+    "minecraft:lapis_block": 3,
+    "chisel_chipped_integration:futura_me_controller_ae_2": 1,
+    "gtceu:nonconducting_casing": 21,
+    "gtceu:laminated_glass": 16,
+    "gtceu:ev_energy_output_hatch_16a": 1,
+    "gtceu:maintenance_hatch": 1,
+    "gtceu:ev_muffler_hatch": 1,
+    "gtceu:ev_input_bus": 1
+  }
+}

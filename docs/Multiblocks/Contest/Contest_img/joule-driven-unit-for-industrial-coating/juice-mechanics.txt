@@ -1,0 +1,16 @@
+When the JUICE is running a recipe, the whole inside will visually show as filled with a liquid, similar to the chemical bath or mixer multis.
+
+For starters, remove all recipes for all rhodium plated palladium things/intermediates (rhodium plated palladium rotor, rod, small gear, etc). Instead, all those things will now be produced in the JUICE by electroplating rhodium onto their palladium counterparts (also adding in any palladium counterparts that don’t currently exist).
+
+The multi will take a new hatch, the “anode holder”, represented by the rotor holder. The anode holder functions similarly to the rotor holder, in that it just holds an anode as the multi uses it. An anode can be created by placing a bunch of a specific ingot inside a forming press (or more efficiently in a titan forge, once unlocked). Every anode has a durability, similar to rotors.
+
+Whenever you run a recipe (JUICE can have parallel hatch), the multi consumes electrolyte and the un-plated item (palladium rotor, rod, etc), and outputs contaminated electrolyte and the plated item, and also removes some durability from its anode (for rhodium plated palladium, durability is calculated to maintain the 1 rhodium to 3 palladium ratio). Most electrolyte can be recovered by processing the contaminated electrolyte. This multiblock can only accept 16A energy hatches and above, because electroplating takes substantial current.
+
+Of course, this leaves the opportunity for a bunch of new electroplated materials/items for progression, in addition to just rhodium plated palladium. These can also use higher tiers of electrolytes. Here are some suggestions:
+- Trinium plated osthendah
+- Duranium plated americium 245
+- Chrome plated steel
+- Void plated zapolgium
+Each “plating material” would also have an anode for it (rhodium anode, duranium anode, etc), and the multi would only run recipes if the input parts and the anode in the holder go together.
+
+In the late game, electroplating capability can be given as a machine mode to the Electromagnetic Material Ripper threading multiblock. In this case, the recipes wouldn’t need an anode to start, and instead will also just consume some amount of plating ingots/nuggets.

@@ -1,0 +1,15 @@
+{
+  "name": "Large Fluid Tank",
+  "statePosArrayList": "{blockstatemap:[{Name:\"minecraft:air\"},{Name:\"kubejs:silicone_rubber_casing\"},{Name:\"gtceu:laminated_glass\"},{Name:\"minecraft:grass_block\",Properties:{snowy:\"false\"}},{Name:\"gtceu:hv_output_hatch\",Properties:{facing:\"west\"}},{Name:\"gtceu:ev_hermetic_casing\"},{Name:\"gtceu:hv_hermetic_casing\"},{Name:\"gtceu:hv_input_hatch\",Properties:{facing:\"west\"}},{Name:\"ae2:controller\",Properties:{state:\"offline\",type:\"block\"}},{Name:\"gtceu:me_output_bus\",Properties:{facing:\"west\"}}],endpos:{X:4,Y:0,Z:4},startpos:{X:0,Y:-5,Z:0},statelist:[I;0,1,1,1,0,0,2,2,2,0,0,2,2,2,0,0,2,2,2,0,0,2,2,2,0,3,1,1,1,0,4,1,1,1,1,2,5,5,5,2,2,5,5,5,2,2,6,6,6,2,2,6,6,6,2,7,1,1,1,1,1,1,1,1,1,2,5,5,5,2,2,5,5,5,2,2,6,6,6,2,2,6,6,6,2,8,1,1,1,1,9,1,1,1,1,2,5,5,5,2,2,5,5,5,2,2,6,6,6,2,2,6,6,6,2,1,1,1,1,1,0,1,1,1,0,0,2,2,2,0,0,2,2,2,0,0,2,2,2,0,0,2,2,2,0,0,1,1,1,0]}",
+  "requiredItems": {
+    "gtceu:hv_input_hatch": 1,
+    "gtceu:hv_output_hatch": 1,
+    "gtceu:me_output_bus": 1,
+    "gtceu:laminated_glass": 48,
+    "gtceu:hv_hermetic_casing": 18,
+    "kubejs:silicone_rubber_casing": 38,
+    "minecraft:grass_block": 1,
+    "gtceu:ev_hermetic_casing": 18,
+    "ae2:controller": 1
+  }
+}
