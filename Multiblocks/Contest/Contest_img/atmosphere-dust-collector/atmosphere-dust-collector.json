@@ -1,0 +1,13 @@
+{
+  "name": "Atmosphere Dust Collector",
+  "statePosArrayList": "{blockstatemap:[{Name:\"gtceu:stable_machine_casing\"},{Name:\"gtceu:luv_output_bus\",Properties:{facing:\"north\"}},{Name:\"minecraft:air\"},{Name:\"gtceu:titanium_firebox_casing\",Properties:{active:\"false\"}},{Name:\"gtceu:titanium_frame\"},{Name:\"gtceu:luv_energy_input_hatch\",Properties:{facing:\"west\"}},{Name:\"gtceu:iv_large_miner\",Properties:{facing:\"east\",upwards_facing:\"north\"}},{Name:\"gtceu:titanium_pipe_casing\"},{Name:\"gtceu:luv_output_bus\",Properties:{facing:\"south\"}}],endpos:{X:0,Y:5,Z:0},startpos:{X:-4,Y:0,Z:-4},statelist:[I;0,1,1,1,0,2,2,2,2,2,2,2,2,2,2,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,2,2,4,2,2,2,3,3,3,2,3,3,3,3,3,2,3,3,3,2,2,2,2,2,2,5,0,0,0,6,2,4,7,4,2,2,3,7,3,2,3,3,7,3,3,2,3,3,3,2,2,2,3,2,2,0,0,0,0,0,2,2,4,2,2,2,3,3,3,2,3,3,3,3,3,2,3,3,3,2,2,2,2,2,2,0,8,8,8,0,2,2,2,2,2,2,2,2,2,2,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2]}",
+  "requiredItems": {
+    "gtceu:luv_energy_input_hatch": 1,
+    "gtceu:iv_large_miner": 1,
+    "gtceu:titanium_firebox_casing": 42,
+    "gtceu:titanium_frame": 4,
+    "gtceu:stable_machine_casing": 17,
+    "gtceu:luv_output_bus": 6,
+    "gtceu:titanium_pipe_casing": 3
+  }
+}

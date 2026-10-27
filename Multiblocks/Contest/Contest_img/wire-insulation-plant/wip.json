@@ -1,0 +1,23 @@
+{
+  "name": "",
+  "statePosArrayList": "{blockstatemap:[{Name:\"gtceu:solid_machine_casing\"},{Name:\"gtceu:lv_input_hatch\",Properties:{facing:\"north\"}},{Name:\"minecraft:air\"},{Name:\"gtceu:steel_normal_fluid_pipe\",Properties:{waterlogged:\"false\"}},{Name:\"gtceu:lv_output_bus\",Properties:{facing:\"west\"}},{Name:\"gtceu:lv_input_bus\",Properties:{facing:\"east\"}},{Name:\"gtceu:steel_frame\"},{Name:\"gtceu:copper_hex_cable\",Properties:{waterlogged:\"false\"}},{Name:\"minecraft:water_cauldron\",Properties:{level:\"3\"}},{Name:\"gtceu:steel_firebox_casing\",Properties:{active:\"false\"}},{Name:\"gtceu:copper_hex_wire\",Properties:{waterlogged:\"false\"}},{Name:\"gtceu:copper_single_cable\",Properties:{waterlogged:\"false\"}},{Name:\"gtceu:steel_drum\"},{Name:\"gtceu:copper_single_wire\",Properties:{waterlogged:\"false\"}},{Name:\"gtceu:lv_machine_hull\",Properties:{facing:\"down\"}},{Name:\"gtceu:lv_machine_casing\"},{Name:\"ae2:controller\",Properties:{state:\"offline\",type:\"block\"}},{Name:\"gtceu:lv_input_hatch\",Properties:{facing:\"south\"}},{Name:\"gtceu:lv_energy_input_hatch\",Properties:{facing:\"south\"}}],endpos:{X:0,Y:3,Z:0},startpos:{X:-7,Y:0,Z:-2},statelist:[I;0,0,0,0,0,1,0,0,2,2,2,2,2,3,2,2,2,2,2,2,2,3,2,2,2,2,2,2,2,2,2,2,4,0,0,0,0,0,0,5,6,7,8,8,8,9,10,6,6,11,11,2,11,12,13,6,0,14,14,6,14,15,14,0,0,16,0,17,0,18,0,0,2,2,2,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2]}",
+  "requiredItems": {
+    "gtceu:lv_output_bus": 1,
+    "gtceu:steel_firebox_casing": 1,
+    "gtceu:solid_machine_casing": 20,
+    "gtceu:copper_single_cable": 3,
+    "gtceu:lv_machine_casing": 1,
+    "gtceu:steel_drum": 1,
+    "gtceu:lv_energy_input_hatch": 1,
+    "gtceu:lv_input_hatch": 2,
+    "gtceu:lv_machine_hull": 4,
+    "gtceu:lv_input_bus": 1,
+    "gtceu:copper_hex_wire": 1,
+    "gtceu:steel_normal_fluid_pipe": 3,
+    "gtceu:copper_single_wire": 1,
+    "minecraft:cauldron": 3,
+    "gtceu:copper_hex_cable": 1,
+    "ae2:controller": 1,
+    "gtceu:steel_frame": 5
+  }
+}

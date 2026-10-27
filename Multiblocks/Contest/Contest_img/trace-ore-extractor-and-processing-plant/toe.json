@@ -1,0 +1,20 @@
+{
+  "name": "Trace Ore Extractor",
+  "statePosArrayList": "{blockstatemap:[{Name:\"gtceu:clean_machine_casing\"},{Name:\"gtceu:steel_firebox_casing\",Properties:{active:\"false\"}},{Name:\"gtceu:hv_output_bus\",Properties:{facing:\"north\"}},{Name:\"minecraft:air\"},{Name:\"gtceu:steel_pipe_casing\"},{Name:\"gtceu:steel_machine_casing\"},{Name:\"gtceu:steel_gearbox\"},{Name:\"gtceu:hv_energy_input_hatch\",Properties:{facing:\"down\"}},{Name:\"gtceu:laminated_glass\"},{Name:\"gtceu:hv_muffler_hatch\",Properties:{facing:\"up\"}},{Name:\"gtceu:hv_input_hatch\",Properties:{facing:\"south\"}},{Name:\"gtceu:hv_input_bus\",Properties:{facing:\"south\"}},{Name:\"minecraft:diamond_block\"},{Name:\"gtceu:auto_maintenance_hatch\",Properties:{facing:\"south\"}}],endpos:{X:0,Y:6,Z:5},startpos:{X:-8,Y:0,Z:0},statelist:[I;0,1,1,0,2,0,1,1,0,0,3,3,0,4,0,3,3,0,0,3,3,0,0,0,3,3,0,3,3,3,0,0,0,3,3,3,3,3,3,0,0,0,3,3,3,3,3,3,3,0,3,3,3,3,3,3,3,3,5,3,3,3,3,0,6,6,0,7,0,6,6,0,4,8,8,4,4,4,8,8,4,0,5,5,0,4,0,5,5,0,3,3,3,0,4,0,3,3,3,3,3,3,0,4,0,3,3,3,3,3,3,0,9,0,3,3,3,3,3,3,5,3,5,3,3,3,0,1,1,0,0,0,1,1,0,0,3,3,0,4,0,3,3,0,0,3,3,0,0,0,3,3,0,3,3,3,0,0,0,3,3,3,3,3,3,0,0,0,3,3,3,3,3,3,3,0,3,3,3,3,3,3,3,3,5,3,3,3,3,3,3,3,1,6,1,3,3,3,3,3,3,3,8,3,3,3,3,3,3,3,3,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,1,6,1,3,3,3,3,3,3,3,8,3,3,3,3,3,3,3,3,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,10,11,0,3,3,3,3,3,3,0,12,0,3,3,3,3,3,3,0,13,0,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3]}",
+  "requiredItems": {
+    "gtceu:clean_machine_casing": 60,
+    "gtceu:auto_maintenance_hatch": 1,
+    "gtceu:steel_machine_casing": 10,
+    "minecraft:diamond_block": 1,
+    "gtceu:hv_input_bus": 1,
+    "gtceu:steel_firebox_casing": 12,
+    "gtceu:hv_input_hatch": 1,
+    "gtceu:laminated_glass": 6,
+    "gtceu:steel_pipe_casing": 10,
+    "gtceu:hv_output_bus": 1,
+    "gtceu:hv_muffler_hatch": 1,
+    "gtceu:hv_energy_input_hatch": 1,
+    "gtceu:steel_gearbox": 6
+  }
+}
+
