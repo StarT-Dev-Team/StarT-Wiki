@@ -1,0 +1,36 @@
+**In depth mechanics**: 
+
+
+
+The Kamiokande Oscillation Engine has a custom mechanic that propose a new automation challenge.
+
+&#x09;First of all, it has 2 set of 3 recipes, one producing *electron-neutrino*, one for *muon-neutrino*, one for *tau-neutrino* and, optionally 3 more for their antiparticle counterparts with an other machine mode (*electron-antineutrino*, *muon-antineutrino* and *tau-antineutrino*). Each set of recipes consume the same amount of energy and takes the same time 10 seconds to complete.
+
+Firstly, each recipe require the KOE to be at 100% ***Purity***, which can be obtained by consuming x amount of De-Ionized water every 5 seconds (same mechanic as the turbines boost like Lubricant boosted turbines).The ***Purity*** increase by 20% each cycles. He can't run without De-Ionized water, and as soon as you don't provide enough, the ***Purity*** instantly goes to 0% (like a cleanroom when you break a wall for example).
+
+&#x09;Then, there is an ***Efficiency*** amount, ranging from 1%-100% that can be displayed with the Redstone Variadic Interface. It is dependent on the Energy requirement of each recipes and on the output chance, like for example at 1% ***Efficiency***, you consume x100 the energy required for the recipe (i'll explain the energy consumption later) and produce the neutrinos fluxes with 1% chance (not recommended to be honest). Now how to maintain the ***Efficiency*** at a decent level ? Well running the same recipe twice in a row will reduce the ***Efficiency*** by 15% and doing a different recipe will increase the ***Efficiency*** by 30% (max 100% tho) BUT running a different recipe will dump the water inside the KOE resulting in the ***Purity*** going to 0%. 
+
+&#x09;Finally, it works like a mix of a fusion reactor and a vacuum pump : it has an energy buffer and can't run recipes without a full buffer, when the buffer is full, it checks the ***Purity*** (anything but 100% will do nothing) and check the ***Efficiency*** amount. Then it execute the selected recipe with ***Parallels*** depending on the ***Efficiency*** level so that at 1% it execute x1 parallels and at 100% it does x4096 parallels.
+
+
+
+Here's some extra useful informations :
+
+
+The number of ***Parallels*** is defined by : P = f(E) = floor( 0.5 + E^(ln(4096)/ln(100)) )
+
+The energy consumption will always be : Pmax the amount of energy in the KOE buffer (i'll recommend something like x256A UEV)
+
+The minimum energy consumed by a recipe is : Pmax/4096 (only reached at 100% ***Efficiency***)
+
+Doing the same recipe over and over will lead to a 1% ***Efficiency*** KOE which is not optimial (could have guessed it tho)
+
+Doing always a different recipe over and over will lead to the KOE taking most of the time to refill ***Purity*** which is not optimal (bit harder to see but still understandable)
+
+The player would have to find the optimal solution balancing between similar and alternating cycles like "R1 -> R1 -> R1 -> R2 -> R2 -> R2 -> R3 -> R3 -> R3 -> repeat" (i'll call it the triple 3-recipes cycle)
+It might be easier to integrate the ***Purity*** mechanic like the temperature of the Hell Forge, running the De-Ionized water recipe but keep in mind that it should always consume x amount of De-Ionized water every 5 seconds even when a recipe is currently processing.
+
+Beware if you want to change some numbers here that might completly change the intented mechanic (like running the same recipe over and over might become the optimal solution).
+
+With theses numbers (especially the 15% penalty, 30% bonus, the 10s recipe duration and the 20% every 5s) makes the triple 3-recipes cycle better than the single recipe, simple 3-recipe cycle and double 3-recipe cycle, but i haven't checked if the quadruple 3-recipes cycle is even better tho.
+

@@ -1,0 +1,33 @@
+
+Lifecycle: 
+- There are various types of star seeds
+- Star seeds start with 500 stability. each rank up reduces the maximum attainable stability. But it isn't a hard cap so it can keep previous stability values
+- Stability decays passively. Higher rank stars will decay faster
+- Feeders can add initial mass. Initial mass will then be gradually digested into normal mass
+- Harvesters can turn normal mass into byproducts. 
+- If both the initial mass and normal mass are 0, The star is considered dead.
+- Harvesters will collect the cores of dead stars
+- If the base multiblock is unformed, or If the star isn't dead by the time the stability reaches 0, everything in a spherical radius that reaches partway into the multiblocks is deleted 
+
+
+
+Rank:
+- Stars can't go down in rank
+- A star's density is based on the amount of normal mass
+- The star's density decides its rank. After ranking up, stability is gained, but stability decay is faster
+- To rank up, inital mass needs to equal 0. It can't rank up otherwise
+- Stability decays passively depending on how close the density value is to a certain value. This certain value is decided by rank
+
+
+
+
+To replace:
+- Nyanium turbine casing: The mysterious rod's blocks (This refers to the official dyson stuff multiblock)
+- Unbendable dragonsteel casing: The mysterious Obelisk's blocks (This refers to the official dyson stuff multiblock)
+- Auxiliary fusion coil MK II: Auxiliary fusion coil MK IV
+- Advanced fusion coil: A higher tier of fusion coil
+- Draconic stargate ring block: A new casing
+- Pallaridium: Neutronium
+- Nyanium firebox casing: A passthrough for the render
+- Nyanium pipe casing: A passthough for the render inside the block
+- Lanterns: The color of the multiblock's render

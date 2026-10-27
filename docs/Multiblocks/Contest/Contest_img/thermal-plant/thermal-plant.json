@@ -1,0 +1,14 @@
+{
+  "name": "Thermal Plant",
+  "statePosArrayList": "{blockstatemap:[{Name:\"gtceu:hv_machine_casing\"},{Name:\"kubejs:stainless_steel_firebox_casing\",Properties:{active:\"false\"}},{Name:\"gtceu:hv_input_hatch\",Properties:{facing:\"east\"}},{Name:\"minecraft:air\"},{Name:\"gtceu:hv_energy_output_hatch\",Properties:{facing:\"west\"}},{Name:\"minecraft:netherrack\"},{Name:\"minecraft:fire\",Properties:{age:\"0\",east:\"false\",north:\"false\",south:\"false\",up:\"false\",west:\"false\"}},{Name:\"gtceu:hv_arc_furnace\",Properties:{facing:\"east\"}},{Name:\"gtceu:stainless_steel_frame\"},{Name:\"gtceu:hv_input_bus\",Properties:{facing:\"east\"}}],endpos:{X:0,Y:3,Z:0},startpos:{X:-2,Y:0,Z:-2},statelist:[I;0,0,0,0,1,2,3,0,3,0,0,3,4,5,0,1,6,7,0,8,0,0,8,0,0,0,0,0,1,9,3,0,3,3,0,3]}",
+  "requiredItems": {
+    "gtceu:hv_arc_furnace": 1,
+    "kubejs:stainless_steel_firebox_casing": 3,
+    "gtceu:hv_input_bus": 1,
+    "gtceu:hv_input_hatch": 1,
+    "gtceu:hv_machine_casing": 18,
+    "gtceu:stainless_steel_frame": 2,
+    "minecraft:netherrack": 1,
+    "gtceu:hv_energy_output_hatch": 1
+  }
+}

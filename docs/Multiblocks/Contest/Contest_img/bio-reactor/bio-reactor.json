@@ -1,0 +1,12 @@
+{
+  "name": "Bio Reactor",
+  "statePosArrayList": "{blockstatemap:[{Name:\"gtceu:clean_machine_casing\"},{Name:\"gtceu:hv_output_bus\",Properties:{facing:\"north\"}},{Name:\"minecraft:air\"},{Name:\"gtceu:hv_input_hatch\",Properties:{facing:\"east\"}},{Name:\"gtceu:hv_energy_output_hatch\",Properties:{facing:\"west\"}},{Name:\"gtceu:hv_chemical_reactor\",Properties:{facing:\"east\"}},{Name:\"gtceu:hv_input_bus\",Properties:{facing:\"east\"}}],endpos:{X:0,Y:2,Z:0},startpos:{X:-2,Y:0,Z:-4},statelist:[I;0,0,0,0,1,0,0,0,0,0,0,0,0,2,3,0,0,0,4,0,0,0,2,5,0,0,0,0,0,0,0,2,6,0,0,0,0,0,0,0,0,0,0,0,0]}",
+  "requiredItems": {
+    "gtceu:clean_machine_casing": 37,
+    "gtceu:hv_chemical_reactor": 1,
+    "gtceu:hv_input_bus": 1,
+    "gtceu:hv_input_hatch": 1,
+    "gtceu:hv_output_bus": 1,
+    "gtceu:hv_energy_output_hatch": 1
+  }
+}

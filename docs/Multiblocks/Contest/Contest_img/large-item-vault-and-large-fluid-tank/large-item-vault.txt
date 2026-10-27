@@ -1,0 +1,14 @@
+{
+  "name": "Large Item Vault",
+  "statePosArrayList": "{blockstatemap:[{Name:\"kubejs:red_steel_casing\"},{Name:\"gtceu:laminated_glass\"},{Name:\"gtceu:me_output_bus\",Properties:{facing:\"west\"}},{Name:\"gtceu:ev_machine_casing\"},{Name:\"gtceu:hv_machine_casing\"},{Name:\"gtceu:hv_output_bus\",Properties:{facing:\"west\"}},{Name:\"ae2:controller\",Properties:{state:\"offline\",type:\"block\"}},{Name:\"gtceu:hv_input_bus\",Properties:{facing:\"west\"}}],endpos:{X:9,Y:0,Z:0},startpos:{X:0,Y:-4,Z:-4},statelist:[I;0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,2,3,3,3,3,4,4,4,4,0,0,4,4,4,4,4,4,4,4,0,0,3,3,3,3,3,3,3,3,0,0,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,0,5,3,3,3,3,4,4,4,4,0,6,4,4,4,4,4,4,4,4,0,7,3,3,3,3,3,3,3,3,0,0,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,0,0,3,3,3,3,4,4,4,4,0,0,4,4,4,4,4,4,4,4,0,0,3,3,3,3,3,3,3,3,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0]}",
+  "requiredItems": {
+    "gtceu:hv_input_bus": 1,
+    "gtceu:ev_machine_casing": 36,
+    "gtceu:hv_machine_casing": 36,
+    "gtceu:laminated_glass": 96,
+    "gtceu:me_output_bus": 1,
+    "kubejs:red_steel_casing": 78,
+    "gtceu:hv_output_bus": 1,
+    "ae2:controller": 1
+  }
+}

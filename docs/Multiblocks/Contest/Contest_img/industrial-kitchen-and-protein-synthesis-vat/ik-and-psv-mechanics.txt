@@ -1,0 +1,31 @@
+With the IK and the PSV, I am suggesting adding a bunch of new food processing lines. These will output full dishes, which will offer massive boosts to bacteria, gcrop, and wetware breeding/growth. This can also be used to extend UV, if you make some of the dishes necessary to breed special bacteria/cells for wetware mainframes. The IK will handle all “kitchen” recipes, whereas the PSV will synthesize all the meat/animal products without ranches. Both multis have parallels, subtick, and batching. When the PSV is running, the inside will render as filled with a classic sci-fi green goop, maybe with some amorphous floating dark blobs.
+
+I would remove all of the random food dishes/intermediates that create, thermal series, and farmer’s delight adds, but keep their crops. I would also make it so that chickens don’t lay eggs, if possible. Keeping breeding animals and milking cows is fine, because it can’t be automated.
+
+Here are some examples of dish processing lines:
+
+PSV: 16 stem cells + 50mB sterilized growth medium + 100mB mutagen + 16 sugar = 64 raw beef
+Macerator: 1 wheat = 4 wheat flour
+Macerator: 1 onion = 4 diced onions
+Macerator: 1 bell pepper = 2 diced bell pepper
+Fermenter: 2 wheat flour + 25mB sterilized growth medium = 1 bio chaff + 2000mB yeast
+IK: 3 wheat flour + 500mB yeast + 1000mB water = 4 lean dough
+IK: 1 lean dough + 1 block of wrought iron (Not Consumed) = 1 flatbread
+IK: 1 long wrought iron rod (Not Consumed) + 32 raw beef = 32 doner beef
+IK: 1 flatbread + 3 doner beef + 3 diced bell pepper + 5 diced onions = 1 Döner Kebab
+
+1 Döner Kebab can be added to a new recipe for stem cells that triples the output
+
+PSV: 16 stem cells + 150mB sterilized growth medium + 100mB pyrophosphoric acid + 8 sugar = 128 eggs
+PSV: 8 stem cells + 100mB sterilized growth medium + 300mB yeast + 16 sugar + 100000mB water = 64000mB milk
+Mixer: 1000mB milk = 5 butter
+Macerator: 1 cocoa beans = 4 cocoa powder
+IK: 2 cocoa powder + 3 sugar + 1500mB seed oil = 2000mB chocolate
+IK: 1500mB chocolate + 2 sodium bicarbonate + 5 wheat flour + 10 sugar + 3000mB water + 10 eggs + 500mB seed oil = 4000mB chocolate cake batter
+IK: 5 cocoa power + 500mB milk + 16 butter + 16 sugar = 1000mB chocolate buttercream
+IK: 500mB chocolate cake batter = 1 chocolate cake base
+IK: 3 chocolate cake base + 800mB chocolate buttercream = 1 Triple Layer Chocolate Cake
+
+1 Triple Layer Chocolate Cake can be added to a new recipe for wetware processors that quadruples the output.
+
+Late game, the IK’s recipes will be given as a machine mode to the FARM threading multi, and the PSV’s recipes will be given as a machine mode to the ICR. At high enough voltages, the IK can also do production line skips, producing full dishes from basic ingredients. The PSV can also be used for a bunch of other thematically relevant dragon-related recipes.
